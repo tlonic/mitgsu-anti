@@ -1,0 +1,450 @@
+
+<!doctype html>
+<html lang="en-US" class="no-js">
+	<head>
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-110496556-1"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+
+		  gtag('config', 'UA-110496556-1');
+		</script>
+
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"ab0374a39e",applicationID:"34824306"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(9),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!P++){var t=M.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+M.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+M.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,y="addEventListener",h="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1215.min.js"},T=w&&b&&b[y]&&!/CriOS/.test(navigator.userAgent),M=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:T,userAgent:s,disabled:E};if(!E){t(1),t(7),g[y]?(g[y]("DOMContentLoaded",o,l(!1)),m[y]("load",r,l(!1))):(g[h]("onreadystatechange",i),m[h]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var P=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+
+		<title>  FAQs about Graduate Student Unionization : Office of the Vice Chancellor</title>
+
+		<link href="https://www.google-analytics.com/" rel="dns-prefetch">
+		<link href="https://ovc.mit.edu/wp-content/themes/vicechancellor/img/icons/favicon.ico" rel="shortcut icon">
+		<link href="https://ovc.mit.edu/wp-content/themes/vicechancellor/img/icons/touch.png" rel="apple-touch-icon-precomposed">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300,400,700" rel="stylesheet">
+		<script src="https://use.fontawesome.com/db6091d1a6.js"></script>
+
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="Advancing academic innovation and fostering the growth of every MIT student, empowering them to make a positive impact at MIT and beyond.">
+
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<link rel='dns-prefetch' href='https://s.w.org/' />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/ovc.mit.edu\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.1"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='wp-block-library-css'  href='../wp-includes/css/dist/block-library/style.min.css%3Fver=5.1.1.css' media='all' />
+<link rel='stylesheet' id='vicechancellor-css'  href='../wp-content/themes/vicechancellor/css/main.css%3Fver=1.0.css' media='all' />
+<script type='text/javascript' src='../wp-content/themes/vicechancellor/js/lib/conditionizr-4.3.0.min.js%3Fver=4.3.0'></script>
+<script type='text/javascript' src='../wp-content/themes/vicechancellor/js/lib/modernizr-2.7.1.min.js%3Fver=2.7.1'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery.js%3Fver=1.12.4'></script>
+<script type='text/javascript' src='../wp-includes/js/jquery/jquery-migrate.min.js%3Fver=1.4.1'></script>
+<script type='text/javascript' src='../wp-content/themes/vicechancellor/js/scripts.js%3Fver=1.0.0'></script>
+<link rel='https://api.w.org/' href='https://ovc.mit.edu/wp-json/' />
+<link rel="alternate" type="application/json+oembed" href="https://ovc.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fovc.mit.edu%2Ffaq_student_unionization%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://ovc.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fovc.mit.edu%2Ffaq_student_unionization%2F&#038;format=xml" />
+		<script>
+		// conditionizr.com
+		// configure environment tests
+		conditionizr.config({
+			assets: 'https://ovc.mit.edu/wp-content/themes/vicechancellor',
+			tests: {}
+		});
+		</script>
+
+	</head>
+	<body class="page-template-default page page-id-7741 faq_student_unionization">
+					<a class="sr" href="index.html#content">Skip to main content</a>
+				<div class="container" id="mainContainer">
+			<!-- Static navbar -->
+			<nav class="navbar">
+				<div class="container">
+					<div class="navbar-header">
+						<a class="navbar-brand" href="http://web.mit.edu" id="mitlogo" target="_blank">MIT</a>
+						<a class="navbar-brand" href="https://ovc.mit.edu" id="logo">Office of the Vice Chancellor							<img src="../wp-content/themes/vicechancellor/img/logo-small.png" id="smallLogo" />
+						</a>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#searchbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<i class="fa fa-search"></i>
+						</button>
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div id="searchbar" class="navbar-collapse collapse">
+						<!-- search -->
+						<form class="search navbar-form navbar-right" method="get" action="https://ovc.mit.edu" role="search">
+							<input class="search-input form-control" type="search" name="s" placeholder="">
+							<button class="search-submit btn btn-primary" type="submit" role="button">Search</button>
+						</form>
+						<!-- /search -->
+					</div>
+				</div>
+			</nav>
+			<nav class="navbar" id="primaryNav">
+				<div class="container">
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul id="menu-primary-navigation" class="nav navbar-nav"><li id="menu-item-383" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-383"><a href="https://ovc.mit.edu/about/">About</a></li>
+<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="https://ovc.mit.edu/values/">Mission &#038; Values</a></li>
+<li id="menu-item-1512" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1512"><a href="https://ovc.mit.edu/strategic-priorities/">Priorities</a></li>
+<li id="menu-item-3821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3821"><a href="https://ovc.mit.edu/offices/">Offices</a></li>
+<li id="menu-item-375" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-375"><a href="https://ovc.mit.edu/news/">News</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="https://ovc.mit.edu/contact/">Contact</a></li>
+<li id="menu-item-374" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-374"><a href="https://ovc.mit.edu/vc-staff-login/">Staff (login)</a></li>
+</ul>					</div><!--/.nav-collapse -->
+				</div><!--/.container-fluid -->
+			</nav>
+
+
+
+
+<div class="jumbotron" id="pageHero">
+	<h1><span class="headerIcon"></span>FAQs about Graduate Student Unionization</h1>
+
+
+	</div>
+
+
+<main class="container-fluid" id="content">
+  <div class="row">
+    <nav class="col-md-3" id="pageNav">
+      <ul id="leftNav">
+        <li class="navTitle current_page_item"><a href="index.html">FAQs about Graduate Student Unionization</a></li>
+
+
+                  <!-- Page Nav -->
+                  
+      </ul>
+    </nav>
+            <div class="col-md-8 offset-md-1">
+          
+        
+            <!-- article -->
+            <article id="post-7741" class="post-7741 page type-page status-publish hentry">
+
+              
+              
+                <p>In September 2021, a group of MIT graduate students known as the <a href="https://mitgsu.org/">MIT Graduate Student Union</a>, affiliated with the <a href="https://www.ueunion.org/">United Electrical, Radio &amp; Machine Workers of America</a>, announced a campaign to unionize MIT’s graduate student population.</p>
+<p>The following frequently asked questions provide answers to questions the community may have in light of the students’ organizing efforts. Students with questions about unions and unionization that are not addressed below may contact <a title="mailto:gradunionquestions@mit.edu" href="mailto:gradunionquestions@mit.edu">gradunionquestions@mit.edu</a>.</p>
+<p><b>Q: What is MIT&#8217;s position on the formation of a graduate student union?</b></p>
+<p>A: MIT’s leaders do not believe that unionization represents the most constructive path forward for our graduate students. They are proud of MIT’s recent progress on behalf of its graduate students — achieved through working together with graduate student leaders.</p>
+<p><span style="font-weight: 400;">However, MIT’s leaders respect the right of graduate students to review their options and make their own individual decisions about what’s best for them in their pursuit of their education. Like the students launching this effort, MIT’s leadership is committed to advancing a learning and work environment of mutual respect and care. In close collaboration with the GSC and other student leaders, the Institute and its schools have taken steps in recent years to invest in our graduate students and to foster positive work, learning, and living experiences during their time on campus.</span></p>
+<hr />
+<h3><strong><u>BEFORE A UNIONIZATION ELECTION AT MIT</u></strong></h3>
+<p><strong>Q: How is a union selected?</strong></p>
+<p>A: Typically, a group of employees who want a union to represent them will affiliate with an established labor union, which will attempt to organize a new chapter of that labor union. In this instance, the MIT Graduate Student Union (MIT GSU) has chosen to affiliate with the United Electrical, Radio &amp; Machine Workers of America (UE). You can learn more about the UE on its <a href="https://www.ueunion.org/">website</a>.</p>
+<p>The first step in an organizing campaign is for organizers (who could be students and/or employees of the union) to ask students in a potential bargaining unit to either sign a membership card or an “authorization card.” Either card serves the same purpose of allowing the union to act as their exclusive representative for purposes of negotiating the terms and conditions of their employment and to allow the union to use the cards to support a showing of interest for purposes of filing with the National Labor Relations Board (NLRB).</p>
+<p>Based on their website information, it appears that the MIT GSU has chosen to use membership cards rather than authorization cards. The card reads as follows:</p>
+<p><strong><em>Join the Union</em></strong></p>
+<p><em>I hereby request and accept membership in the United Electrical, Radio and Machine Workers of America (UE), and authorize it to represent me, and in my behalf to negotiate and conclude all agreements as to hours of labor, wages, and all other conditions of employment.</em></p>
+<p>Thus, if a student signs such a card, they are actually becoming a member of the UE and, presumably, subject to whatever rules the UE may have for its members. This does not mean that the Institute must automatically recognize the UE as that particular student’s representative, but it does mean that the student is now a member of the UE.</p>
+<p>If the union can collect enough membership cards (or authorization cards) to constitute a valid “showing of interest,” the union can file a “representation petition” with the NLRB requesting a secret-ballot election to determine if the union should be the exclusive representative of a group of employees which the union considers to be an appropriate unit.</p>
+<p>The NLRB considers 30 percent of such a proposed unit to be a valid threshold for processing a representation petition. The NLRB will hold hearings, if necessary, to determine whether the union’s proposed unit is appropriate or not.</p>
+<p>However, if the union collects signed membership or authorization cards from more than 50 percent of the members in the petitioned-for unit, it might request MIT to voluntarily recognize and bargain with the union without holding an election. MIT would be under no obligation to agree to a voluntary recognition and could insist on an NLRB election.</p>
+<ol>
+<li><strong> If there is a union election, would it involve all graduate students?</strong></li>
+<li>No. It would only involve graduate students in the bargaining unit<em>.</em> Graduate students who are outside the bargaining unit (as agreed by MIT or deemed appropriate by the National Labor Relations Board) would not be eligible to vote in an election.</li>
+</ol>
+<p><strong>Q: What flexibility do student unions have to affiliate with national unions, versus forming their own?</strong></p>
+<p>A: Students are free to affiliate with either a national union or to form their own independent union. After a union has been certified by the National Labor Relations Board (NLRB), however, it is difficult to change union affiliations. So, in this case, if the UE petitions the NLRB for an election and an election is held where the majority of voting graduate students in the unit vote in favor of UE representation, the NLRB will certify the UE as the sole bargaining representative for the certified unit members. Once a union is certified by the National Labor Relations Board (NLRB), <a href="https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/employees/decertification-election">the union may not be removed unless decertified by the NLRB</a>.</p>
+<p><strong>Q: What are my rights if a union organizer or a fellow student asks me to sign a membership or an authorization card?</strong></p>
+<p>A: It is your decision whether or not you want to sign a membership or an authorization card, and all students have the right to sign, or refuse to sign, without coercion from anyone and without retaliation. The law protects your right not to engage in union activity as well as your right to engage in such activity. Because signing the card has important implications, you should understand what your signature represents before you sign it.</p>
+<p><strong>Q: I signed a membership/authorization card with the United Electrical, Radio and Machine Workers of America (UE) but have changed my mind. May I revoke my card?</strong></p>
+<p>A: While MIT has no role to play on this issue, we note that any graduate student who signs a membership/authorization card with the UE may request to revoke their card. Normally, they would be able to do so by sending a signed letter to the UE requesting that their card be revoked.</p>
+<p>Students who have signed a union card are free to vote against the union in an election. Cards have no further meaning once an election is scheduled.</p>
+<p><strong>Q: Will MIT share graduate students’ email addresses or other contact information with the union?</strong></p>
+<p>A: Not unless legally required to do so. MIT respects the privacy of our graduate students and generally does not disclose personal information about them to third parties except with their consent, or to MIT-sanctioned organizations and MIT personnel on a need-to-know basis. Further, many of our graduate students may also be considered employees under the National Labor Relations Act (NLRA), and MIT does not provide personal information about employees to organizing unions outside the formal National Labor Relations Board (NLRB) process.</p>
+<p>However, MIT would be required to provide information about graduate students to the NLRB in response to any petition for representation that may be filed. If this occurs, then the union would have access to the same information MIT provides to the NLRB. This information would include addresses, job classifications, phone numbers, and personal email addresses. MIT would have to disclose such information to the NLRB and to the union in the event of a scheduled NLRB election.</p>
+<hr />
+<h3><strong><u>AFTER A UNIONIZATION ELECTION AT MIT</u></strong></h3>
+<p><strong>Q: If the union should win an election, what would happen next?</strong></p>
+<p>A: MIT would be required to recognize the union as the exclusive bargaining representative of all graduate students in the certified unit. This would mean, among other things, that the Institute would not be able to work with any other body or organization, including the MIT Graduate Student Council, on matters affecting wages, hours, and working conditions for those in the certified unit, nor could MIT negotiate directly with any individual member of the unit on any matter affecting wages, hours, and working conditions, unless otherwise authorized by the contract.</p>
+<p>It also would mean that both parties — MIT and the union — would have to meet their obligation to negotiate in good faith for that initial collective bargaining agreement. First contracts can take a very long time to finalize: <a href="https://news.bloomberglaw.com/bloomberg-law-analysis/analysis-how-long-does-it-take-unions-to-reach-first-contracts">A June 2021 Bloomberg Law analysis</a> estimated that, on average, it takes 409 days for new unions and their employers to sign their first collective bargaining agreement; in all cases involving student unions at private universities, more than a year elapsed between a successful unionization vote and arrival at a ratified initial contract. At Harvard University, this process took almost two years, and at Columbia University, there is still no contract four years after the union’s certification.</p>
+<p><strong>Q: Would all graduate students at MIT be part of a union?</strong></p>
+<p>A: Not necessarily. It depends on whether the graduate student is performing work for the Institute (as opposed to solely academic work toward their degree) and how the bargaining unit is defined. While all graduate students who provide instructional or research work to MIT for compensation (e.g., RAs/TAs) are likely to be eligible to unionize under current law, the composition of a particular bargaining unit depends on who the union seeks to include in the petition; whether MIT agrees or not; and, if there is a dispute about the scope of the bargaining unit, how the NLRB resolves the dispute.</p>
+<p>While the organizing union first proposes the bargaining unit that it wishes to represent, MIT would have the right to challenge the appropriateness of that unit. Ultimately, if no agreement on the unit can be reached, the NLRB will determine the matter through its adjudicatory process.</p>
+<p><strong>Q: If a union won an election at MIT, and I am in the certified bargaining unit, would I have to join the union?</strong></p>
+<p>A: Whether you have to actually join the union and pay dues or fees depends on subsequent negotiations between the union and MIT.</p>
+<p>It is typical for a union to request a contract provision requiring everyone in the unit to join the union or pay an agency fee to the union as a condition of employment. A union can negotiate a provision in a collective bargaining agreement that requires non-members to pay an agency fee to the union in order for the student to be able to continue holding an appointment within the bargaining unit. The agency fee is usually about the same amount as union dues, but sometimes less. If such provisions are negotiated into the contract, then all members of the unit would have to abide by them. Otherwise the union could lawfully insist that the union member be terminated from their bargaining unit position if they do not pay the agency fee. Any of these concepts must be negotiated, and MIT may or may not agree to such proposals.</p>
+<p>Regardless of whether you formally join the union, or whether an agency fee is required for non-members, the union would become your exclusive bargaining representative in the event the union were to win an election. Therefore, it is also important to understand that, even if you don’t join the union, the terms of the contract with the union are binding on all employees in the bargaining unit.</p>
+<p><strong>Q: Could MIT make exceptions to provisions in a collective bargaining agreement to accommodate the needs of individual graduate students?</strong></p>
+<p>A: As a general rule, no. MIT would be bound by the provisions of the collective bargaining agreement. Unless such exceptions are provided for in the contract or otherwise agreed to by the union, they are not permitted.</p>
+<p>For example, if a contract set parameters on the work hours for a research assistant, an individual graduate student would not be able to make personal arrangements with their advisor or PI to work outside those parameters, unless the contract provided for exceptions or unless the union agreed to such arrangements.</p>
+<hr />
+<h3><strong><u>UNION DUES, NEGOTIATIONS, AND BEYOND</u></strong></h3>
+<p><strong>Q: What would the union dues be at MIT if students voted for a union?</strong></p>
+<p>A: Every union sets its own dues structure. Some do it by setting dues based on fixed amounts per month; others use a percentage of compensation.</p>
+<p>At New York University, for example, graduate students who are members of the United Auto Workers of America (UAW) pay 2 percent of their hourly wages during the semesters in which they are employed, and the dues are automatically deducted from every paycheck. In addition to dues, the UAW charges each member an initiation fee of approximately $50. Union dues at Harvard University, where the UAW is also the representative of student workers, are 1.44 percent of all compensation that the graduate student union member receives.</p>
+<p>It remains unclear how the UE would structure its dues for MIT graduate students, although it seems that they, too, would charge 1.44 percent of compensation. Thus, some MIT graduate student union members might expect to pay the union about $550 annually. If there is a “union shop” or union security clause in any collective bargaining agreement, non-members in the bargaining unit may also be required to pay an agency fee. Agency fees are often the same amount as union dues; sometimes less.</p>
+<p><strong>Q: In collective bargaining negotiations, can MIT propose its own provisions or changes from the status quo?</strong></p>
+<p>A: Yes. Both MIT and the union representatives are free to propose any items or provisions for the contract, including changes from the status quo involving wages, hours, and other terms and conditions of employment.</p>
+<p>Employers and unions are required by federal law to bargain collectively over “wages, hours, and other terms and conditions of employment.” Other issues of importance to many students — such as local housing costs and participation in Institute decision-making — are outside the scope of what is required to be negotiated.</p>
+<p><strong>Q: How are student interests represented in these negotiations? Will I get input into what should be negotiated into the contract? Who will the leadership of the union be?</strong></p>
+<p>A: It is up to the union to determine who serves in the leadership, who serves on the negotiating team, and how it solicits and/or considers input from its members.</p>
+<p><strong>Q: If a union wins an election, will my stipend increase? What about benefits?</strong></p>
+<p>A: The law requires negotiations over compensation (i.e., payment for work provided by the union members to MIT). Stipends that are strictly financial aid support, and not linked to work provided by graduate students in the bargaining unit, would not be subject to collective bargaining.</p>
+<p>For stipends that are linked to, for example, TA or RA appointments, and therefore subject to bargaining, there is no guarantee that any union can obtain improvements — or if so, how much — as all such matters are subject to negotiations. It is fair to say that usually some increases in compensation can be found in most contracts. However, the amount is subject to negotiations and is not necessarily greater than what could have been achieved without a union. For example, MIT has raised stipends every year in recent memory without a union. Benefits are also mandatory subjects of bargaining, but may or may not change as a result of collective bargaining.</p>
+<p><strong>Q: Would a graduate student union at MIT dictate the number of hours I can work as a graduate research assistant for positions included in the bargaining unit?</strong></p>
+<p>A: We don’t know. This would first depend on the type of unit that is certified and whether research assistants are included in the unit. For example, research assistants are not included in the bargaining units at Brandeis University or at New York University. On the other hand, they are included in the Harvard University bargaining unit.</p>
+<p>If they are included in the unit, then the number of hours of work is subject to bargaining if the graduate student is receiving compensation for such research. Many graduate assistant contracts have detailed workload provisions that include expectations, as well as limitations, on hours of work.</p>
+<p><strong>Q: What impact could a union have on research activities, such as attendance at conferences, engaging in fieldwork, or research conducted at other activities?</strong></p>
+<p>A: We don’t know. To the extent that such activities are part of a research assistantship, funding for attendance at conferences, travel, and other activities could be subject to negotiation with the union.</p>
+<p><strong>Q: What would happen to the MIT Graduate Student Council if a union was created?</strong></p>
+<p>A: With a union created, the Graduate Student Council would no longer be permitted to discuss or negotiate with the MIT administration any issues concerning wages, hours, and other terms and conditions of employment for members of the bargaining unit. Under federal labor law, once a union wins an election, it becomes the exclusive bargaining representative over all terms and conditions of employment. It would be illegal for the Institute to continue to deal with the GSC on such matters.</p>
+<p><strong>Q: What is the process for changing affiliations after a union has been established?</strong></p>
+<p>A: Once a union is certified by the National Labor Relations Board (NLRB), <a href="https://www.nlrb.gov/about-nlrb/rights-we-protect/the-law/employees/decertification-election">the union may not be removed unless decertified by the NLRB</a>. Similar to the certification process, employees seeking to remove or replace the existing union with a different union must get at least 30 percent of their coworkers to sign cards in order to file a petition asking the NLRB to conduct an election.</p>
+<hr />
+<h3><strong><u>STUDENT OPINIONS FOR AND AGAINST UNIONIZATION</u></strong></h3>
+<p><strong>Q: What have students said in support of the current unionization effort?</strong></p>
+<p>A: Since the MIT Graduate Student Union announced its unionization effort on September 27, 2021, the following op-eds have appeared in <em>The Tech</em>:</p>
+<ul>
+<li>October 21, 2021: <a href="https://thetech.com/2021/10/21/gsu-prioritizes-grad-students">“With a union, graduate working conditions become an institutional priority”</a></li>
+<li>November 15, 2021: <a href="https://thetech.com/2021/11/15/graduate-student-leaders-gsu">“Graduate student-leaders: only a union can secure real change at MIT”</a></li>
+<li>November 15, 2021: <a href="https://thetech.com/2021/11/15/gsu-ue-social-justice">“The MIT GSU and UE will bring a history of social justice to the future of MIT”</a></li>
+<li>November 15, 2021: <a href="https://thetech.com/2021/11/18/international-students-gsu">“International student workers deserve fair treatment”</a></li>
+</ul>
+<p><strong>Q: What have students said in opposition to the current unionization effort?</strong></p>
+<p>A: Since the MIT Graduate Student Union announced its unionization effort on September 27, 2021, the following op-eds have appeared in <em>The Tech</em>:</p>
+<ul>
+<li>October 6, 2021: <a href="https://thetech.com/2021/10/06/unionization-concerns-letter">“Some concerns about unionization from a graduate student”</a></li>
+<li>October 21, 2021: <a href="https://thetech.com/2021/10/21/why-we-do-not-need-a-gsu">“Why we do not need a graduate student union at MIT”</a></li>
+<li>November 3, 2021: <a href="https://thetech.com/2021/11/03/ue-not-the-union-for-gsu">“The UE isn’t the union the GSU claims it is</a>”</li>
+</ul>
+<p><strong>Q: A student-authored website and op-ed in <em>The Tech</em> have raised concerns about the UE’s finances and policy positions. What is the basis for those concerns?</strong></p>
+<p>A: <a href="https://thetech.com/2021/11/03/ue-not-the-union-for-gsu">The student-authored </a><a href="https://thetech.com/2021/11/03/ue-not-the-union-for-gsu"><em>Tech</em></a><a href="https://thetech.com/2021/11/03/ue-not-the-union-for-gsu"> piece</a> highlights concerns about the MIT Graduate Student Union’s decision to partner with the UE. Students have also created an information site (<a href="http://www.uenotformit.org/">www.uenotformit.org</a>) that outlines their reservations about the UE, concluding, “There is no need for us to bind ourselves to an organization that we would be financially supporting, but which would tie our hands in decisions of policy and actively seek to undermine research in various fields.”</p>
+<p><strong>Q: On its website, the UE calls for “a moratorium on the construction of any additional nuclear fission power plants.” What does that mean for MIT graduate students in nuclear science and engineering?</strong></p>
+<p><strong>A: </strong> We don’t yet know how these policy positions might impact potential future bargaining between MIT and a graduate student union. The initial decisions about what the union might ask for in bargaining would be up to the union and its membership.</p>
+<p><strong>Q: I’ve heard that the UE has taken a position of “Boycott, Divestment and Sanctions (BDS)” against Israel in connection with the Israeli-Palestinian conflict. What does this mean, and what can I do if I have concerns about this?</strong></p>
+<p>A: The UE’s position on “Boycott, Divestment and Sanctions (BDS)” is referenced <a href="https://www.ueunion.org/ue-news/2021/ue-condemns-attacks-on-palestinian-people-demands-biden-pursue-peace">here</a>, and other UE policy stances are available <a href="https://www.ueunion.org/ue-policy">here</a>. We have received information suggesting that some graduate students are uncomfortable with the UE’s BDS position.</p>
+<p>MIT has no role, and will not have any role, in setting union policies. We encourage all graduate students to review these policy positions as part of making fully informed decisions about whether to support or join a union aligned with the UE.</p>
+<p><strong>Q: I’m a graduate student who opposes the unionization effort. What am I allowed to do?</strong></p>
+<p>A: Graduate students who oppose the unionization effort have the same rights as those who support the union, and are entitled to take steps to organize and make their viewpoints heard. For example, consistent with MIT policies, graduate students who oppose the union may set up meetings with other students, create and promote websites explaining their positions, put up posters, hand out leaflets, talk to the press, and generally use all the same communication channels as the student organizers who support the union. Students might also consider researching graduate student unionization activities at other universities, and the steps taken by students who supported or opposed those unionization efforts.</p>
+<p><strong>Q: Can MIT provide any support to graduate students who oppose the unionization effort?</strong></p>
+<p>A: MIT is not permitted to provide support to graduate students who oppose the unionization effort, or to those who support it. However, consistent with MIT’s policies, every graduate student has the right to express their views on this topic and is permitted to make their viewpoints heard.</p>
+<p><strong>Q: I’ve heard that MIT filed an anti-union brief in court a few years ago. What’s the background on that?</strong></p>
+<p>A: In 2016, MIT joined eight other research universities in filing a “friend of the court” brief with the National Labor Relations Board (NLRB), asking that the NLRB follow its 2004 decision involving Brown University. In that decision, the NLRB concluded that graduate assistants are students, not employees.</p>
+<p>MIT joined this brief because the Institute believes that its relationship with its graduate teaching and research assistants is substantially an educational one, and that unionization of graduate students may not be the most constructive approach to the multifaceted relationship between the student and the Institute.</p>
+<p>In the 2016 case, the NLRB overturned its 2004 position, ruling that graduate assistants can be both students and employees. While MIT joined this brief with several peer institutions, the Institute accepts and respects the NLRB ruling and fully supports the right of students to make independent decisions on whether to support unionization.</p>
+<p><strong>Q: What other opinions have been shared regarding the current unionization effort?</strong></p>
+<p>A: Since the MIT Graduate Student Union announced its unionization effort on September 27, 2021, the following op-eds have appeared in <em>The Tech</em>:</p>
+<ul>
+<li>October 28, 2021: <a href="https://thetech.com/2021/10/28/gsu-healthcare-op-ed">“A $6,000 bill and inadequate coverage: How MIT health insurance fails graduate workers”</a></li>
+<li>November 3, 2021: <a href="https://thetech.com/2021/11/03/mit-medical-healthcare-letter">“Director of MIT Medical responds to ‘How MIT health insurance fails graduate workers’”</a></li>
+<li>November 9, 2021: <a href="https://thetech.com/2021/11/09/iwer-faculty-grad-unionization">“Institute for Work and Employment Research faculty comment on potential graduate student unionization”</a></li>
+</ul>
+<hr />
+<h3><strong><u>GENERAL INFORMATION ON UNIONS AND THE UNIONIZATION PROCESS</u></strong></h3>
+<p><strong>Q: What is the NLRB?</strong></p>
+<p>A: The National Labor Relations Board (NLRB) is a federal agency created to enforce the National Labor Relations Act (NLRA), a federal law to protect the rights of employees and employers. The law protects the rights of employees to choose or reject union representation.</p>
+<p><strong>Q: What is a union?</strong></p>
+<p>A: A union, or labor organization, is any organization or association of any kind in which employees participate and which exists for the purpose, in whole or in part, of dealing with employers on wages, benefits, hours, grievances or other terms or conditions of employment. A union that represents a majority of employees in an “appropriate bargaining unit,” and that has been certified by the NLRB following an election or voluntarily recognized by an employer, serves as the representative of that bargaining unit on all such matters involving wages, hours, and other terms and conditions of employment. An appropriate bargaining unit is a group of employees who share a clear and identifiable community of interest sufficient to be represented by a union.</p>
+<p>A union that has been certified by the NLRB, or that has been voluntarily recognized by an employer, negotiates a contract (also known as a collective bargaining agreement) on behalf of the bargaining unit to establish the terms and conditions of employment, including such things as wages, hours of work, benefits, and other working conditions. A union also represents its members when disputes arise over the terms of the contract.</p>
+<p><strong>Q: What are union dues?</strong></p>
+<p>A: Dues are the cost of membership in a union. They are used to cover the costs of negotiating a contract, contract administration and resolutions of grievances (claims of breach of contract). In addition, unions also use dues for the purpose of organizing employees at other employers, and to make political contributions.</p>
+<p><strong>Q: What is the election process to form a union?</strong></p>
+<p>A: The election process is conducted and supervised by representatives of the NLRB. An election is typically held within approximately three or four weeks after the filing of a representation petition by the union, but the timing may differ depending upon how the NLRB treats outstanding bargaining unit issues, and how long it takes to resolve those issues. Once an election date is set, secret ballot voting would likely take place in a central location at a designated date and time, or by a mail-in process, as determined by the NLRB.</p>
+<p>The election outcome is determined by a simple majority of those who actually vote, not by a majority of all eligible voters. Union representation will be determined by voters, and will be binding on both voters and non-voters in the proposed bargaining unit. Therefore, it is important that all members of a proposed bargaining unit vote, even if they are not interested in unionization.</p>
+<p>Those who have already signed membership or authorization cards are not obligated to vote in favor of the union during the secret ballot election: They are free to change their mind. Once a petition is filed with the NLRB, and the showing of interest is confirmed, membership or authorization cards usually serve no further purpose.</p>
+<p><strong>Q: What does the National Labor Relations Act (NLRA) say regarding negotiations?</strong></p>
+<p>A: Section 8(d) of the NLRA states:</p>
+<p><em>For the purposes of this section, to bargain collectively is the performance of the mutual obligation of the employer and the representative of the employees to meet at reasonable times and confer in good faith with respect to wages, hours, and other terms and conditions of employment, or the negotiation of an agreement, or any question arising thereunder, and the execution of a written contract incorporating any agreement reached if requested by either party, but such obligation does not compel either party to agree to a proposal or require the making of a concession.</em></p>
+<p><strong>Q: Is anything required to be in a collective bargaining agreement?</strong></p>
+<p>A: No, the NLRA does not require that any particular right or provision be part of a contract. Collective bargaining agreements normally have provisions on compensation and benefits, workload and assignments, hours of work, grievance procedures and a variety of other provisions, but no particular provisions are mandated by law. You may find some contracts have a particular provision but another contract might not — it all depends on what those parties have chosen to include in their agreements. The law requires good-faith negotiations over mandatory subjects of bargaining. However, the law specifically does not require either party to make a particular concession or to agree to a particular proposal during negotiations.</p>
+<p><strong>Q: What might be covered in a union contract?</strong></p>
+<p>A: The NLRA requires employers and unions to bargain collectively over “wages, hours, and other terms and conditions of employment.” These are called mandatory subjects of bargaining, over which the parties <u>must</u>negotiate.</p>
+<p>Other topics of interest that do not fall under the umbrella of mandatory negotiations might be addressed by the parties as “permissive” subjects — topics over which neither side is required to negotiate. Items such as the hiring process and housing costs would fall into that category. The NLRB has not yet addressed with any specificity what “terms and conditions of employment” are in the graduate student context. In a case involving Columbia University graduate students, the NLRB stated that academic decisions remain the prerogative of the university, but what constitutes an academic versus a non-academic decision is not yet clear.</p>
+<p>There may be many issues of importance to our students that would not be considered mandatory subjects of bargaining under the law, such as concerns about student housing.</p>
+<p>Some guidance about the terms and conditions that may be addressed in a contract can be gleaned from examining other graduate student contracts. For example, the contract between Harvard University and its graduate student teaching and research assistants represented by the United Auto Workers (UAW) covers numerous terms and conditions of employment such as salaries, benefits, working hours, and grievance procedures; nondiscrimination provisions; leaves of absence; job postings; and access to offices.</p>
+<p>However, many rights are retained by Harvard. In the Harvard contract with the UAW, the university retains the exclusive right to determine and control the university’s mission, objectives, priorities, operations, and resources, among many other rights. Harvard also retains the right to control “all matters of academic judgment and decision-making, including ‘who is taught, what is taught, how it is taught and who does the teaching.’” All matters affecting research methodology and materials, and external grants including application, selection, funding, administration, usage, accountability, and termination are also retained by Harvard.</p>
+<p>Also, there are great variations in union contracts because it is up to the parties to those contracts to decide what they will agree to and what they will not. The appearance of a clause in one contract — no matter what it is — does not guarantee that it will appear in an MIT contract if the union were to be elected.</p>
+<p><strong>Q: How many graduate student union contracts are there around the country?</strong></p>
+<p>A: There are about 42 graduate student contracts, according to the National Center for the Study of Collective Bargaining in Higher Education and the Professions. The majority are at public universities; there are only nine graduate student union contracts in the private sector, at American University, Brandeis University, Brown University, Columbia University, Georgetown University, Harvard University, The New School, New York University, and Tufts University.</p>
+<p><strong>Q: Does the UE represent graduate students anywhere else?</strong></p>
+<p>A: To the best of our knowledge, the only contract they currently have in place is at the University of Iowa.</p>
+<p><strong>Q: Are state labor laws different from the NLRA?</strong></p>
+<p>A: Yes. In many cases, state and federal laws differ significantly when it comes to issues such as bargaining topics, negotiation impasse procedures, the right to strike, and required union membership. For example, strikes are prohibited under most state laws, making strikes rare at public universities, but strikes are legal in the private sector.</p>
+<p>Many state laws also, for example, specify what issues are considered “terms and conditions of employment,” and therefore subject to collective bargaining, and what issues are “academic,” and therefore not subject to collective bargaining. Federal law is not tailored to address the issues of academic and educational matters related to graduate student activities.</p>
+<p><strong>Q: How long do student union contract negotiations typically take? Have students represented by unions at other universities gone on strike?</strong></p>
+<p>A: <a href="https://news.bloomberglaw.com/bloomberg-law-analysis/analysis-how-long-does-it-take-unions-to-reach-first-contracts">A June 2021 Bloomberg Law analysis</a> estimated that, on average, it takes 409 days for new unions and their employers to sign their first collective bargaining agreement (CBA). The analysis is depicted in the following chart:</p>
+<p>The table below provides examples of the length of student union contract negotiations at other institutions of higher education based on available information, and also notes when student-authorized strikes have taken place:</p>
+<table style="border-color: #000000; width: 590px; border-style: solid;" width="590">
+<tbody>
+<tr>
+<td style="border-color: #000000; border-style: solid;" width="120"><strong>Institution</strong></td>
+<td style="border-color: #000000; border-style: solid;" width="65"><strong>Union</strong></td>
+<td style="border-color: #000000; border-style: solid;" width="95"><strong>Union Certified</strong></td>
+<td style="border-color: #000000; border-style: solid;" width="95"><strong>First Contract Ratified</strong></td>
+<td style="border-color: #000000; border-style: solid;" width="120"><strong>Days between Certification and Ratification of 1st Contract</strong></td>
+<td style="border-color: #000000; border-style: solid;" width="95"><strong>Strike(s)</strong></td>
+</tr>
+<tr>
+<td style="border-color: #000000; border-style: solid;" width="120"><a href="https://hr.harvard.edu/union-contracts"><strong>Harvard University</strong></a><strong>*</strong></td>
+<td style="border-color: #000000; border-style: solid;" width="65">UAW</td>
+<td style="border-color: #000000; border-style: solid;" width="95"><a href="https://www.nlrb.gov/case/01-RC-186442">4/30/2018</a></td>
+<td style="border-color: #000000; border-style: solid;" width="95"><a href="https://www.thecrimson.com/article/2021/3/19/grad-union-second-contract/">6/30/2020</a></td>
+<td style="border-color: #000000; border-style: solid;" width="120">792</p>
+<p>&nbsp;</td>
+<td style="border-color: #000000; border-style: solid;" width="95"><a href="https://www.bostonglobe.com/2021/10/30/metro/harvard-graduate-student-strike-ends-after-three-days-picketing/"><strong>3-Day Strike</strong></a></p>
+<p>October 27-29, 2021</p>
+<p><a href="https://www.thecrimson.com/article/2019/12/31/strike-ending-breaker/"><strong>29-Day Strike</strong></a></p>
+<p>December 3-31, 2019</p>
+<p>&nbsp;</td>
+</tr>
+<tr>
+<td style="border-color: #000000; border-style: solid;" width="120"><a href="https://access.tufts.edu/collective-bargaining-agreements"><strong>Tufts University</strong></a></td>
+<td style="border-color: #000000; border-style: solid;" width="65">SEIU</td>
+<td style="border-color: #000000; border-style: solid;" width="95"><a href="https://www.nlrb.gov/case/01-RC-197023">5/26/2017</a></td>
+<td style="border-color: #000000; border-style: solid;" width="95"><a href="https://tuftsdaily.com/news/2018/10/22/arts-sciences-graduate-students-ratify-first-contract-unanimous-vote-2/">10/18/2018</a></td>
+<td style="border-color: #000000; border-style: solid;" width="120">510</td>
+<td style="border-color: #000000; border-style: solid;" width="95"></td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><strong>Brandeis University</strong></td>
+<td style="border-style: solid; border-color: #000000;" width="65">SEIU</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.nlrb.gov/case/01-RC-196695">5/10/2017</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="http://seiufacultyforward.org/brandeis-grad-students-ratify-first-contract-administrators/">8/28/2018</a></td>
+<td style="border-style: solid; border-color: #000000;" width="120">475</td>
+<td style="border-style: solid; border-color: #000000;" width="95"></td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><a href="https://www.cumc.columbia.edu/hr/union-contracts"><strong>Columbia University</strong></a><strong>**</strong></td>
+<td style="border-style: solid; border-color: #000000;" width="65">UAW</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.nlrb.gov/case/02-RC-143012">12/16/2017</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95">NA</td>
+<td style="border-style: solid; border-color: #000000;" width="120">1,482 (tentative agreement reached January 6, 2022; contract yet to be ratified by membership)</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a title="https://nymag.com/intelligencer/2021/11/columbia-university-student-worker-union-strike.html" href="https://nymag.com/intelligencer/2021/11/columbia-university-student-worker-union-strike.html"><b>65-Day Strike</b></a> (November 3, 2021 – January 7, 2022)</p>
+<p><a href="https://columbiagradunion.org/2021/05/13/vote-to-end-or-continue-the-strike-results/"><strong>60-Day Strike</strong></a></p>
+<p>March 15 – May 13, 2021</p>
+<p><a href="https://columbiagradunion.org/2018/04/30/the-end-to-our-strike-for-now-2/"><strong>7-Day Strike</strong></a></p>
+<p>April 24-30, 2018</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><strong>The New School***</strong></td>
+<td style="border-style: solid; border-color: #000000;" width="65">UAW</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.nlrb.gov/case/02-RC-143009">7/28/2017</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://sensuaw.org/wp-content/uploads/2019/01/SENS-UAW-CBA-_Executed_01232019.pdf">12/2018</a></td>
+<td style="border-style: solid; border-color: #000000;" width="120">469</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.laborpress.org/new-school-grad-students-strike-for-living-wage/"><strong>6+Day Strike</strong></a></p>
+<p>Spring 2018</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><strong>Georgetown University+</strong></td>
+<td style="border-style: solid; border-color: #000000;" width="65">AFT</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.wearegage.org/our-history">11/19/2018</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.wearegage.org/our-history">5/8/2020</a></td>
+<td style="border-style: solid; border-color: #000000;" width="120">536</td>
+<td style="border-style: solid; border-color: #000000;" width="95"></td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><strong>American University</strong></td>
+<td style="border-style: solid; border-color: #000000;" width="65">SEIU</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.nlrb.gov/case/05-RC-193768">4/19/2017</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95">12/20/2018</td>
+<td style="border-style: solid; border-color: #000000;" width="120">610</td>
+<td style="border-style: solid; border-color: #000000;" width="95"></td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><a href="https://www.brown.edu/about/administration/human-resources/employee-labor-relations"><strong>Brown University</strong></a></td>
+<td style="border-style: solid; border-color: #000000;" width="65">AFT</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.brown.edu/news/2018-11-19/unionization">11/19/2018</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.brown.edu/news/2020-06-16/contract">6/15/2020</a></td>
+<td style="border-style: solid; border-color: #000000;" width="120">574</td>
+<td style="border-style: solid; border-color: #000000;" width="95"></td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><a href="https://www.nyu.edu/employees/hr-at-your-service/employee-handbook.html"><strong>New York University</strong></a></td>
+<td style="border-style: solid; border-color: #000000;" width="65">UAW</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://yaledailynews.com/blog/2013/12/03/nyu-grad-students-move-toward-unionization/">12/11/2013</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://uaw.org/uaw-nyu-graduate-employees-ratify-contract/">4/7/2015</a></td>
+<td style="border-style: solid; border-color: #000000;" width="120">482</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://www.nytimes.com/2021/04/30/nyregion/nyu-strike.html"><strong>Three-week Strike</strong></a></p>
+<p>Spring, 2021</td>
+</tr>
+<tr>
+<td style="border-style: solid; border-color: #000000;" width="120"><strong>Illinois State University (public employer)</strong></td>
+<td style="border-style: solid; border-color: #000000;" width="65">SEIU</td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://pantagraph.com/opinion/letters/graduate-assistants-deserve-fair-treatment/article_62389036-df8d-5f8e-b4ad-c93974e8744d.html">11/13/2018</a></td>
+<td style="border-style: solid; border-color: #000000;" width="95"><a href="https://seiunegotiations.illinoisstate.edu/">10/15/2021</a></td>
+<td style="border-style: solid; border-color: #000000;" width="120">1,067</td>
+<td style="border-style: solid; border-color: #000000;" width="95"></td>
+</tr>
+</tbody>
+</table>
+<p>* Negotiations began in October 2018 and ended in June 2020, and included a 29-day strike in December 2019. The parties initially agreed only to a one-year contract, which expired on June 30, 2021. The parties agreed to a second contract, which was ratified in November 2021, with 70.6 percent of voters in support of the new deal, and after a three-day strike and the threat of a second strike.</p>
+<p>** Columbia University has not yet reached an initial agreement with its union. The NLRB election was held in December 2016; the NLRB issued its decision certifying the union on December 16, 2017. Negotiations for a first contract started in February 2019 and a tentative agreement was reached in April 2021 but was voted down by union members. In July 2021, union members elected a new union bargaining committee after all 10 members of the union’s bargaining committee stepped down. In September 2021, union members authorized a strike and on November 3, 2021, the strike commenced.</p>
+<p>*** Bargaining began in <a href="https://sensuaw.org/bargaining-our-first-contract/">September 2017</a>; strike in 5/2018 following 63+ bargaining sessions.</p>
+<p>+<a href="https://www.wearegage.org/news/2019/2/10/v3eoq5yim8t4fzo8m27wztzbhjnzyr">2/8/2019</a> union bargaining committee elected; <a href="https://www.wearegage.org/news/2019/4/8/our-first-day-of-bargaining">3/13/2019</a> 1st bargaining session.</p>
+
+              
+              <br class="clear">
+
+              
+            </article>
+            <!-- /article -->
+
+          
+              </div>
+      
+    </div>
+</main>
+
+
+			<nav id="footer">
+					<div class="col-md-12">
+						<div class="col-md-6" class="leftCol">
+							<div id="mitLogo">
+								<a id="mitFooter" href="http://web.mit.edu" target="_blank">MIT</a>
+							</div>
+							<div id="mitInfo">
+								Office of the Vice Chancellor<br/>
+								Massachusetts Institute of Technology, 7-133<br/>
+								77 Massachusetts Avenue, Cambridge, MA 02139<br/>
+								<a href="mailto:ovc@mit.edu">ovc@mit.edu</a>
+							</div>
+						</div>
+						<div class="col-md-6" class="rightCol">
+							<ul id="menu-footer-menu" class="nav navbar-nav"><li id="menu-item-379" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-379"><a target="_blank" href="http://chancellor.mit.edu">Chancellor&#8217;s Office</a></li>
+<li id="menu-item-380" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-380"><a target="_blank" href="http://resources.mit.edu">Student Resources</a></li>
+<li id="menu-item-6562" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-6562"><a href="https://accessibility.mit.edu/">Accessibility</a></li>
+<li id="menu-item-3593" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3593"><a href="https://ovc.mit.edu/values/office-of-the-vice-chancellor-diversity-statement/">Diversity Statement</a></li>
+</ul>						</div>
+					</div>
+			</nav>
+		</div> <!-- /container -->
+
+		<script type='text/javascript' src='../wp-content/plugins/page-links-to/js/new-tab.min.js%3Fver=3.0.0-beta.1'></script>
+<script type='text/javascript' src='../wp-includes/js/wp-embed.min.js%3Fver=5.1.1'></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script src="../wp-content/themes/vicechancellor/js/scripts.js"></script>
+	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"ab0374a39e","applicationID":"34824306","transactionName":"Z1QGZBZQVkNYU0YNWV4eJVMQWFdeFkBTA1M=","queueTime":0,"applicationTime":159,"atts":"SxMFEl5KRU0=","errorBeacon":"bam-cell.nr-data.net","agent":""}</script></body>
+</html>
+
+<!--
+Performance optimized by W3 Total Cache. Learn more: https://www.w3-edge.com/products/
+
+Object Caching 0/0 objects using apc
+Page Caching using apc{w3tc_pagecache_reject_reason}
+
+Served from: ovc.mit.edu @ 2022-02-01 17:54:21 by W3 Total Cache
+-->
