@@ -1526,7 +1526,7 @@ Facts about collective bargaining
      * Employees have a right to strike under the law, and are protected
        in that right. Strikes are often called by a union to pressure the
        employer. Strikes among graduate student workers have been quite
-       common, such as [14]those at Harvard, Columbia, and New York
+       common, such as those at Harvard, Columbia, and New York
        University. While the union may call a strike and direct its
        members not to perform any work for the duration of the strike, MIT
        is not obligated to compensate employees who are on strike, and in
@@ -1568,11 +1568,11 @@ Facts about collective bargaining
 
 Additional Links
 
-     * [15]Accessibility
+     * [14]Accessibility
 
-   [16]MIT website
+   [15]MIT website
 
-   [17]Massachusetts Institute of Technology
+   [16]Massachusetts Institute of Technology
    77 Massachusetts Avenue, Cambridge, MA, USA
 
 References
@@ -1590,10 +1590,9 @@ References
   11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background.html
   12. file:///home/ygowda/mitgsu-anti/ovc.mit.edu/faq_student_unionization/index.html
   13. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  14. https://getinformed-dev.mit.edu/fact-checking-ue-claims#union-contracts
-  15. https://accessibility.mit.edu/
+  14. https://accessibility.mit.edu/
+  15. http://web.mit.edu/
   16. http://web.mit.edu/
-  17. http://web.mit.edu/
 ./grad-union.mit.edu/fact-checking-ue-claims.html
    IFRAME: [1]https://www.googletagmanager.com/ns.html?id=GTM-TG7RWGT
 
@@ -2021,8 +2020,8 @@ References
   11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background.html
   12. file:///home/ygowda/mitgsu-anti/ovc.mit.edu/faq_student_unionization/index.html
   13. file:///home/ygowda/mitgsu-anti/ovc.mit.edu/faq_student_unionization/index.html
-  14. https://getinformed-dev.mit.edu/fact-checking-ue-claims#union-contracts
-  15. https://getinformed-dev.mit.edu/fact-checking-ue-claims#union-contracts
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
   16. https://accessibility.mit.edu/
   17. http://web.mit.edu/
   18. http://web.mit.edu/
@@ -2604,8 +2603,8 @@ References
   11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background.html
   12. file:///home/ygowda/mitgsu-anti/ovc.mit.edu/faq_student_unionization/index.html
   13. file:///home/ygowda/mitgsu-anti/ovc.mit.edu/faq_student_unionization/index.html
-  14. https://getinformed-dev.mit.edu/fact-checking-ue-claims#union-contracts
-  15. https://getinformed-dev.mit.edu/fact-checking-ue-claims#union-contracts
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
   16. https://accessibility.mit.edu/
   17. http://web.mit.edu/
   18. http://web.mit.edu/
