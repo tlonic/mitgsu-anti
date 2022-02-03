@@ -2675,21 +2675,21 @@ Additional Links
 References
 
    Visible links
-   1. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/homepage.html
+   1. https://grad-union.mit.edu/homepage.html
    2. https://www.googletagmanager.com/ns.html?id=GTM-TG7RWGT
-   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/homepage.html#main
+   3. https://grad-union.mit.edu/homepage.html#main
    4. http://web.mit.edu/
-   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/homepage.html
-   6. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/homepage.html#block-mit-main-menu
-   7. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/updates.html
-   8. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/student-concerns-about-unionization.html
-   9. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/how-current-student-administration-collaboration-and-successes-compare-institutions-graduate.html
-  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/recent-gains-mit-graduate-students.html
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/fact-checking-ue-claims.html
-  12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background.html
-  13. file:///home/ygowda/mitgsu-anti/ovc.mit.edu/faq_student_unionization/index.html
-  15. file:///home/ygowda/mitgsu-anti/ovc.mit.edu/faq_student_unionization/index.html
-  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
-  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
+   5. https://grad-union.mit.edu/homepage.html
+   6. https://grad-union.mit.edu/homepage.html#block-mit-main-menu
+   7. https://grad-union.mit.edu/updates.html
+   8. https://grad-union.mit.edu/student-concerns-about-unionization.html
+   9. https://grad-union.mit.edu/how-current-student-administration-collaboration-and-successes-compare-institutions-graduate.html
+  10. https://grad-union.mit.edu/recent-gains-mit-graduate-students.html
+  11. https://grad-union.mit.edu/fact-checking-ue-claims.html
+  12. https://grad-union.mit.edu/background.html
+  13. https://grad-union.mit.edu/ovc.mit.edu/faq_student_unionization/index.html
+  15. https://grad-union.mit.edu/ovc.mit.edu/faq_student_unionization/index.html
+  16. https://grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
+  17. https://grad-union.mit.edu/fact-checking-ue-claims.html#union-contracts
   18. https://accessibility.mit.edu/
   19. http://web.mit.edu/
