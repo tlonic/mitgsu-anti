@@ -3,9 +3,9 @@
 @font-face {
     font-family: 'MetaNormalRegular';
     src: url('../fonts/meta-normal-webfont.eot');
-    src: url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-normal-webfont.eot%3F') format('embedded-opentype'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-normal-webfont.woff.html') format('woff'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-normal-webfont.ttf.html') format('truetype'),
+    src: url('../fonts/meta-normal-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/meta-normal-webfont.woff.html') format('woff'),
+         url('../fonts/meta-normal-webfont.ttf.html') format('truetype'),
          url('../fonts/meta-normal-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -15,9 +15,9 @@
 @font-face {
     font-family: 'MetaBoldRegular';
     src: url('../fonts/meta-bold-webfont.eot');
-    src: url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-bold-webfont.eot%3F') format('embedded-opentype'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-bold-webfont.woff.html') format('woff'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-bold-webfont.ttf.html') format('truetype'),
+    src: url('../fonts/meta-bold-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/meta-bold-webfont.woff.html') format('woff'),
+         url('../fonts/meta-bold-webfont.ttf.html') format('truetype'),
          url('../fonts/meta-bold-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -27,9 +27,9 @@
 @font-face {
     font-family: 'MetaBoldCapsRegular';
     src: url('../fonts/meta-boldcaps-1-webfont.eot');
-    src: url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-boldcaps-1-webfont.eot%3F') format('embedded-opentype'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-boldcaps-1-webfont.woff.html') format('woff'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/meta-boldcaps-1-webfont.ttf.html') format('truetype'),
+    src: url('../fonts/meta-boldcaps-1-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/meta-boldcaps-1-webfont.woff.html') format('woff'),
+         url('../fonts/meta-boldcaps-1-webfont.ttf.html') format('truetype'),
          url('../fonts/meta-boldcaps-1-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -39,9 +39,9 @@
 @font-face {
     font-family: 'MinionProRegular';
     src: url('../fonts/minionpro-regular-webfont.eot');
-    src: url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/minionpro-regular-webfont.eot%3F') format('embedded-opentype'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/minionpro-regular-webfont.woff.html') format('woff'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/minionpro-regular-webfont.ttf.html') format('truetype'),
+    src: url('../fonts/minionpro-regular-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/minionpro-regular-webfont.woff.html') format('woff'),
+         url('../fonts/minionpro-regular-webfont.ttf.html') format('truetype'),
          url('../fonts/minionpro-regular-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -51,9 +51,9 @@
 @font-face {
     font-family: 'MuseoSans300';
     src: url('../fonts/museosans_300-webfont.eot');
-    src: url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/museosans_300-webfont.eot%3F') format('embedded-opentype'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/museosans_300-webfont.woff.html') format('woff'),
-         url('https://orgchart.mit.edu/sites/all/themes/orgchart/fonts/museosans_300-webfont.ttf.html') format('truetype'),
+    src: url('../fonts/museosans_300-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/museosans_300-webfont.woff.html') format('woff'),
+         url('../fonts/museosans_300-webfont.ttf.html') format('truetype'),
          url('../fonts/museosans_300-webfont.svg') format('svg');
     font-weight: normal;
     font-style: normal;
