@@ -1,0 +1,174 @@
+
+/*---Import file-----[Directory]-----------------------------------*/
+.staff_directory_container {
+   padding-left: 20px;
+}
+
+.page-reporting-list-directory .staff_directory {
+  width: 800px;
+}
+
+.page-reporting-list-directory .staff_directory th {
+  padding: 0;
+  border-bottom: 1px solid  #333333;
+}
+
+.page-reporting-list-directory .staff_directory tr {
+  height: 30px;
+}
+
+.page-reporting-list-directory .staff_directory td {
+  height: 30px;
+}
+
+tbody {
+  border-top: none;
+}
+
+.staff_directory_header {
+  width: 800px;
+}
+
+.page-reporting-list-directory .breadcrumb {
+  display: none;
+}
+
+.staff_directory_header td.title_narrow {
+  border-bottom: 2px solid #990F0F;
+}
+.staff_directory_header td.title_medium {
+  border-bottom: 2px solid #990F0F;
+}
+
+.staff_directory_header td.column_narrow {
+  border-bottom: 2px solid #990F0F;
+}
+
+.staff_directory_header td.column_medium {
+  border-bottom: 2px solid #990F0F;
+}
+
+td.title_narrow {
+  width: 610px;
+  //background-color: pink; 
+  border-bottom: 1px solid #666666;
+}
+
+td.title_medium {
+  width: 445px;
+  //background-color: blue;
+  border-bottom: 1px solid #666666;
+}
+  
+#block-indigo_staff_directory-staff_directory .department_name {
+  font-family: Arial;
+  font-style: normal;
+  font-size: 13px;
+  line-height: 1.5em;
+}
+  
+#block-indigo_staff_directory-staff_directory .staff_directory_header tr > td.title_medium {
+     border-bottom: none;
+  }
+  
+  #block-indigo_staff_directory-staff_directory .staff_directory_header tr > td.column_medium  {
+     border-bottom: none;
+  }
+  
+  #block-indigo_staff_directory-staff_directory .staff_directory_header tr > td.column_narrow  {
+     border-bottom: none;
+  }
+
+th.th_narrow {
+  width: 95px;
+  //background-color: purple; 
+  padding-right: 0;
+  border-bottom: 1px solid  #666666;
+}
+
+th.th_wide {
+  width: 610px;
+  //background-color: brown;
+}
+
+td.column_narrow {
+  width: 95px;
+  //background-color: yellow; 
+  border-bottom: 1px solid  #666666;
+}
+
+td.column_narrow > strong {
+  width: 95px;
+  //background-color: yellow; 
+  color: #990F0F;
+}
+
+td.column_medium {
+  width: 165px;
+  //background-color: red; 
+  border-bottom: 1px solid #666666;
+}
+
+.department_name {
+  font-size: 13px;
+}
+
+.staff_directory .staff_directory td {
+  border-bottom: 1px solid  #666666;
+}
+
+.staff_directory  td[width]+td {
+  width: 76px;
+}
+
+
+/*------Staff Directory static Table-on-positions-page------*/
+#staff-dir, tbody {
+   border-top: none;
+}
+
+#staff-dir table {
+  width: 590px;
+}
+
+#staff-dir table th, td {
+  font-family: Georgia;
+}
+
+thead th {
+  border-bottom: 2px solid  #990F0F;
+  color: #990F0F;
+  font-weight: bold;
+}
+
+#staff-dir tr {
+  height: 30px;
+}
+
+#staff-dir .col-1 {
+  width: 290px;
+}
+
+#staff-dir .col-2 {
+  width: 125px;
+}
+
+#staff-dir .col-3 {
+  width: 85px;
+}
+
+#staff-dir .col-4 {
+  width: 90px;
+}
+
+.field-name-field-staff-dir tr {
+  border-bottom: 1px solid #666666;
+}
+
+.field-name-field-staff-dir h2 {
+  font-size: 13px;
+  font-weight: bold;
+  color: #333333;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
