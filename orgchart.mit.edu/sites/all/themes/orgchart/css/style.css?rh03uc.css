@@ -1,0 +1,470 @@
+/************Start Fontface******************/
+
+@font-face {
+    font-family: 'MetaNormalRegular';
+    src: url('../fonts/meta-normal-webfont.eot');
+    src: url('../fonts/meta-normal-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/meta-normal-webfont.woff.html') format('woff'),
+         url('../fonts/meta-normal-webfont.ttf.html') format('truetype'),
+         url('../fonts/meta-normal-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MetaBoldRegular';
+    src: url('../fonts/meta-bold-webfont.eot');
+    src: url('../fonts/meta-bold-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/meta-bold-webfont.woff.html') format('woff'),
+         url('../fonts/meta-bold-webfont.ttf.html') format('truetype'),
+         url('../fonts/meta-bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MetaBoldCapsRegular';
+    src: url('../fonts/meta-boldcaps-1-webfont.eot');
+    src: url('../fonts/meta-boldcaps-1-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/meta-boldcaps-1-webfont.woff.html') format('woff'),
+         url('../fonts/meta-boldcaps-1-webfont.ttf.html') format('truetype'),
+         url('../fonts/meta-boldcaps-1-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MinionProRegular';
+    src: url('../fonts/minionpro-regular-webfont.eot');
+    src: url('../fonts/minionpro-regular-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/minionpro-regular-webfont.woff.html') format('woff'),
+         url('../fonts/minionpro-regular-webfont.ttf.html') format('truetype'),
+         url('../fonts/minionpro-regular-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'MuseoSans300';
+    src: url('../fonts/museosans_300-webfont.eot');
+    src: url('../fonts/museosans_300-webfont.eot%3F') format('embedded-opentype'),
+         url('../fonts/museosans_300-webfont.woff.html') format('woff'),
+         url('../fonts/museosans_300-webfont.ttf.html') format('truetype'),
+         url('../fonts/museosans_300-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/************end Fontface******************/
+
+/*
+
+Custom Fonts:
+
+font-family: "ff-meta-web-pro", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+font-family: "ff-meta-web-pro", Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 400;
+
+font-family: "ff-meta-web-pro", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+
+font-family: "ff-meta-web-pro", Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 700;
+
+
+
+font-family: "museo-sans", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 300;
+
+font-family: "museo-sans", Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 300;
+
+
+
+font-family: "minion-pro", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+
+font-family: "minion-pro", Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 400;
+
+font-family: "minion-pro", Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+
+font-family: "minion-pro", Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: 700;
+
+
+
+*/
+
+html {
+	padding: 0;
+	margin: 0;
+	overflow-y: scroll;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font: 13px/1.5em Arial, Helvetica, sans-serif;
+	background: url(../images/main_bg.jpg) repeat;
+}
+
+/* Links */
+a:link, a:visited {
+	color: #990F0F;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #990F0F;
+	text-decoration: underline;
+}
+
+li a.active {
+	color: #990F0F;
+}
+
+/* Titles. */
+#site-name {
+	font-size: 2.2em;
+	line-height: 1.3em;
+	font-weight: 300;
+	padding: 0 0 0.5em;
+	margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.3em;
+}
+
+h1 {
+	font-size: 35px;
+	padding: 0;
+	margin: 0;
+	font-family: "MetaNormalRegular", Arial, Helvetica, sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: #990f0f;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-size: 1.8em;
+	font-weight: 300;
+	margin-bottom: 0.75em;
+}
+
+h3 {
+	font-size: 1.4em;
+	margin-bottom: 1em;
+}
+
+h4 {
+	font-size: 1.2em;
+	margin-bottom: 0.8em;
+}
+
+h5 {
+	font-size: 1.1em;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+h6 {
+	font-size: 1em;
+	font-weight: bold;
+}
+
+/* Paragraph styles. */
+p {
+	margin: 0 0 1em 0;
+}
+
+/* List styles. */
+ul, ol {
+	margin-left: 0;
+	padding-left: 2em;
+}
+
+/* Table styles. */
+table {
+	width: 99%;
+}
+
+tr.even td,
+tr.odd td {
+	padding: 10px 5px;
+}
+
+tr.odd {
+	background-color: white;
+}
+
+/* Code. */
+pre, code, tt {
+	font: 1em "andale mono", "lucida console", monospace;
+	line-height: 1.5;
+}
+
+pre {
+	background-color: #efefef;
+	display: block;
+	padding: 5px;
+	margin: 5px 0;
+	border: 1px solid #aaaaaa;
+}
+
+/* List styles. */
+ul {
+	list-style-type: disc;
+}
+
+ul ul {
+	list-style-type: circle;
+}
+
+ul ul ul {
+	list-style-type: square;
+}
+
+ul ul ul ul {
+	list-style-type: circle;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ol ol {
+	list-style-type: lower-alpha;
+}
+
+ol ol ol {
+	list-style-type: decimal;
+}
+
+div.goup {
+	background: url(../images/goup.png) no-repeat left top;
+	width: 53px;
+	height: 53px;
+	overflow: hidden;
+	text-indent: -999px;
+}
+
+/* Abbreviation. */
+abbr {
+	border-bottom: 1px dotted #666666;
+	cursor: help;
+	white-space: nowrap;
+}
+
+/* UI improvments. */
+#edit-title {
+	font-size: 24px;
+	width: 99%;
+}
+
+#system-themes-form img {
+	width: 100px;
+}
+
+.form-item .description {
+	font-style: italic;
+	line-height: 1.2em;
+	font-size: 0.8em;
+	margin-top: 5px;
+	color: #777777;
+}
+
+#edit-delete {
+	color: #cc0000;
+}
+
+/* Console, style from slate theme. */
+div.messages {
+	padding: 9px;
+	margin: 1em 0;
+	color: #003366;
+	background: #bbddff;
+	border: 1px solid #aaccee;
+}
+
+div.warning {
+	color: #884400;
+	background: #ffee66;
+	border-color: #eedd55;
+}
+
+div.error {
+	color: white;
+	background: #ee6633;
+	border-color: #dd5522;
+}
+
+div.status {
+	color: #336600;
+	background: #ccff88;
+	border-color: #bbee77;
+}
+
+/* Region Colors. delete when starting a new theme. */
+.wireframe-mode #header, .wireframe-mode #footer {
+	background: #efefef;
+}
+
+.wireframe-mode #sidebar-first .inner {
+	background: #e7edff;
+}
+
+.wireframe-mode #sidebar-second .inner {
+	background: #ffd075;
+}
+
+.wireframe-mode #navigation .inner {
+	background: #feffa5;
+}
+
+.webform-component .form-textarea-wrapper {
+	width: 99%;
+}
+
+.webform-component .form-text {
+	width: 99%;
+	padding: 3px 0;
+	border: solid 1px #bbb;
+}
+
+.webform-component .form-textarea {
+	padding: 3px;
+	border: solid 1px #bbb;
+}
+
+#search-block-form .form-text {
+	background: none repeat scroll 0 0 #C7C6C4;
+	border: 0 none;
+	color: #737779;
+	float: left;
+	font-size: 9px;
+	font-weight: bold;
+	height: 14px;
+	line-height: 14px;
+	margin-right: 1px;
+	outline: medium none;
+	padding: 2px 5px;
+	/**width: 126px;**/
+	width: 226px;
+}
+#search-block-form .form-submit {
+	background: url("../images/search-button.gif") no-repeat scroll left top transparent;
+	border: 0 none;
+	cursor: pointer;
+	float: left;
+	height: 18px;
+	width: 19px;
+	text-indent: -999px;
+	overflow: hidden;
+}
+
+#node-34 .field-items > div > p > a {
+  padding-left: 19px;
+  font-family: Georgia;
+  font-size: 17px;
+}
+
+#node-34 .field-items > div > p  {
+  margin-bottom: 5px;
+}
+
+#show-hide {
+	text-transform: uppercase;
+	margin: .5em 0 1em;
+	font-size: 10px;
+	color: #565659;
+}
+
+#show-hide span {
+	margin: 0 .5em;
+}
+
+#show-hide a.disabled {
+	color: #565659;
+	cursor: text;
+}
+
+#show-hide a:hover.disabled {
+	color: #565659;
+	cursor: text;
+	text-decoration: none;
+}
+
+/*--UL spacing on Reporting List page */
+.page-node-34 .item-list ul {
+margin: 0;
+padding: 0;
+}
+
+.view-org-chart .views-field-field-text-popup {
+  top: -24px;
+  left: -14px;
+  position: relative;
+  z-index: 100;
+  background-clip: initial;
+  display: block;
+  float: right;
+  clear: none;
+  height: 0;
+  width: 0;
+  overflow: visible;
+  display:none;
+}
+
+.view-org-chart .views-field-field-text-popup .field-content {
+  min-height: 50px;
+  min-width: 250px;
+  background: url('../images/popup_bg.gif') 0 0 transparent no-repeat;
+  color: white;
+  padding: 10px 10px 10px 17px;
+}
+
+.view-org-chart div.views-row {
+  overflow: visible;
+}
+
+.views-field-field-text-popup .field-content .node-title {
+  margin-bottom:.5em;
+}
+
+
+#chart_print_message {
+  display: none;
+}
+
+body.page-node-reporting-list .accordion > li, #block-views-reporting_list-block .accordion > li {
+  margin-left: 0;
+  padding-left: 25px;
+}
+
+body.page-node-reporting-list .accordion .accordion-item-end, #block-views-reporting_list-block .accordion .accordion-item-end {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+

@@ -1,0 +1,293 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML+RDFa 1.0//EN"
+  "http://www.w3.org/MarkUp/DTD/xhtml-rdfa-1.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" version="XHTML+RDFa 1.0" dir="ltr"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head profile="http://www.w3.org/1999/xhtml/vocab">
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"ab0374a39e",applicationID:"184779326"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(9),c=t(10),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(11);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?l("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&l("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(u&&u<r.startTime)return;var i=[r],o=a({});o&&i.push(o),l("lcp",i)}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||l("cls",[t])})}function a(t){var e=navigator.connection||navigator.mozConnection||navigator.webkitConnection;if(e)return e.type&&(t["net-type"]=e.type),e.effectiveType&&(t["net-etype"]=e.effectiveType),e.rtt&&(t["net-rtt"]=e.rtt),e.downlink&&(t["net-dlink"]=e.downlink),t}function c(t){if(t instanceof y&&!w){var e=Math.round(t.timeStamp),n={type:t.type};a(n),e<=v.now()?n.fid=v.now()-e:e>v.offset&&e<=Date.now()?(e-=v.offset,n.fid=v.now()-e):e=v.now(),w=!0,l("timing",["fi",e,n])}}function f(t){"hidden"===t&&(u=v.now(),l("pageHide",[u]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var u,s,d,p,l=t("handle"),v=t("loader"),m=t(8),g=t(3),y=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){s=new PerformanceObserver(r);try{s.observe({entryTypes:["paint"]})}catch(h){}d=new PerformanceObserver(i);try{d.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}p=new PerformanceObserver(o);try{p.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var w=!1,b=["click","keydown","mousedown","pointerdown","touchstart"];b.forEach(function(t){document.addEventListener(t,c,g(!1))})}m(f)}},{}],7:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],8:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],9:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],10:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],11:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){h[t]=m(t).concat(e)}function v(t,e){var n=h[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return h[t]||[]}function g(t){return p[t]=p[t]||i(n)}function y(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var h={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:y,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(9),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!M++){var t=T.info=NREUM.info,e=m.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(x,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+T.offset],null,"api"),c("timing",["load",n]);var r=m.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=l+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===m.readyState&&o()}function o(){c("mark",["domContent",a()+T.offset],null,"api")}var a=t(5),c=t("handle"),f=t(9),u=t("ee"),s=t(7),d=t(2),p=t(3),l=d.getConfiguration("ssl")===!1?"http":"https",v=window,m=v.document,g="addEventListener",y="attachEvent",h=v.XMLHttpRequest,w=h&&h.prototype,b=!1;NREUM.o={ST:setTimeout,SI:v.setImmediate,CT:clearTimeout,XHR:h,REQ:v.Request,EV:v.Event,PR:v.Promise,MO:v.MutationObserver};var E=""+location,x={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1216.min.js"},O=h&&w&&w[g]&&!/CriOS/.test(navigator.userAgent),T=e.exports={offset:a.getLastTimestamp(),now:a,origin:E,features:{},xhrWrappable:O,userAgent:s,disabled:b};if(!b){t(1),t(6),m[g]?(m[g]("DOMContentLoaded",o,p(!1)),v[g]("load",r,p(!1))):(m[y]("onreadystatechange",i),v[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var M=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(10),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);</script>
+<meta name="Generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="unionization-election-results-0.html" />
+<link rel="shortlink" href="https://orgchart.mit.edu/node/869" />
+<link rel="shortcut icon" href="https://orgchart.mit.edu/favicon.ico" type="image/vnd.microsoft.icon" />
+  <title>Unionization election results | MIT Organization Chart</title>
+  <script type="text/javascript" src="http://use.typekit.com/zym3ssx.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  <style type="text/css" media="all">
+@import url("../../../modules/system/system.base.css%3Frh03uc.css");
+@import url("../../../modules/system/system.menus.css%3Frh03uc.css");
+@import url("../../../modules/system/system.messages.css%3Frh03uc.css");
+@import url("../../../modules/system/system.theme.css%3Frh03uc.css");
+</style>
+<style type="text/css" media="all">
+@import url("../../../sites/all/modules/date/date_repeat_field/date_repeat_field.css%3Frh03uc.css");
+@import url("../../../modules/field/theme/field.css%3Frh03uc.css");
+@import url("../../../modules/node/node.css%3Frh03uc.css");
+@import url("../../../modules/search/search.css%3Frh03uc.css");
+@import url("../../../modules/user/user.css%3Frh03uc.css");
+@import url("../../../sites/all/modules/views/css/views.css%3Frh03uc.css");
+@import url("../../../sites/all/modules/ckeditor/css/ckeditor.css%3Frh03uc.css");
+</style>
+<style type="text/css" media="all">
+@import url("../../../sites/all/themes/orgchart/css/tabs.css%3Frh03uc.css");
+@import url("../../../sites/all/modules/ctools/css/ctools.css%3Frh03uc.css");
+@import url("../../../sites/all/modules/shib_auth/shib_auth.css%3Frh03uc.css");
+@import url("../../../sites/all/modules/date/date_api/date.css%3Frh03uc.css");
+</style>
+<style type="text/css" media="all">
+@import url("../../../sites/all/themes/orgchart/css/default.css%3Frh03uc.css");
+@import url("../../../sites/all/themes/orgchart/css/layout.css%3Frh03uc.css");
+@import url("../../../sites/all/themes/orgchart/css/style.css%3Frh03uc.css");
+@import url("../../../sites/all/themes/orgchart/css/staff_directory.css%3Frh03uc.css");
+</style>
+<style type="text/css" media="print">
+@import url("../../../sites/all/themes/orgchart/css/print.css%3Frh03uc.css");
+</style>
+  <script type="text/javascript" src="../../../sites/default/files/js/js_YD9ro0PAqY25gGWrTki6TjRUG8TdokmmxjfqpNNfzVU.js"></script>
+<script type="text/javascript" src="../../../sites/default/files/js/js_uq2tsKfZeNjWfPbRvwBB0JoG1EpiQ8jKm3hmxlw6pzs.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","setHasJsCookie":0,"ajaxPageState":{"theme":"orgchart","theme_token":"1NdvRKcWH0-lrV7tMUZe0nbFM3S-l1M2SWLFOt4QsJA","js":{"misc\/jquery.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/themes\/orgchart\/scripts\/jquery.cycle.all.min.js":1,"sites\/all\/themes\/orgchart\/scripts\/scripts.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"sites\/all\/modules\/date\/date_repeat_field\/date_repeat_field.css":1,"modules\/field\/theme\/field.css":1,"modules\/node\/node.css":1,"modules\/search\/search.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/views\/css\/views.css":1,"sites\/all\/modules\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/themes\/orgchart\/css\/tabs.css":1,"sites\/all\/modules\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/shib_auth\/shib_auth.css":1,"sites\/all\/modules\/date\/date_api\/date.css":1,"sites\/all\/themes\/orgchart\/css\/default.css":1,"sites\/all\/themes\/orgchart\/css\/layout.css":1,"sites\/all\/themes\/orgchart\/css\/style.css":1,"sites\/all\/themes\/orgchart\/css\/staff_directory.css":1,"sites\/all\/themes\/orgchart\/css\/print.css":1}},"urlIsAjaxTrusted":{"\/node\/5\/letters_to_community\/unionization-election-results-0":true}});
+//--><!]]>
+</script>
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-node page-node- page-node-869 node-type-letters-to-the-community" >
+  <div id="skip">
+    <a href="unionization-election-results-0.html#main-menu">Jump to Navigation</a>
+  </div>
+    <div id="page" class="page">
+
+  <!-- ______________________ HEADER _______________________ -->
+
+	<div id="header" class="clearfix">
+		<div class="inner">
+							<div id="utility-region" class="clearfix">
+					  <div class="region region-utility">
+    <div id="block-block-2" class="block block-block block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <p><a href="http://web.mit.edu"><img alt="" src="../../../sites/default/files/logo_inner.png" style="width: 50px; height: 25px;" /></a></p>
+		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+				</div>
+			
+							<div id="logo-box">
+				<a href="https://orgchart.mit.edu/" title="Home" rel="home" id="logo">
+                                    <img src="../../../sites/all/themes/orgchart/images/orgchart-logo.png" alt="Home"/>
+				</a>
+				</div>
+			
+			
+							<div id="header-region">
+					  <div class="region region-header">
+    <div id="block-search-form" class="block block-search block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <form action="unionization-election-results-0.html" method="post" id="search-block-form" accept-charset="UTF-8"><div><div class="container-inline">
+      <h2 class="element-invisible">Search form</h2>
+    <div class="form-item form-type-textfield form-item-search-block-form">
+  <label class="element-invisible" for="edit-search-block-form--2">Search </label>
+ <input title="Enter the terms you wish to search for." onblur="if (this.value == &#039;&#039;) {this.value = &#039;SEARCH&#039;;}" onfocus="if (this.value == &#039;SEARCH&#039;) {this.value = &#039;&#039;;}" type="text" id="edit-search-block-form--2" name="search_block_form" value="SEARCH" size="15" maxlength="128" class="form-text" />
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Go" class="form-submit" /></div><input type="hidden" name="form_build_id" value="form-NCc94RFMx2IRDiuxXSgvelb3CH7YMpKdFcr3SHAZeQ8" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div>
+</div></form>		</div>
+
+  </div>
+</div> <!-- /block-inner /block --><div id="block-menu_block-1" class="block block-menu-block block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div class="menu-block-wrapper menu-block-1 menu-name-main-menu parent-mlid-0 menu-level-1">
+  <ul class="menu"><li class="first leaf menu-mlid-611 organization-chart mid-611"><a href="https://orgchart.mit.edu/senior-leadership" title="">Organization Chart</a></li>
+<li class="leaf menu-mlid-618 corporation-officers mid-618"><a href="https://orgchart.mit.edu/corporation-and-institutional-officers">Corporation Officers</a></li>
+<li class="leaf menu-mlid-619 academic-council mid-619"><a href="https://orgchart.mit.edu/academic-council">Academic Council</a></li>
+<li class="last leaf menu-mlid-620 reporting-list mid-620"><a href="https://orgchart.mit.edu/reporting-list">Reporting List</a></li>
+</ul></div>
+		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+				</div>
+						<div id="top-lines"></div>
+                          <div id="highlight">  <div class="region region-highlight">
+    <div id="block-views-position_sidebar-block_3" class="block block-views block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div class="view view-position-sidebar view-id-position_sidebar view-display-id-block_3 view-dom-id-fd8874633fc91439c901d893b8894c44">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-name-last">        <div class="field-content"><a href="https://orgchart.mit.edu/chancellor">Melissa Nobles</a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content">Chancellor</span>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+</div>
+            
+		</div>
+	</div>
+
+	<!-- ______________________ MAIN _______________________ -->
+
+	<div id="main" class="clearfix">
+
+		<div class="top-lines"></div>
+    <div id="content" class="clearfix">
+      <div id="content-inner" class="inner column center">
+
+                  <div id="content-header">
+
+		    
+			            <h1 class="title">Unionization election results</h1>
+                        
+                          <div class="tabs"></div>
+            
+                        
+          </div> <!-- /#content-header -->
+        
+        <div id="content-area" class="clearfix">
+
+            
+            <div class="region region-content">
+    <div id="block-system-main" class="block block-system block-odd clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div id="node-869" class="node node-letters-to-the-community node-odd">
+	<div class="node-inner">
+    
+    
+  
+  	<div class="content">
+  	  <div class="field field-name-field-date field-type-datestamp field-label-hidden"><div class="field-items"><div class="field-item even"><span class="date-display-single" property="dc:date" datatype="xsd:dateTime" content="2022-04-06T00:00:00-04:00">April 06, 2022</span></div></div></div><div class="field field-name-body field-type-text-with-summary field-label-hidden"><div class="field-items"><div class="field-item even" property="content:encoded"><p>To the members of the MIT community,</p>
+<p>We write to update you on the efforts by a group of MIT graduate students to form a union affiliated with the United Electrical, Radio &amp; Machine Workers of America (UE).</p>
+<p>Please see below a letter we sent today to our graduate students, sharing the results of the independent election held on our campus earlier this week, and conducted by the National Labor Relations Board.</p>
+<p>We thank those of you, on all sides of the unionization debate, who have engaged constructively and respectfully in this conversation. Students are at the heart of MIT, and all of us who lead the Institute remain dedicated to ensuring that every student benefits from every opportunity that our campus has to offer.</p>
+<p>Sincerely,</p>
+<p>Melissa Nobles<br />
+Chancellor</p>
+<p>Ian A. Waitz<br />
+Vice Chancellor for Undergraduate and Graduate Education</p>
+<hr style="height:1px; border:0; border-bottom:2px solid #cccccc; margin:0; padding:0; margin-bottom:1.5em;" /><h2>Highlights</h2>
+<ul><li>In this week’s graduate student unionization election, 75 percent of MIT’s 3,823 eligible graduate students cast ballots.</li>
+<li>Of the counted ballots, 66 percent were votes in favor of unionization, while 34 percent were votes against the union.</li>
+<li>With the election outcome now clear, we will continue to work alongside you to improve MIT for all of our students.</li>
+<li>We congratulate the current and past members of the MIT Graduate Student Union (MIT GSU) on their four years of dedicated work that culminated in this election.<br />
+	 </li>
+</ul><hr style="height:1px; border:0; border-bottom:1px solid #cccccc; margin:0; padding:0; margin-bottom:1.5em;" /><p>To MIT graduate students,</p>
+<p>The National Labor Relations Board (NLRB) has counted the ballots from the graduate student unionization election held on our campus earlier this week — an election in which 75 percent of the 3,823 eligible graduate students cast ballots.</p>
+<p>Of the counted ballots, 1,785 students (66 percent) voted in favor of representation by the United Electrical, Radio &amp; Machine Workers of America (UE), while 912 students (34 percent) voted against the union.</p>
+<p>We are grateful to the many members of our community, on all sides of the debate, who have engaged constructively and respectfully in this conversation. Throughout this process, we have been heartened by our community’s clear commitment to the well-being and success of our students.</p>
+<p>Indeed, as we wrote to you during this campaign: We agree that there are areas where MIT can improve, and we share many of the same goals as the MIT Graduate Student Union. With the election outcome now clear, we will continue to work alongside you to improve MIT for all of our students. And we congratulate the current and past members of the MIT GSU on their four years of dedicated work that culminated in this election.</p>
+<p>In light of the outcome of this vote, in the coming months, MIT’s representatives expect to meet with MIT GSU and UE leaders to begin good-faith negotiations over the terms and conditions of employment for the members of this bargaining unit.</p>
+<p>Of course, the Institute must serve all of its students, in every school and academic program. MIT has 12,000 students, and the union will represent less than one-third of them. We will continue to uphold our responsibility to every student, both those who are represented by the union and those who are not.</p>
+<p>Students are at the heart of MIT, and all of us who lead the Institute are dedicated to ensuring that every student benefits from every opportunity that our campus has to offer. We look forward to continuing that work together with you.</p>
+<p>Sincerely,</p>
+<p>Melissa Nobles<br />
+Chancellor</p>
+<p>Ian A. Waitz<br />
+Vice Chancellor for Undergraduate and Graduate Education</p>
+</div></div></div>  	</div>
+  	
+      	
+    	    <div class="link-wrapper">
+	        </div>
+	          
+	</div>
+</div>
+
+		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+
+            
+        </div>
+
+        
+      </div>
+    </div> <!-- /content-inner /content -->
+
+
+          <div id="sidebar-first" class="column sidebar first">
+        <div id="sidebar-first-inner" class="inner">
+            <div class="region region-sidebar-first">
+    <div id="block-views-position_sidebar-block_2" class="block block-views block-even clearfix">
+  <div class="block-inner">
+
+                		
+		<div class="content" >
+		  <div class="view view-position-sidebar view-id-position_sidebar view-display-id-block_2 view-dom-id-ccd94a630a5d19e3ad35dca6660c326e">
+        
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first views-row-last">
+      
+  <div class="views-field views-field-field-thumbnail">        <div class="field-content"><a href="https://orgchart.mit.edu/chancellor"><img typeof="foaf:Image" src="../../../sites/default/files/styles/position_sidebar/public/thumbnails/nobles_0.jpg%3Fitok=-aapoa7M" width="154" height="205" alt="" /></a></div>  </div>  
+  <div class="views-field views-field-title">        <span class="field-content"><a href="https://orgchart.mit.edu/chancellor">Home</a></span>  </div>  
+  <div class="views-field views-field-field-biography">        <div class="field-content"><a href="https://orgchart.mit.edu/node/5/biography">Biography</a></div>  </div>  
+  <div class="views-field views-field-nothing-2">        <span class="field-content"><a href="https://orgchart.mit.edu/node/5/letters_to_community" class="letters_to_community">Letters to Community</a></span>  </div>  
+  <div class="views-field views-field-field-pnr">        <div class="field-content"><a href="https://orgchart.mit.edu/node/5/pnr">Projects & Reports</a></div>  </div>  
+  <div class="views-field views-field-field-committees">        <div class="field-content"><a href="https://orgchart.mit.edu/node/5/committees">Committees</a></div>  </div>  
+  <div class="views-field views-field-nothing-1">        <span class="field-content"><a href="https://orgchart.mit.edu/node/5/reporting_list" class="reporting_list">Reporting List</a></span>  </div>  
+  <div class="views-field views-field-field-staff-dir-link">        <div class="field-content"><a href="http://officesdirectory.mit.edu/chancellor" target="_blank">Staff Directory</a></div>  </div>  
+  <div class="views-field views-field-field-custom-1-label">        <div class="field-content"><a href="https://orgchart.mit.edu/node/5/custom_1_body">Office Hours for Students</a></div>  </div>  
+  <div class="views-field views-field-nothing">        <span class="field-content"><a href="https://orgchart.mit.edu/senior-leadership">MIT ORGANIZATION CHART</a></span>  </div>  
+  <div class="views-field views-field-field-rel-link">    <span class="views-label views-label-field-rel-link">Related Links: </span>    <div class="field-content"><p><a href="https://news.mit.edu/2021/melissa-nobles-chancellor-0617" target="_self"><span itemprop="name headline">Melissa Nobles named MIT’s next chancellor</span></a></p>
+</div>  </div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>		</div>
+
+  </div>
+</div> <!-- /block-inner /block -->  </div>
+        </div>
+      </div>
+     <!-- /sidebar-first -->
+
+     <!-- /sidebar-second -->
+
+  <!-- ______________________ FOOTER _______________________ -->
+
+	
+  </div> <!-- /main -->
+
+
+</div> <!-- /page -->  <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ab0374a39e","applicationID":"184779326","transactionName":"Z1QGZBZQVkNYU0YNWV4eJVMQWFdeFl5dAFNvQQVXAW5OWVxH","queueTime":0,"applicationTime":1017,"atts":"SxMFEl5KRU0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
