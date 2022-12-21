@@ -1,0 +1,102 @@
+/* Use this stylesheet for print styles only. */
+
+
+* {
+  background-color: transparent;
+}
+
+#block-block-2,
+#logo-box,
+#header-region,
+#top-lines,
+.region-page-top,
+#navigation,
+#header-region,
+#search-theme-form,
+.breadcrumb,
+.tabs,
+.feed-icon,
+.links {
+	display: none;
+}
+
+#page {
+	width: 100%;
+}
+
+#content,
+#content #content-inner,
+.content,
+.title {
+	margin: 20px 0;
+	width: auto;
+}
+
+a:hover, a:active, a:link, a:visited {
+	color: black;
+}
+
+/* CSS2 selector to add visible href after links.  
+#content a:link:after, #content a:visited:after {
+	content: " (" attr(href) ") ";
+	font-size: 0.8em;
+	font-weight: normal;
+} */
+
+#chart_print_message {
+  display: block;
+  margin-left: 15px;
+}
+
+#chart_page_normal {
+  display: none;
+}
+
+/*-------NODE TYPE POSITION---------------*/
+.node-type-position #highlight .view-content {
+  padding: 0;
+  margin: 0;
+}
+
+
+.node-type-position #highlight .views-field-title span {
+  padding: 0 0 0 40px;
+}
+
+/*  Make sure backround image is not takeing up space  */
+.node-type-position #main {
+  background: none;
+}
+
+.node-type-position #content-inner {
+  position: absolute;
+  top:  90px; 
+  left: 188px;
+}
+
+.node-type-position .field-content a:link {
+  color: #990F0F;
+
+.page-node-letters-to-community #block-views-letters_to_community-block {
+  position: absolute;
+  top:  0px; 
+  left: 188px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
