@@ -1142,35 +1142,55 @@ main {
 -------------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------- */
 .accordion h4 {
-  margin: 0  0 25px;
   cursor: pointer;
   font-family: "Inter", sans-serif;
-  color: #333; }
-
+  color: #333;
+  padding-right: 40px;
+  padding-top: 30px;
+  margin: 0; }
+  @media screen and (min-width: 768px) {
+    .accordion h4 {
+      padding-right: 100px; } }
 .accordion .text {
   display: none;
-  padding: 1px 0; }
+  padding: 1px 0;
+  padding-right: 40px; }
+  @media screen and (min-width: 768px) {
+    .accordion .text {
+      padding-right: 100px; } }
   .accordion .text p {
-    margin: 0 0 20px;
-    font-size: 18px; }
+    margin: 30px 0 0; }
+
+.accordion .options {
+  text-align: right; }
+
+.accordion .show-all {
+  background: linear-gradient(transparent calc(100% - 2px), #ED009B 0);
+  cursor: pointer;
+  font-size: 16px; }
+  .accordion .show-all:hover {
+    color: #ED009B; }
+
+.accordion .close-all {
+  display: none;
+  background: linear-gradient(transparent calc(100% - 2px), #ED009B 0);
+  cursor: pointer;
+  font-size: 16px; }
+  .accordion .close-all:hover {
+    color: #ED009B; }
 
 .accordion .row {
   border-bottom: 1px solid #333333;
-  background: url(../img/accordion-down.svg) no-repeat top 25px right;
-  padding-right: 40px;
-  padding-top: 30px;
-  padding-bottom: 5px; }
-  @media screen and (min-width: 768px) {
-    .accordion .row {
-      padding-right: 100px; } }
+  padding-bottom: 30px;
+  background: url(../img/accordion-down.svg) no-repeat top 25px right; }
   .accordion .row.active {
     background: url(../img/accordion-up.svg) no-repeat top 25px right; }
 
-.accordion .row-1 .text {
-  display: block; }
-
-.accordion a:hover {
-  text-decoration: none; }
+.accordion a {
+  text-decoration: none;
+  background: linear-gradient(transparent calc(100% - 2px), #ED009B 0); }
+  .accordion a:hover {
+    color: #ED009B; }
 
 /* Bios Styles
 -------------------------------------------------------------------------------------
