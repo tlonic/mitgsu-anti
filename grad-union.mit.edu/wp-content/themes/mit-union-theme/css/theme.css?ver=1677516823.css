@@ -916,6 +916,12 @@ header nav {
     #red header nav > ul > li.current-menu-item > a, #red header nav > ul > li.current-menu-parent > a, #red header nav > ul > li.current-page-ancestor > a {
       color: #333333;
       border-bottom: 3px solid #A31F34; } }
+#light-red header nav > ul > li.current-menu-item > a, #light-red header nav > ul > li.current-menu-parent > a, #light-red header nav > ul > li.current-page-ancestor > a {
+  color: #ff3b00; }
+  @media screen and (min-width: 1024px) {
+    #light-red header nav > ul > li.current-menu-item > a, #light-red header nav > ul > li.current-menu-parent > a, #light-red header nav > ul > li.current-page-ancestor > a {
+      color: #333333;
+      border-bottom: 3px solid #ff3b00; } }
 #default header nav > ul > li.current-menu-item > a, #default header nav > ul > li.current-menu-parent > a, #default header nav > ul > li.current-page-ancestor > a {
   color: #333333; }
   @media screen and (min-width: 1024px) {
@@ -1367,9 +1373,9 @@ main {
     @media screen and (min-width: 1024px) {
       .links.content-module .link-block {
         -webkit-box-flex: 0;
-            -ms-flex: 0 1 25%;
-                flex: 0 1 25%;
-        max-width: 25%;
+            -ms-flex: 0 1 20%;
+                flex: 0 1 20%;
+        max-width: 20%;
         padding: 0 20px; } }
     .links.content-module .link-block > div {
       background: #F2F2F2;
@@ -1387,6 +1393,10 @@ main {
         transition: .15s linear; }
       .links.content-module .link-block > div:hover:before {
         width: calc(100% - 40px); }
+    .links.content-module .link-block.red > div:before {
+      background-color: #A31F34; }
+    .links.content-module .link-block.light-red > div:before {
+      background-color: #ff3b00; }
     .links.content-module .link-block.purple > div:before {
       background-color: #9606C5; }
     .links.content-module .link-block.pink > div:before {
@@ -1442,6 +1452,11 @@ main {
   background: linear-gradient(transparent calc(100% - 2px), #A31F34 0); }
   .post-type.red a:hover {
     color: #A31F34; }
+
+.post-type.light-red a {
+  background: linear-gradient(transparent calc(100% - 2px), #ff3b00 0); }
+  .post-type.light-red a:hover {
+    color: #ff3b00; }
 
 .post-type.purple a {
   background: linear-gradient(transparent calc(100% - 2px), #9606C5 0); }
@@ -1585,7 +1600,7 @@ main {
     color: #6C5530; }
 
 .text-block.red blockquote {
-  border-left: 5px solid #6C5530; }
+  border-left: 5px solid #A31F34; }
 
 .text-block.red ul li:before {
   color: #A31F34; }
@@ -1594,6 +1609,17 @@ main {
   background: linear-gradient(transparent calc(100% - 2px), #A31F34 0); }
   .text-block.red a:hover {
     color: #A31F34; }
+
+.text-block.light-red blockquote {
+  border-left: 5px solid #ff3b00; }
+
+.text-block.light-red ul li:before {
+  color: #ff3b00; }
+
+.text-block.light-red a {
+  background: linear-gradient(transparent calc(100% - 2px), #ff3b00 0); }
+  .text-block.light-red a:hover {
+    color: #ff3b00; }
 
 .text-block.default blockquote {
   border-left: 5px solid #333333; }
@@ -1676,22 +1702,30 @@ main {
     background-color: #F2F2F2;
     max-width: 700px;
     margin: 0 auto;
-    padding: 30px 30px 10px;
     -webkit-box-shadow: 0 2px 4px 0 #7C7C7C;
             box-shadow: 0 2px 4px 0 #7C7C7C;
-    position: relative; }
+    position: relative;
+    max-height: 80%;
+    padding: 50px 0px 50px; }
     @media screen and (min-width: 768px) {
       .modal .question {
-        padding: 50px 50px 30px; } }
+        padding: 50px 0px 50px; } }
     .modal .question > div {
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-align: start;
-          -ms-flex-align: start;
-              align-items: flex-start; }
+      height: 100%;
+      overflow-y: scroll;
+      padding: 0px 30px 0px; }
+      @media screen and (min-width: 768px) {
+        .modal .question > div {
+          padding: 0px 50px 0px; } }
       .modal .question > div > div {
-        padding-left: 10px; }
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+            -ms-flex-align: start;
+                align-items: flex-start; }
+        .modal .question > div > div > div {
+          padding-left: 10px; }
     .modal .question h3 {
       margin-top: 0; }
     .modal .question strong {
@@ -1767,3 +1801,17 @@ main {
   background: linear-gradient(transparent calc(100% - 2px), #00B17A 0); }
   .single.single-updates article a:hover {
     color: #00B17A; }
+
+.single.single-issues .breadcrumbs .main > div:before {
+  background-color: #ff3b00; }
+
+.single.single-issues article blockquote {
+  border-left: 5px solid #ff3b00; }
+
+.single.single-issues article ul li:before {
+  color: #ff3b00; }
+
+.single.single-issues article a {
+  background: linear-gradient(transparent calc(100% - 2px), #ff3b00 0); }
+  .single.single-issues article a:hover {
+    color: #ff3b00; }
