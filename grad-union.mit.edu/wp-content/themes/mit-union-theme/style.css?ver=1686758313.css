@@ -1,0 +1,26 @@
+/*
+ Theme Name:   MIT Union Theme
+ Description:  Skeleton Child Theme, child theme of NS Core Theme
+ Author:       North Street Creative
+ Author URI:   https://northstreetcreative.com/
+ Template:     ns-core-theme
+ Version:      0.1.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, right-sidebar, accessibility-ready
+ Text Domain:  proxy-theme
+*/
+
+.hero.content-module{
+    background-color: #F2F2F2 !important;
+    margin: 0 0;
+}
+
+.hero.content-module a{
+    background: linear-gradient(transparent calc(100% - 2px), #A31F34 0) !important;
+    text-decoration:none;
+}
+
+.hero.content-module a:hover{
+    color: #A31F34;
+}
