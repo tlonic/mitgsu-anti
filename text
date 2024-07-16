@@ -3552,10 +3552,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
 
    Q.
 
@@ -5621,8 +5621,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -5708,8 +5708,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -5788,8 +5788,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -5898,8 +5898,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6010,8 +6010,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6130,8 +6130,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6224,8 +6224,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6327,8 +6327,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6460,8 +6460,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6579,8 +6579,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6735,8 +6735,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -6929,8 +6929,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -7024,8 +7024,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -7135,8 +7135,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -7251,8 +7251,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -7359,8 +7359,8 @@ References
    Link: [5]preconnect
    Link: [6]https://api.w.org/
    Link: [7]RSD (EditURI)
-   Link: [8]alternate
-   Link: [9]alternate
+   Link: [8]oEmbed (JSON) (alternate)
+   Link: [9]oEmbed (XML) (alternate)
    [10]Skip to content
 
                        [11]Graduate Student Unionization
@@ -7550,10 +7550,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
 
    Q.
 
@@ -7668,10 +7668,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
 
   Question of the Day
 
@@ -7944,10 +7944,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
    [11]Skip to content
 
                               Negotiation Updates
@@ -8221,10 +8221,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
 
    Q.
 
@@ -8363,10 +8363,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
 
    Q.
 
@@ -9440,10 +9440,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
    [11]Skip to content
 
                               Negotiation Updates
@@ -9771,10 +9771,10 @@ References
    Link: [4]canonical
    Link: [5]preconnect
    Link: [6]https://api.w.org/
-   Link: [7]alternate
+   Link: [7]JSON (alternate)
    Link: [8]RSD (EditURI)
-   Link: [9]alternate
-   Link: [10]alternate
+   Link: [9]oEmbed (JSON) (alternate)
+   Link: [10]oEmbed (XML) (alternate)
 
    Q.
 
