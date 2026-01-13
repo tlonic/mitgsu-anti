@@ -1,38 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
 <head>
-	<meta charset="UTF-8" /><script type="text/javascript">(window.NREUM||(NREUM={})).init={ajax:{deny_list:["bam.nr-data.net"]},feature_flags:["soft_nav"]};(window.NREUM||(NREUM={})).loader_config={licenseKey:"ab0374a39e",applicationID:"639669107",browserID:"639669133"};;/*! For license information please see nr-loader-rum-1.303.0.min.js.LICENSE.txt */
-(()=>{var e,t,r={122:(e,t,r)=>{"use strict";r.d(t,{a:()=>i});var n=r(944);function i(e,t){try{if(!e||"object"!=typeof e)return(0,n.R)(3);if(!t||"object"!=typeof t)return(0,n.R)(4);const r=Object.create(Object.getPrototypeOf(t),Object.getOwnPropertyDescriptors(t)),a=0===Object.keys(r).length?e:r;for(let o in a)if(void 0!==e[o])try{if(null===e[o]){r[o]=null;continue}Array.isArray(e[o])&&Array.isArray(t[o])?r[o]=Array.from(new Set([...e[o],...t[o]])):"object"==typeof e[o]&&"object"==typeof t[o]?r[o]=i(e[o],t[o]):r[o]=e[o]}catch(e){r[o]||(0,n.R)(1,e)}return r}catch(e){(0,n.R)(2,e)}}},154:(e,t,r)=>{"use strict";r.d(t,{OF:()=>c,RI:()=>i,WN:()=>u,bv:()=>a,gm:()=>o,mw:()=>s,sb:()=>d});var n=r(863);const i="undefined"!=typeof window&&!!window.document,a="undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self.navigator instanceof WorkerNavigator||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis.navigator instanceof WorkerNavigator),o=i?window:"undefined"!=typeof WorkerGlobalScope&&("undefined"!=typeof self&&self instanceof WorkerGlobalScope&&self||"undefined"!=typeof globalThis&&globalThis instanceof WorkerGlobalScope&&globalThis),s=Boolean("hidden"===o?.document?.visibilityState),c=/iPad|iPhone|iPod/.test(o.navigator?.userAgent),d=c&&"undefined"==typeof SharedWorker,u=((()=>{const e=o.navigator?.userAgent?.match(/Firefox[/\s](\d+\.\d+)/);Array.isArray(e)&&e.length>=2&&e[1]})(),Date.now()-(0,n.t)())},163:(e,t,r)=>{"use strict";r.d(t,{j:()=>E});var n=r(384),i=r(741);var a=r(555);r(860).K7.genericEvents;const o="experimental.resources",s="register",c=e=>{if(!e||"string"!=typeof e)return!1;try{document.createDocumentFragment().querySelector(e)}catch{return!1}return!0};var d=r(614),u=r(944),l=r(122);const f="[data-nr-mask]",g=e=>(0,l.a)(e,(()=>{const e={feature_flags:[],experimental:{allow_registered_children:!1,resources:!1},mask_selector:"*",block_selector:"[data-nr-block]",mask_input_options:{color:!1,date:!1,"datetime-local":!1,email:!1,month:!1,number:!1,range:!1,search:!1,tel:!1,text:!1,time:!1,url:!1,week:!1,textarea:!1,select:!1,password:!0}};return{ajax:{deny_list:void 0,block_internal:!0,enabled:!0,autoStart:!0},api:{get allow_registered_children(){return e.feature_flags.includes(s)||e.experimental.allow_registered_children},set allow_registered_children(t){e.experimental.allow_registered_children=t},duplicate_registered_data:!1},browser_consent_mode:{enabled:!1},distributed_tracing:{enabled:void 0,exclude_newrelic_header:void 0,cors_use_newrelic_header:void 0,cors_use_tracecontext_headers:void 0,allowed_origins:void 0},get feature_flags(){return e.feature_flags},set feature_flags(t){e.feature_flags=t},generic_events:{enabled:!0,autoStart:!0},harvest:{interval:30},jserrors:{enabled:!0,autoStart:!0},logging:{enabled:!0,autoStart:!0},metrics:{enabled:!0,autoStart:!0},obfuscate:void 0,page_action:{enabled:!0},page_view_event:{enabled:!0,autoStart:!0},page_view_timing:{enabled:!0,autoStart:!0},performance:{capture_marks:!1,capture_measures:!1,capture_detail:!0,resources:{get enabled(){return e.feature_flags.includes(o)||e.experimental.resources},set enabled(t){e.experimental.resources=t},asset_types:[],first_party_domains:[],ignore_newrelic:!0}},privacy:{cookies_enabled:!0},proxy:{assets:void 0,beacon:void 0},session:{expiresMs:d.wk,inactiveMs:d.BB},session_replay:{autoStart:!0,enabled:!1,preload:!1,sampling_rate:10,error_sampling_rate:100,collect_fonts:!1,inline_images:!1,fix_stylesheets:!0,mask_all_inputs:!0,get mask_text_selector(){return e.mask_selector},set mask_text_selector(t){c(t)?e.mask_selector="".concat(t,",").concat(f):""===t||null===t?e.mask_selector=f:(0,u.R)(5,t)},get block_class(){return"nr-block"},get ignore_class(){return"nr-ignore"},get mask_text_class(){return"nr-mask"},get block_selector(){return e.block_selector},set block_selector(t){c(t)?e.block_selector+=",".concat(t):""!==t&&(0,u.R)(6,t)},get mask_input_options(){return e.mask_input_options},set mask_input_options(t){t&&"object"==typeof t?e.mask_input_options={...t,password:!0}:(0,u.R)(7,t)}},session_trace:{enabled:!0,autoStart:!0},soft_navigations:{enabled:!0,autoStart:!0},spa:{enabled:!0,autoStart:!0},ssl:void 0,user_actions:{enabled:!0,elementAttributes:["id","className","tagName","type"]}}})());var p=r(154),h=r(324);let m=0;const v={buildEnv:h.F3,distMethod:h.Xs,version:h.xv,originTime:p.WN},b={consented:!1},y={appMetadata:{},get consented(){return this.session?.state?.consent||b.consented},set consented(e){b.consented=e},customTransaction:void 0,denyList:void 0,disabled:!1,harvester:void 0,isolatedBacklog:!1,isRecording:!1,loaderType:void 0,maxBytes:3e4,obfuscator:void 0,onerror:void 0,ptid:void 0,releaseIds:{},session:void 0,timeKeeper:void 0,registeredEntities:[],jsAttributesMetadata:{bytes:0},get harvestCount(){return++m}},_=e=>{const t=(0,l.a)(e,y),r=Object.keys(v).reduce((e,t)=>(e[t]={value:v[t],writable:!1,configurable:!0,enumerable:!0},e),{});return Object.defineProperties(t,r)};var w=r(701);const x=e=>{const t=e.startsWith("http");e+="/",r.p=t?e:"https://"+e};var S=r(836),k=r(241);const R={accountID:void 0,trustKey:void 0,agentID:void 0,licenseKey:void 0,applicationID:void 0,xpid:void 0},A=e=>(0,l.a)(e,R),T=new Set;function E(e,t={},r,o){let{init:s,info:c,loader_config:d,runtime:u={},exposed:l=!0}=t;if(!c){const e=(0,n.pV)();s=e.init,c=e.info,d=e.loader_config}e.init=g(s||{}),e.loader_config=A(d||{}),c.jsAttributes??={},p.bv&&(c.jsAttributes.isWorker=!0),e.info=(0,a.D)(c);const f=e.init,h=[c.beacon,c.errorBeacon];T.has(e.agentIdentifier)||(f.proxy.assets&&(x(f.proxy.assets),h.push(f.proxy.assets)),f.proxy.beacon&&h.push(f.proxy.beacon),e.beacons=[...h],function(e){const t=(0,n.pV)();Object.getOwnPropertyNames(i.W.prototype).forEach(r=>{const n=i.W.prototype[r];if("function"!=typeof n||"constructor"===n)return;let a=t[r];e[r]&&!1!==e.exposed&&"micro-agent"!==e.runtime?.loaderType&&(t[r]=(...t)=>{const n=e[r](...t);return a?a(...t):n})})}(e),(0,n.US)("activatedFeatures",w.B),e.runSoftNavOverSpa&&=!0===f.soft_navigations.enabled&&f.feature_flags.includes("soft_nav")),u.denyList=[...f.ajax.deny_list||[],...f.ajax.block_internal?h:[]],u.ptid=e.agentIdentifier,u.loaderType=r,e.runtime=_(u),T.has(e.agentIdentifier)||(e.ee=S.ee.get(e.agentIdentifier),e.exposed=l,(0,k.W)({agentIdentifier:e.agentIdentifier,drained:!!w.B?.[e.agentIdentifier],type:"lifecycle",name:"initialize",feature:void 0,data:e.config})),T.add(e.agentIdentifier)}},234:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(836),i=r(687);class a{constructor(e,t){this.agentIdentifier=e,this.ee=n.ee.get(e),this.featureName=t,this.blocked=!1}deregisterDrain(){(0,i.x3)(this.agentIdentifier,this.featureName)}}},241:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(154);const i="newrelic";function a(e={}){try{n.gm.dispatchEvent(new CustomEvent(i,{detail:e}))}catch(e){}}},261:(e,t,r)=>{"use strict";r.d(t,{$9:()=>d,BL:()=>s,CH:()=>g,Dl:()=>_,Fw:()=>y,PA:()=>m,Pl:()=>n,Pv:()=>k,Tb:()=>l,U2:()=>a,V1:()=>S,Wb:()=>x,bt:()=>b,cD:()=>v,d3:()=>w,dT:()=>c,eY:()=>p,fF:()=>f,hG:()=>i,k6:()=>o,nb:()=>h,o5:()=>u});const n="api-",i="addPageAction",a="addToTrace",o="addRelease",s="finished",c="interaction",d="log",u="noticeError",l="pauseReplay",f="recordCustomEvent",g="recordReplay",p="register",h="setApplicationVersion",m="setCurrentRouteName",v="setCustomAttribute",b="setErrorHandler",y="setPageViewName",_="setUserId",w="start",x="wrapLogger",S="measure",k="consent"},289:(e,t,r)=>{"use strict";r.d(t,{GG:()=>a,Qr:()=>s,sB:()=>o});var n=r(878);function i(){return"undefined"==typeof document||"complete"===document.readyState}function a(e,t){if(i())return e();(0,n.sp)("load",e,t)}function o(e){if(i())return e();(0,n.DD)("DOMContentLoaded",e)}function s(e){if(i())return e();(0,n.sp)("popstate",e)}},324:(e,t,r)=>{"use strict";r.d(t,{F3:()=>i,Xs:()=>a,xv:()=>n});const n="1.303.0",i="PROD",a="CDN"},374:(e,t,r)=>{r.nc=(()=>{try{return document?.currentScript?.nonce}catch(e){}return""})()},384:(e,t,r)=>{"use strict";r.d(t,{NT:()=>o,US:()=>u,Zm:()=>s,bQ:()=>d,dV:()=>c,pV:()=>l});var n=r(154),i=r(863),a=r(910);const o={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net"};function s(){return n.gm.NREUM||(n.gm.NREUM={}),void 0===n.gm.newrelic&&(n.gm.newrelic=n.gm.NREUM),n.gm.NREUM}function c(){let e=s();return e.o||(e.o={ST:n.gm.setTimeout,SI:n.gm.setImmediate||n.gm.setInterval,CT:n.gm.clearTimeout,XHR:n.gm.XMLHttpRequest,REQ:n.gm.Request,EV:n.gm.Event,PR:n.gm.Promise,MO:n.gm.MutationObserver,FETCH:n.gm.fetch,WS:n.gm.WebSocket},(0,a.i)(...Object.values(e.o))),e}function d(e,t){let r=s();r.initializedAgents??={},t.initializedAt={ms:(0,i.t)(),date:new Date},r.initializedAgents[e]=t}function u(e,t){s()[e]=t}function l(){return function(){let e=s();const t=e.info||{};e.info={beacon:o.beacon,errorBeacon:o.errorBeacon,...t}}(),function(){let e=s();const t=e.init||{};e.init={...t}}(),c(),function(){let e=s();const t=e.loader_config||{};e.loader_config={...t}}(),s()}},389:(e,t,r)=>{"use strict";function n(e,t=500,r={}){const n=r?.leading||!1;let i;return(...r)=>{n&&void 0===i&&(e.apply(this,r),i=setTimeout(()=>{i=clearTimeout(i)},t)),n||(clearTimeout(i),i=setTimeout(()=>{e.apply(this,r)},t))}}function i(e){let t=!1;return(...r)=>{t||(t=!0,e.apply(this,r))}}r.d(t,{J:()=>i,s:()=>n})},555:(e,t,r)=>{"use strict";r.d(t,{D:()=>s,f:()=>o});var n=r(384),i=r(122);const a={beacon:n.NT.beacon,errorBeacon:n.NT.errorBeacon,licenseKey:void 0,applicationID:void 0,sa:void 0,queueTime:void 0,applicationTime:void 0,ttGuid:void 0,user:void 0,account:void 0,product:void 0,extra:void 0,jsAttributes:{},userAttributes:void 0,atts:void 0,transactionName:void 0,tNamePlain:void 0};function o(e){try{return!!e.licenseKey&&!!e.errorBeacon&&!!e.applicationID}catch(e){return!1}}const s=e=>(0,i.a)(e,a)},566:(e,t,r)=>{"use strict";r.d(t,{LA:()=>s,bz:()=>o});var n=r(154);const i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx";function a(e,t){return e?15&e[t]:16*Math.random()|0}function o(){const e=n.gm?.crypto||n.gm?.msCrypto;let t,r=0;return e&&e.getRandomValues&&(t=e.getRandomValues(new Uint8Array(30))),i.split("").map(e=>"x"===e?a(t,r++).toString(16):"y"===e?(3&a()|8).toString(16):e).join("")}function s(e){const t=n.gm?.crypto||n.gm?.msCrypto;let r,i=0;t&&t.getRandomValues&&(r=t.getRandomValues(new Uint8Array(e)));const o=[];for(var s=0;s<e;s++)o.push(a(r,i++).toString(16));return o.join("")}},606:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(908);a.on=o;var i=a.handlers={};function a(e,t,r,a){o(a||n.d,i,e,t,r)}function o(e,t,r,i,a){a||(a="feature"),e||(e=n.d);var o=t[a]=t[a]||{};(o[r]=o[r]||[]).push([e,i])}},607:(e,t,r)=>{"use strict";r.d(t,{W:()=>n});const n=(0,r(566).bz)()},614:(e,t,r)=>{"use strict";r.d(t,{BB:()=>o,H3:()=>n,g:()=>d,iL:()=>c,tS:()=>s,uh:()=>i,wk:()=>a});const n="NRBA",i="SESSION",a=144e5,o=18e5,s={STARTED:"session-started",PAUSE:"session-pause",RESET:"session-reset",RESUME:"session-resume",UPDATE:"session-update"},c={SAME_TAB:"same-tab",CROSS_TAB:"cross-tab"},d={OFF:0,FULL:1,ERROR:2}},630:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewEvent},646:(e,t,r)=>{"use strict";r.d(t,{y:()=>n});class n{constructor(e){this.contextId=e}}},687:(e,t,r)=>{"use strict";r.d(t,{Ak:()=>d,Ze:()=>f,x3:()=>u});var n=r(241),i=r(836),a=r(606),o=r(860),s=r(646);const c={};function d(e,t){const r={staged:!1,priority:o.P3[t]||0};l(e),c[e].get(t)||c[e].set(t,r)}function u(e,t){e&&c[e]&&(c[e].get(t)&&c[e].delete(t),p(e,t,!1),c[e].size&&g(e))}function l(e){if(!e)throw new Error("agentIdentifier required");c[e]||(c[e]=new Map)}function f(e="",t="feature",r=!1){if(l(e),!e||!c[e].get(t)||r)return p(e,t);c[e].get(t).staged=!0,g(e)}function g(e){const t=Array.from(c[e]);t.every(([e,t])=>t.staged)&&(t.sort((e,t)=>e[1].priority-t[1].priority),t.forEach(([t])=>{c[e].delete(t),p(e,t)}))}function p(e,t,r=!0){const o=e?i.ee.get(e):i.ee,c=a.i.handlers;if(!o.aborted&&o.backlog&&c){if((0,n.W)({agentIdentifier:e,type:"lifecycle",name:"drain",feature:t}),r){const e=o.backlog[t],r=c[t];if(r){for(let t=0;e&&t<e.length;++t)h(e[t],r);Object.entries(r).forEach(([e,t])=>{Object.values(t||{}).forEach(t=>{t[0]?.on&&t[0]?.context()instanceof s.y&&t[0].on(e,t[1])})})}}o.isolatedBacklog||delete c[t],o.backlog[t]=null,o.emit("drain-"+t,[])}}function h(e,t){var r=e[1];Object.values(t[r]||{}).forEach(t=>{var r=e[0];if(t[0]===r){var n=t[1],i=e[3],a=e[2];n.apply(i,a)}})}},699:(e,t,r)=>{"use strict";r.d(t,{It:()=>a,KC:()=>s,No:()=>i,qh:()=>o});var n=r(860);const i=16e3,a=1e6,o="SESSION_ERROR",s={[n.K7.logging]:!0,[n.K7.genericEvents]:!1,[n.K7.jserrors]:!1,[n.K7.ajax]:!1}},701:(e,t,r)=>{"use strict";r.d(t,{B:()=>a,t:()=>o});var n=r(241);const i=new Set,a={};function o(e,t){const r=t.agentIdentifier;a[r]??={},e&&"object"==typeof e&&(i.has(r)||(t.ee.emit("rumresp",[e]),a[r]=e,i.add(r),(0,n.W)({agentIdentifier:r,loaded:!0,drained:!0,type:"lifecycle",name:"load",feature:void 0,data:e})))}},741:(e,t,r)=>{"use strict";r.d(t,{W:()=>a});var n=r(944),i=r(261);class a{#e(e,...t){if(this[e]!==a.prototype[e])return this[e](...t);(0,n.R)(35,e)}addPageAction(e,t){return this.#e(i.hG,e,t)}register(e){return this.#e(i.eY,e)}recordCustomEvent(e,t){return this.#e(i.fF,e,t)}setPageViewName(e,t){return this.#e(i.Fw,e,t)}setCustomAttribute(e,t,r){return this.#e(i.cD,e,t,r)}noticeError(e,t){return this.#e(i.o5,e,t)}setUserId(e){return this.#e(i.Dl,e)}setApplicationVersion(e){return this.#e(i.nb,e)}setErrorHandler(e){return this.#e(i.bt,e)}addRelease(e,t){return this.#e(i.k6,e,t)}log(e,t){return this.#e(i.$9,e,t)}start(){return this.#e(i.d3)}finished(e){return this.#e(i.BL,e)}recordReplay(){return this.#e(i.CH)}pauseReplay(){return this.#e(i.Tb)}addToTrace(e){return this.#e(i.U2,e)}setCurrentRouteName(e){return this.#e(i.PA,e)}interaction(e){return this.#e(i.dT,e)}wrapLogger(e,t,r){return this.#e(i.Wb,e,t,r)}measure(e,t){return this.#e(i.V1,e,t)}consent(e){return this.#e(i.Pv,e)}}},773:(e,t,r)=>{"use strict";r.d(t,{z_:()=>a,XG:()=>s,TZ:()=>n,rs:()=>i,xV:()=>o});r(154),r(566),r(384);const n=r(860).K7.metrics,i="sm",a="cm",o="storeSupportabilityMetrics",s="storeEventMetrics"},782:(e,t,r)=>{"use strict";r.d(t,{T:()=>n});const n=r(860).K7.pageViewTiming},836:(e,t,r)=>{"use strict";r.d(t,{P:()=>s,ee:()=>c});var n=r(384),i=r(990),a=r(646),o=r(607);const s="nr@context:".concat(o.W),c=function e(t,r){var n={},o={},u={},l=!1;try{l=16===r.length&&d.initializedAgents?.[r]?.runtime.isolatedBacklog}catch(e){}var f={on:p,addEventListener:p,removeEventListener:function(e,t){var r=n[e];if(!r)return;for(var i=0;i<r.length;i++)r[i]===t&&r.splice(i,1)},emit:function(e,r,n,i,a){!1!==a&&(a=!0);if(c.aborted&&!i)return;t&&a&&t.emit(e,r,n);var s=g(n);h(e).forEach(e=>{e.apply(s,r)});var d=v()[o[e]];d&&d.push([f,e,r,s]);return s},get:m,listeners:h,context:g,buffer:function(e,t){const r=v();if(t=t||"feature",f.aborted)return;Object.entries(e||{}).forEach(([e,n])=>{o[n]=t,t in r||(r[t]=[])})},abort:function(){f._aborted=!0,Object.keys(f.backlog).forEach(e=>{delete f.backlog[e]})},isBuffering:function(e){return!!v()[o[e]]},debugId:r,backlog:l?{}:t&&"object"==typeof t.backlog?t.backlog:{},isolatedBacklog:l};return Object.defineProperty(f,"aborted",{get:()=>{let e=f._aborted||!1;return e||(t&&(e=t.aborted),e)}}),f;function g(e){return e&&e instanceof a.y?e:e?(0,i.I)(e,s,()=>new a.y(s)):new a.y(s)}function p(e,t){n[e]=h(e).concat(t)}function h(e){return n[e]||[]}function m(t){return u[t]=u[t]||e(f,t)}function v(){return f.backlog}}(void 0,"globalEE"),d=(0,n.Zm)();d.ee||(d.ee=c)},843:(e,t,r)=>{"use strict";r.d(t,{u:()=>i});var n=r(878);function i(e,t=!1,r,i){(0,n.DD)("visibilitychange",function(){if(t)return void("hidden"===document.visibilityState&&e());e(document.visibilityState)},r,i)}},860:(e,t,r)=>{"use strict";r.d(t,{$J:()=>u,K7:()=>c,P3:()=>d,XX:()=>i,Yy:()=>s,df:()=>a,qY:()=>n,v4:()=>o});const n="events",i="jserrors",a="browser/blobs",o="rum",s="browser/logs",c={ajax:"ajax",genericEvents:"generic_events",jserrors:i,logging:"logging",metrics:"metrics",pageAction:"page_action",pageViewEvent:"page_view_event",pageViewTiming:"page_view_timing",sessionReplay:"session_replay",sessionTrace:"session_trace",softNav:"soft_navigations",spa:"spa"},d={[c.pageViewEvent]:1,[c.pageViewTiming]:2,[c.metrics]:3,[c.jserrors]:4,[c.spa]:5,[c.ajax]:6,[c.sessionTrace]:7,[c.softNav]:8,[c.sessionReplay]:9,[c.logging]:10,[c.genericEvents]:11},u={[c.pageViewEvent]:o,[c.pageViewTiming]:n,[c.ajax]:n,[c.spa]:n,[c.softNav]:n,[c.metrics]:i,[c.jserrors]:i,[c.sessionTrace]:a,[c.sessionReplay]:a,[c.logging]:s,[c.genericEvents]:"ins"}},863:(e,t,r)=>{"use strict";function n(){return Math.floor(performance.now())}r.d(t,{t:()=>n})},878:(e,t,r)=>{"use strict";function n(e,t){return{capture:e,passive:!1,signal:t}}function i(e,t,r=!1,i){window.addEventListener(e,t,n(r,i))}function a(e,t,r=!1,i){document.addEventListener(e,t,n(r,i))}r.d(t,{DD:()=>a,jT:()=>n,sp:()=>i})},908:(e,t,r)=>{"use strict";r.d(t,{d:()=>n,p:()=>i});var n=r(836).ee.get("handle");function i(e,t,r,i,a){a?(a.buffer([e],i),a.emit(e,t,r)):(n.buffer([e],i),n.emit(e,t,r))}},910:(e,t,r)=>{"use strict";r.d(t,{i:()=>a});var n=r(944);const i=new Map;function a(...e){return e.every(e=>{if(i.has(e))return i.get(e);const t="function"==typeof e&&e.toString().includes("[native code]");return t||(0,n.R)(64,e?.name||e?.toString()),i.set(e,t),t})}},944:(e,t,r)=>{"use strict";r.d(t,{R:()=>i});var n=r(241);function i(e,t){"function"==typeof console.debug&&(console.debug("New Relic Warning: https://github.com/newrelic/newrelic-browser-agent/blob/main/docs/warning-codes.md#".concat(e),t),(0,n.W)({agentIdentifier:null,drained:null,type:"data",name:"warn",feature:"warn",data:{code:e,secondary:t}}))}},990:(e,t,r)=>{"use strict";r.d(t,{I:()=>i});var n=Object.prototype.hasOwnProperty;function i(e,t,r){if(n.call(e,t))return e[t];var i=r();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:i,writable:!0,enumerable:!1}),i}catch(e){}return e[t]=i,i}}},n={};function i(e){var t=n[e];if(void 0!==t)return t.exports;var a=n[e]={exports:{}};return r[e](a,a.exports,i),a.exports}i.m=r,i.d=(e,t)=>{for(var r in t)i.o(t,r)&&!i.o(e,r)&&Object.defineProperty(e,r,{enumerable:!0,get:t[r]})},i.f={},i.e=e=>Promise.all(Object.keys(i.f).reduce((t,r)=>(i.f[r](e,t),t),[])),i.u=e=>"nr-rum-1.303.0.min.js",i.o=(e,t)=>Object.prototype.hasOwnProperty.call(e,t),e={},t="NRBA-1.303.0.PROD:",i.l=(r,n,a,o)=>{if(e[r])e[r].push(n);else{var s,c;if(void 0!==a)for(var d=document.getElementsByTagName("script"),u=0;u<d.length;u++){var l=d[u];if(l.getAttribute("src")==r||l.getAttribute("data-webpack")==t+a){s=l;break}}if(!s){c=!0;var f={296:"sha512-DjFbtykbDCyUDGsp+l/dYhH0LhW/Jv9sDnc+aleTRmpV1ZRfyOeip4Sv4USz3Fk0DZCWshsM7d24cTr9Xf3L/A=="};(s=document.createElement("script")).charset="utf-8",i.nc&&s.setAttribute("nonce",i.nc),s.setAttribute("data-webpack",t+a),s.src=r,0!==s.src.indexOf(window.location.origin+"/")&&(s.crossOrigin="anonymous"),f[o]&&(s.integrity=f[o])}e[r]=[n];var g=(t,n)=>{s.onerror=s.onload=null,clearTimeout(p);var i=e[r];if(delete e[r],s.parentNode&&s.parentNode.removeChild(s),i&&i.forEach(e=>e(n)),t)return t(n)},p=setTimeout(g.bind(null,void 0,{type:"timeout",target:s}),12e4);s.onerror=g.bind(null,s.onerror),s.onload=g.bind(null,s.onload),c&&document.head.appendChild(s)}},i.r=e=>{"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.p="https://js-agent.newrelic.com/",(()=>{var e={374:0,840:0};i.f.j=(t,r)=>{var n=i.o(e,t)?e[t]:void 0;if(0!==n)if(n)r.push(n[2]);else{var a=new Promise((r,i)=>n=e[t]=[r,i]);r.push(n[2]=a);var o=i.p+i.u(t),s=new Error;i.l(o,r=>{if(i.o(e,t)&&(0!==(n=e[t])&&(e[t]=void 0),n)){var a=r&&("load"===r.type?"missing":r.type),o=r&&r.target&&r.target.src;s.message="Loading chunk "+t+" failed.\n("+a+": "+o+")",s.name="ChunkLoadError",s.type=a,s.request=o,n[1](s)}},"chunk-"+t,t)}};var t=(t,r)=>{var n,a,[o,s,c]=r,d=0;if(o.some(t=>0!==e[t])){for(n in s)i.o(s,n)&&(i.m[n]=s[n]);if(c)c(i)}for(t&&t(r);d<o.length;d++)a=o[d],i.o(e,a)&&e[a]&&e[a][0](),e[a]=0},r=self["webpackChunk:NRBA-1.303.0.PROD"]=self["webpackChunk:NRBA-1.303.0.PROD"]||[];r.forEach(t.bind(null,0)),r.push=t.bind(null,r.push.bind(r))})(),(()=>{"use strict";i(374);var e=i(566),t=i(741);class r extends t.W{agentIdentifier=(0,e.LA)(16)}var n=i(860);const a=Object.values(n.K7);var o=i(163);var s=i(908),c=i(863),d=i(261),u=i(241),l=i(944),f=i(701),g=i(773);function p(e,t,i,a){const o=a||i;!o||o[e]&&o[e]!==r.prototype[e]||(o[e]=function(){(0,s.p)(g.xV,["API/"+e+"/called"],void 0,n.K7.metrics,i.ee),(0,u.W)({agentIdentifier:i.agentIdentifier,drained:!!f.B?.[i.agentIdentifier],type:"data",name:"api",feature:d.Pl+e,data:{}});try{return t.apply(this,arguments)}catch(e){(0,l.R)(23,e)}})}function h(e,t,r,n,i){const a=e.info;null===r?delete a.jsAttributes[t]:a.jsAttributes[t]=r,(i||null===r)&&(0,s.p)(d.Pl+n,[(0,c.t)(),t,r],void 0,"session",e.ee)}var m=i(687),v=i(234),b=i(289),y=i(154),_=i(384);const w=e=>y.RI&&!0===e?.privacy.cookies_enabled;function x(e){return!!(0,_.dV)().o.MO&&w(e)&&!0===e?.session_trace.enabled}var S=i(389),k=i(699);class R extends v.W{constructor(e,t){super(e.agentIdentifier,t),this.agentRef=e,this.abortHandler=void 0,this.featAggregate=void 0,this.loadedSuccessfully=void 0,this.onAggregateImported=new Promise(e=>{this.loadedSuccessfully=e}),this.deferred=Promise.resolve(),!1===e.init[this.featureName].autoStart?this.deferred=new Promise((t,r)=>{this.ee.on("manual-start-all",(0,S.J)(()=>{(0,m.Ak)(e.agentIdentifier,this.featureName),t()}))}):(0,m.Ak)(e.agentIdentifier,t)}importAggregator(e,t,r={}){if(this.featAggregate)return;const n=async()=>{let n;await this.deferred;try{if(w(e.init)){const{setupAgentSession:t}=await i.e(296).then(i.bind(i,305));n=t(e)}}catch(e){(0,l.R)(20,e),this.ee.emit("internal-error",[e]),(0,s.p)(k.qh,[e],void 0,this.featureName,this.ee)}try{if(!this.#t(this.featureName,n,e.init))return(0,m.Ze)(this.agentIdentifier,this.featureName),void this.loadedSuccessfully(!1);const{Aggregate:i}=await t();this.featAggregate=new i(e,r),e.runtime.harvester.initializedAggregates.push(this.featAggregate),this.loadedSuccessfully(!0)}catch(e){(0,l.R)(34,e),this.abortHandler?.(),(0,m.Ze)(this.agentIdentifier,this.featureName,!0),this.loadedSuccessfully(!1),this.ee&&this.ee.abort()}};y.RI?(0,b.GG)(()=>n(),!0):n()}#t(e,t,r){if(this.blocked)return!1;switch(e){case n.K7.sessionReplay:return x(r)&&!!t;case n.K7.sessionTrace:return!!t;default:return!0}}}var A=i(630),T=i(614);class E extends R{static featureName=A.T;constructor(e){var t;super(e,A.T),this.setupInspectionEvents(e.agentIdentifier),t=e,p(d.Fw,function(e,r){"string"==typeof e&&("/"!==e.charAt(0)&&(e="/"+e),t.runtime.customTransaction=(r||"http://custom.transaction")+e,(0,s.p)(d.Pl+d.Fw,[(0,c.t)()],void 0,void 0,t.ee))},t),this.importAggregator(e,()=>i.e(296).then(i.bind(i,108)))}setupInspectionEvents(e){const t=(t,r)=>{t&&(0,u.W)({agentIdentifier:e,timeStamp:t.timeStamp,loaded:"complete"===t.target.readyState,type:"window",name:r,data:t.target.location+""})};(0,b.sB)(e=>{t(e,"DOMContentLoaded")}),(0,b.GG)(e=>{t(e,"load")}),(0,b.Qr)(e=>{t(e,"navigate")}),this.ee.on(T.tS.UPDATE,(t,r)=>{(0,u.W)({agentIdentifier:e,type:"lifecycle",name:"session",data:r})})}}var N=i(843),j=i(878),I=i(782);class P extends R{static featureName=I.T;constructor(e){super(e,I.T),y.RI&&((0,N.u)(()=>(0,s.p)("docHidden",[(0,c.t)()],void 0,I.T,this.ee),!0),(0,j.sp)("pagehide",()=>(0,s.p)("winPagehide",[(0,c.t)()],void 0,I.T,this.ee)),this.importAggregator(e,()=>i.e(296).then(i.bind(i,350))))}}class O extends R{static featureName=g.TZ;constructor(e){super(e,g.TZ),y.RI&&document.addEventListener("securitypolicyviolation",e=>{(0,s.p)(g.xV,["Generic/CSPViolation/Detected"],void 0,this.featureName,this.ee)}),this.importAggregator(e,()=>i.e(296).then(i.bind(i,623)))}}new class extends r{constructor(e){var t;(super(),y.gm)?(this.features={},(0,_.bQ)(this.agentIdentifier,this),this.desiredFeatures=new Set(e.features||[]),this.desiredFeatures.add(E),this.runSoftNavOverSpa=[...this.desiredFeatures].some(e=>e.featureName===n.K7.softNav),(0,o.j)(this,e,e.loaderType||"agent"),t=this,p(d.cD,function(e,r,n=!1){if("string"==typeof e){if(["string","number","boolean"].includes(typeof r)||null===r)return h(t,e,r,d.cD,n);(0,l.R)(40,typeof r)}else(0,l.R)(39,typeof e)},t),function(e){p(d.Dl,function(t){if("string"==typeof t||null===t)return h(e,"enduser.id",t,d.Dl,!0);(0,l.R)(41,typeof t)},e)}(this),function(e){p(d.nb,function(t){if("string"==typeof t||null===t)return h(e,"application.version",t,d.nb,!1);(0,l.R)(42,typeof t)},e)}(this),function(e){p(d.d3,function(){e.ee.emit("manual-start-all")},e)}(this),function(e){p(d.Pv,function(t=!0){if("boolean"==typeof t){if((0,s.p)(d.Pl+d.Pv,[t],void 0,"session",e.ee),e.runtime.consented=t,t){const t=e.features.page_view_event;t.onAggregateImported.then(e=>{const r=t.featAggregate;e&&!r.sentRum&&r.sendRum()})}}else(0,l.R)(65,typeof t)},e)}(this),this.run()):(0,l.R)(21)}get config(){return{info:this.info,init:this.init,loader_config:this.loader_config,runtime:this.runtime}}get api(){return this}run(){try{const e=function(e){const t={};return a.forEach(r=>{t[r]=!!e[r]?.enabled}),t}(this.init),t=[...this.desiredFeatures];t.sort((e,t)=>n.P3[e.featureName]-n.P3[t.featureName]),t.forEach(t=>{if(!e[t.featureName]&&t.featureName!==n.K7.pageViewEvent)return;if(this.runSoftNavOverSpa&&t.featureName===n.K7.spa)return;if(!this.runSoftNavOverSpa&&t.featureName===n.K7.softNav)return;const r=function(e){switch(e){case n.K7.ajax:return[n.K7.jserrors];case n.K7.sessionTrace:return[n.K7.ajax,n.K7.pageViewEvent];case n.K7.sessionReplay:return[n.K7.sessionTrace];case n.K7.pageViewTiming:return[n.K7.pageViewEvent];default:return[]}}(t.featureName).filter(e=>!(e in this.features));r.length>0&&(0,l.R)(36,{targetFeature:t.featureName,missingDependencies:r}),this.features[t.featureName]=new t(this)})}catch(e){(0,l.R)(22,e);for(const e in this.features)this.features[e].abortHandler?.();const t=(0,_.Zm)();delete t.initializedAgents[this.agentIdentifier]?.features,delete this.sharedAggregator;return t.ee.get(this.agentIdentifier).abort(),!1}}}({features:[E,P,O],loaderType:"lite"})})()})();</script>
+	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<link rel="profile" href="https://gmpg.org/xfn/11" />
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.typekit.net/kgd4lrg.css">
-	<meta name='robots' content='index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' />
-
-	<!-- This site is optimized with the Yoast SEO plugin v21.4 - https://yoast.com/wordpress/plugins/seo/ -->
-	<title>Home - Graduate Student Unionization</title>
-	<link rel="canonical" href="index.html" />
-	<meta property="og:locale" content="en_US" />
-	<meta property="og:type" content="website" />
-	<meta property="og:title" content="Home - Graduate Student Unionization" />
-	<meta property="og:url" content="https://grad-union.mit.edu/" />
-	<meta property="og:site_name" content="Graduate Student Unionization" />
-	<meta property="article:modified_time" content="2023-09-29T20:48:10+00:00" />
-	<meta name="twitter:card" content="summary_large_image" />
-	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"WebPage","@id":"https://grad-union.mit.edu/","url":"https://grad-union.mit.edu/","name":"Home - Graduate Student Unionization","isPartOf":{"@id":"https://grad-union.mit.edu/#website"},"datePublished":"2023-02-14T23:48:16+00:00","dateModified":"2023-09-29T20:48:10+00:00","breadcrumb":{"@id":"https://grad-union.mit.edu/#breadcrumb"},"inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://grad-union.mit.edu/"]}]},{"@type":"BreadcrumbList","@id":"https://grad-union.mit.edu/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"Home"}]},{"@type":"WebSite","@id":"https://grad-union.mit.edu/#website","url":"https://grad-union.mit.edu/","name":"Graduate Student Unionization","description":"","potentialAction":[{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://grad-union.mit.edu/?s={search_term_string}"},"query-input":"required name=search_term_string"}],"inLanguage":"en-US"}]}</script>
-	<!-- / Yoast SEO plugin. -->
-
-
-<link rel='preconnect' href='https://fonts.gstatic.com' />
-<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2F" />
-<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2F&#038;format=xml" />
-<style id='wp-img-auto-sizes-contain-inline-css' type='text/css'>
-img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
-/*# sourceURL=wp-img-auto-sizes-contain-inline-css */
+<meta name='robots' content='max-image-preview:large' />
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<title>Graduate Student Unionization</title>
+<link rel='dns-prefetch' href='https://sites.mit.edu/' />
+<link rel="alternate" type="application/rss+xml" title="Graduate Student Unionization &raquo; Feed" href="https://sites.mit.edu/grad-union/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Graduate Student Unionization &raquo; Comments Feed" href="https://sites.mit.edu/grad-union/comments/feed/" />
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16.0.1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/sites.mit.edu\/grad-union\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.8.3"}};
+/*! This file is auto-generated */
+!function(s,n){var o,i,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),a=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===a[t]})}function u(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);for(var n=e.getImageData(16,16,1,1),a=0;a<n.data.length;a++)if(0!==n.data[a])return!1;return!0}function f(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\udedf")}return!1}function g(e,t,n,a){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):s.createElement("canvas"),o=r.getContext("2d",{willReadFrequently:!0}),i=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(function(e){i[e]=t(o,e,n,a)}),i}function t(e){var t=s.createElement("script");t.src=e,t.defer=!0,s.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",i=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){s.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+g.toString()+"("+[JSON.stringify(i),f.toString(),p.toString(),u.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"}),r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=function(e){c(n=e.data),r.terminate(),t(n)})}catch(e){}c(n=g(i,f,p,u))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<style id='wp-block-group-inline-css'>
+.wp-block-group{box-sizing:border-box}:where(.wp-block-group.wp-block-group-is-layout-constrained){position:relative}
 </style>
-<style id='wp-emoji-styles-inline-css' type='text/css'>
+<style id='wp-block-site-title-inline-css'>
+.wp-block-site-title{box-sizing:border-box}.wp-block-site-title :where(a){color:inherit;font-family:inherit;font-size:inherit;font-style:inherit;font-weight:inherit;letter-spacing:inherit;line-height:inherit;text-decoration:inherit}
+</style>
+<style id='wp-block-image-inline-css'>
+.wp-block-image>a,.wp-block-image>figure>a{display:inline-block}.wp-block-image img{box-sizing:border-box;height:auto;max-width:100%;vertical-align:bottom}@media not (prefers-reduced-motion){.wp-block-image img.hide{visibility:hidden}.wp-block-image img.show{animation:show-content-image .4s}}.wp-block-image[style*=border-radius] img,.wp-block-image[style*=border-radius]>a{border-radius:inherit}.wp-block-image.has-custom-border img{box-sizing:border-box}.wp-block-image.aligncenter{text-align:center}.wp-block-image.alignfull>a,.wp-block-image.alignwide>a{width:100%}.wp-block-image.alignfull img,.wp-block-image.alignwide img{height:auto;width:100%}.wp-block-image .aligncenter,.wp-block-image .alignleft,.wp-block-image .alignright,.wp-block-image.aligncenter,.wp-block-image.alignleft,.wp-block-image.alignright{display:table}.wp-block-image .aligncenter>figcaption,.wp-block-image .alignleft>figcaption,.wp-block-image .alignright>figcaption,.wp-block-image.aligncenter>figcaption,.wp-block-image.alignleft>figcaption,.wp-block-image.alignright>figcaption{caption-side:bottom;display:table-caption}.wp-block-image .alignleft{float:left;margin:.5em 1em .5em 0}.wp-block-image .alignright{float:right;margin:.5em 0 .5em 1em}.wp-block-image .aligncenter{margin-left:auto;margin-right:auto}.wp-block-image :where(figcaption){margin-bottom:1em;margin-top:.5em}.wp-block-image.is-style-circle-mask img{border-radius:9999px}@supports ((-webkit-mask-image:none) or (mask-image:none)) or (-webkit-mask-image:none){.wp-block-image.is-style-circle-mask img{border-radius:0;-webkit-mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-image:url('data:image/svg+xml;utf8,<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"><circle cx="50" cy="50" r="50"/></svg>');mask-mode:alpha;-webkit-mask-position:center;mask-position:center;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-size:contain;mask-size:contain}}:root :where(.wp-block-image.is-style-rounded img,.wp-block-image .is-style-rounded img){border-radius:9999px}.wp-block-image figure{margin:0}.wp-lightbox-container{display:flex;flex-direction:column;position:relative}.wp-lightbox-container img{cursor:zoom-in}.wp-lightbox-container img:hover+button{opacity:1}.wp-lightbox-container button{align-items:center;-webkit-backdrop-filter:blur(16px) saturate(180%);backdrop-filter:blur(16px) saturate(180%);background-color:#5a5a5a40;border:none;border-radius:4px;cursor:zoom-in;display:flex;height:20px;justify-content:center;opacity:0;padding:0;position:absolute;right:16px;text-align:center;top:16px;width:20px;z-index:100}@media not (prefers-reduced-motion){.wp-lightbox-container button{transition:opacity .2s ease}}.wp-lightbox-container button:focus-visible{outline:3px auto #5a5a5a40;outline:3px auto -webkit-focus-ring-color;outline-offset:3px}.wp-lightbox-container button:hover{cursor:pointer;opacity:1}.wp-lightbox-container button:focus{opacity:1}.wp-lightbox-container button:focus,.wp-lightbox-container button:hover,.wp-lightbox-container button:not(:hover):not(:active):not(.has-background){background-color:#5a5a5a40;border:none}.wp-lightbox-overlay{box-sizing:border-box;cursor:zoom-out;height:100vh;left:0;overflow:hidden;position:fixed;top:0;visibility:hidden;width:100%;z-index:100000}.wp-lightbox-overlay .close-button{align-items:center;cursor:pointer;display:flex;justify-content:center;min-height:40px;min-width:40px;padding:0;position:absolute;right:calc(env(safe-area-inset-right) + 16px);top:calc(env(safe-area-inset-top) + 16px);z-index:5000000}.wp-lightbox-overlay .close-button:focus,.wp-lightbox-overlay .close-button:hover,.wp-lightbox-overlay .close-button:not(:hover):not(:active):not(.has-background){background:none;border:none}.wp-lightbox-overlay .lightbox-image-container{height:var(--wp--lightbox-container-height);left:50%;overflow:hidden;position:absolute;top:50%;transform:translate(-50%,-50%);transform-origin:top left;width:var(--wp--lightbox-container-width);z-index:9999999999}.wp-lightbox-overlay .wp-block-image{align-items:center;box-sizing:border-box;display:flex;height:100%;justify-content:center;margin:0;position:relative;transform-origin:0 0;width:100%;z-index:3000000}.wp-lightbox-overlay .wp-block-image img{height:var(--wp--lightbox-image-height);min-height:var(--wp--lightbox-image-height);min-width:var(--wp--lightbox-image-width);width:var(--wp--lightbox-image-width)}.wp-lightbox-overlay .wp-block-image figcaption{display:none}.wp-lightbox-overlay button{background:none;border:none}.wp-lightbox-overlay .scrim{background-color:#fff;height:100%;opacity:.9;position:absolute;width:100%;z-index:2000000}.wp-lightbox-overlay.active{visibility:visible}@media not (prefers-reduced-motion){.wp-lightbox-overlay.active{animation:turn-on-visibility .25s both}.wp-lightbox-overlay.active img{animation:turn-on-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active){animation:turn-off-visibility .35s both}.wp-lightbox-overlay.show-closing-animation:not(.active) img{animation:turn-off-visibility .25s both}.wp-lightbox-overlay.zoom.active{animation:none;opacity:1;visibility:visible}.wp-lightbox-overlay.zoom.active .lightbox-image-container{animation:lightbox-zoom-in .4s}.wp-lightbox-overlay.zoom.active .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.active .scrim{animation:turn-on-visibility .4s forwards}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active){animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container{animation:lightbox-zoom-out .4s}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .lightbox-image-container img{animation:none}.wp-lightbox-overlay.zoom.show-closing-animation:not(.active) .scrim{animation:turn-off-visibility .4s forwards}}@keyframes show-content-image{0%{visibility:hidden}99%{visibility:hidden}to{visibility:visible}}@keyframes turn-on-visibility{0%{opacity:0}to{opacity:1}}@keyframes turn-off-visibility{0%{opacity:1;visibility:visible}99%{opacity:0;visibility:visible}to{opacity:0;visibility:hidden}}@keyframes lightbox-zoom-in{0%{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale))}to{transform:translate(-50%,-50%) scale(1)}}@keyframes lightbox-zoom-out{0%{transform:translate(-50%,-50%) scale(1);visibility:visible}99%{visibility:visible}to{transform:translate(calc((-100vw + var(--wp--lightbox-scrollbar-width))/2 + var(--wp--lightbox-initial-left-position)),calc(-50vh + var(--wp--lightbox-initial-top-position))) scale(var(--wp--lightbox-scale));visibility:hidden}}
+</style>
+<style id='wp-block-navigation-link-inline-css'>
+.wp-block-navigation .wp-block-navigation-item__label{overflow-wrap:break-word}.wp-block-navigation .wp-block-navigation-item__description{display:none}.link-ui-tools{border-top:1px solid #f0f0f0;padding:8px}.link-ui-block-inserter{padding-top:8px}.link-ui-block-inserter__back{margin-left:8px;text-transform:uppercase}
+</style>
+<link rel='stylesheet' id='wp-block-navigation-css' href='https://sites.mit.edu/grad-union/wp-includes/blocks/navigation/style.min.css?ver=6.8.3' media='all' />
+<style id='wp-block-spacer-inline-css'>
+.wp-block-spacer{clear:both}
+</style>
+<style id='wp-block-heading-inline-css'>
+h1.has-background,h2.has-background,h3.has-background,h4.has-background,h5.has-background,h6.has-background{padding:1.25em 2.375em}h1.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h1.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h2.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h2.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h3.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h3.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h4.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h4.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h5.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h5.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]),h6.has-text-align-left[style*=writing-mode]:where([style*=vertical-lr]),h6.has-text-align-right[style*=writing-mode]:where([style*=vertical-rl]){rotate:180deg}
+</style>
+<style id='wp-block-paragraph-inline-css'>
+.is-small-text{font-size:.875em}.is-regular-text{font-size:1em}.is-large-text{font-size:2.25em}.is-larger-text{font-size:3em}.has-drop-cap:not(:focus):first-letter{float:left;font-size:8.4em;font-style:normal;font-weight:100;line-height:.68;margin:.05em .1em 0 0;text-transform:uppercase}body.rtl .has-drop-cap:not(:focus):first-letter{float:none;margin-left:.1em}p.has-drop-cap.has-background{overflow:hidden}:root :where(p.has-background){padding:1.25em 2.375em}:where(p.has-text-color:not(.has-link-color)) a{color:inherit}p.has-text-align-left[style*="writing-mode:vertical-lr"],p.has-text-align-right[style*="writing-mode:vertical-rl"]{rotate:180deg}
+</style>
+<style id='wp-block-columns-inline-css'>
+.wp-block-columns{align-items:normal!important;box-sizing:border-box;display:flex;flex-wrap:wrap!important}@media (min-width:782px){.wp-block-columns{flex-wrap:nowrap!important}}.wp-block-columns.are-vertically-aligned-top{align-items:flex-start}.wp-block-columns.are-vertically-aligned-center{align-items:center}.wp-block-columns.are-vertically-aligned-bottom{align-items:flex-end}@media (max-width:781px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:100%!important}}@media (min-width:782px){.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column[style*=flex-basis]{flex-grow:0}}.wp-block-columns.is-not-stacked-on-mobile{flex-wrap:nowrap!important}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column{flex-basis:0;flex-grow:1}.wp-block-columns.is-not-stacked-on-mobile>.wp-block-column[style*=flex-basis]{flex-grow:0}:where(.wp-block-columns){margin-bottom:1.75em}:where(.wp-block-columns.has-background){padding:1.25em 2.375em}.wp-block-column{flex-grow:1;min-width:0;overflow-wrap:break-word;word-break:break-word}.wp-block-column.is-vertically-aligned-top{align-self:flex-start}.wp-block-column.is-vertically-aligned-center{align-self:center}.wp-block-column.is-vertically-aligned-bottom{align-self:flex-end}.wp-block-column.is-vertically-aligned-stretch{align-self:stretch}.wp-block-column.is-vertically-aligned-bottom,.wp-block-column.is-vertically-aligned-center,.wp-block-column.is-vertically-aligned-top{width:100%}
+</style>
+<style id='wp-block-post-content-inline-css'>
+.wp-block-post-content{display:flow-root}
+</style>
+<style id='wp-emoji-styles-inline-css'>
 
 	img.wp-smiley, img.emoji {
 		display: inline !important;
@@ -45,196 +55,766 @@ img:is([sizes=auto i],[sizes^="auto," i]){contain-intrinsic-size:3000px 1500px}
 		background: none !important;
 		padding: 0 !important;
 	}
-/*# sourceURL=wp-emoji-styles-inline-css */
 </style>
-<style id='classic-theme-styles-inline-css' type='text/css'>
-/*! This file is auto-generated */
-.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
-/*# sourceURL=/wp-includes/css/classic-themes.min.css */
+<style id='wp-block-library-inline-css'>
+:root{--wp-admin-theme-color:#007cba;--wp-admin-theme-color--rgb:0,124,186;--wp-admin-theme-color-darker-10:#006ba1;--wp-admin-theme-color-darker-10--rgb:0,107,161;--wp-admin-theme-color-darker-20:#005a87;--wp-admin-theme-color-darker-20--rgb:0,90,135;--wp-admin-border-width-focus:2px;--wp-block-synced-color:#7a00df;--wp-block-synced-color--rgb:122,0,223;--wp-bound-block-color:var(--wp-block-synced-color)}@media (min-resolution:192dpi){:root{--wp-admin-border-width-focus:1.5px}}.wp-element-button{cursor:pointer}:root{--wp--preset--font-size--normal:16px;--wp--preset--font-size--huge:42px}:root .has-very-light-gray-background-color{background-color:#eee}:root .has-very-dark-gray-background-color{background-color:#313131}:root .has-very-light-gray-color{color:#eee}:root .has-very-dark-gray-color{color:#313131}:root .has-vivid-green-cyan-to-vivid-cyan-blue-gradient-background{background:linear-gradient(135deg,#00d084,#0693e3)}:root .has-purple-crush-gradient-background{background:linear-gradient(135deg,#34e2e4,#4721fb 50%,#ab1dfe)}:root .has-hazy-dawn-gradient-background{background:linear-gradient(135deg,#faaca8,#dad0ec)}:root .has-subdued-olive-gradient-background{background:linear-gradient(135deg,#fafae1,#67a671)}:root .has-atomic-cream-gradient-background{background:linear-gradient(135deg,#fdd79a,#004a59)}:root .has-nightshade-gradient-background{background:linear-gradient(135deg,#330968,#31cdcf)}:root .has-midnight-gradient-background{background:linear-gradient(135deg,#020381,#2874fc)}.has-regular-font-size{font-size:1em}.has-larger-font-size{font-size:2.625em}.has-normal-font-size{font-size:var(--wp--preset--font-size--normal)}.has-huge-font-size{font-size:var(--wp--preset--font-size--huge)}.has-text-align-center{text-align:center}.has-text-align-left{text-align:left}.has-text-align-right{text-align:right}#end-resizable-editor-section{display:none}.aligncenter{clear:both}.items-justified-left{justify-content:flex-start}.items-justified-center{justify-content:center}.items-justified-right{justify-content:flex-end}.items-justified-space-between{justify-content:space-between}.screen-reader-text{border:0;clip-path:inset(50%);height:1px;margin:-1px;overflow:hidden;padding:0;position:absolute;width:1px;word-wrap:normal!important}.screen-reader-text:focus{background-color:#ddd;clip-path:none;color:#444;display:block;font-size:1em;height:auto;left:5px;line-height:normal;padding:15px 23px 14px;text-decoration:none;top:5px;width:auto;z-index:100000}html :where(.has-border-color){border-style:solid}html :where([style*=border-top-color]){border-top-style:solid}html :where([style*=border-right-color]){border-right-style:solid}html :where([style*=border-bottom-color]){border-bottom-style:solid}html :where([style*=border-left-color]){border-left-style:solid}html :where([style*=border-width]){border-style:solid}html :where([style*=border-top-width]){border-top-style:solid}html :where([style*=border-right-width]){border-right-style:solid}html :where([style*=border-bottom-width]){border-bottom-style:solid}html :where([style*=border-left-width]){border-left-style:solid}html :where(img[class*=wp-image-]){height:auto;max-width:100%}:where(figure){margin:0 0 1em}html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:var(--wp-admin--admin-bar--height,0px)}@media screen and (max-width:600px){html :where(.is-position-sticky){--wp-admin--admin-bar--position-offset:0px}}
 </style>
-<link rel='stylesheet' id='theme-css-css' href='wp-content/themes/mit-union-theme/css/theme.css%3Fver=1698159697.css' type='text/css' media='all' />
-<link rel='stylesheet' id='style-css' href='wp-content/themes/mit-union-theme/style.css%3Fver=1698159697.css' type='text/css' media='all' />
-<script type="text/javascript" src="wp-includes/js/jquery/jquery.min.js%3Fver=3.7.1" id="jquery-core-js"></script>
-<script type="text/javascript" src="wp-includes/js/jquery/jquery-migrate.min.js%3Fver=3.4.1" id="jquery-migrate-js"></script>
-<script type="text/javascript" src="wp-content/themes/ns-core-theme/js/admin-min.js%3Fver=6.9" id="admin-js-js"></script>
-<link rel="https://api.w.org/" href="wp-json/index.html" /><link rel="alternate" title="JSON" type="application/json" href="https://grad-union.mit.edu/wp-json/wp/v2/pages/24" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://grad-union.mit.edu/xmlrpc.php?rsd" />
+<link rel='stylesheet' id='coblocks-extensions-css' href='https://sites.mit.edu/wp-content/plugins/coblocks/dist/style-coblocks-extensions.css?ver=3.1.16.1' media='all' />
+<link rel='stylesheet' id='coblocks-animation-css' href='https://sites.mit.edu/wp-content/plugins/coblocks/dist/style-coblocks-animation.css?ver=2677611078ee87eb3b1c' media='all' />
+<style id='global-styles-inline-css'>
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--base: #FFFFFF;--wp--preset--color--contrast: #333333;--wp--preset--color--accent-1: #FFEE58;--wp--preset--color--accent-2: #F6CFF4;--wp--preset--color--accent-3: #503AA8;--wp--preset--color--accent-4: #686868;--wp--preset--color--accent-5: #FBFAF3;--wp--preset--color--accent-6: color-mix(in srgb, currentColor 20%, transparent);--wp--preset--color--custom-pink: #ed009b;--wp--preset--color--custom-green: #00b17a;--wp--preset--color--custom-blue: #007fff;--wp--preset--color--custom-purple: #9606c5;--wp--preset--color--custom-red: #ff3b00;--wp--preset--color--custom-brown: #6c5530;--wp--preset--color--custom-black: #333333;--wp--preset--color--custom-color-1: #000;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 0.875rem;--wp--preset--font-size--medium: clamp(1rem, 1rem + ((1vw - 0.2rem) * 0.227), 1.125rem);--wp--preset--font-size--large: clamp(1.125rem, 1.125rem + ((1vw - 0.2rem) * 0.455), 1.375rem);--wp--preset--font-size--x-large: clamp(1.75rem, 1.75rem + ((1vw - 0.2rem) * 0.455), 2rem);--wp--preset--font-size--xx-large: clamp(2.15rem, 2.15rem + ((1vw - 0.2rem) * 1.545), 3rem);--wp--preset--font-family--manrope: Manrope, sans-serif;--wp--preset--font-family--fira-code: "Fira Code", monospace;--wp--preset--font-family--inter: Inter, sans-serif;--wp--preset--font-family--material-icons: "Material Icons", monospace;--wp--preset--spacing--20: 10px;--wp--preset--spacing--30: 20px;--wp--preset--spacing--40: 30px;--wp--preset--spacing--50: clamp(30px, 5vw, 50px);--wp--preset--spacing--60: clamp(30px, 7vw, 70px);--wp--preset--spacing--70: clamp(50px, 7vw, 90px);--wp--preset--spacing--80: clamp(70px, 10vw, 140px);--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 645px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks { padding-top: var(--wp--style--root--padding-top); padding-bottom: var(--wp--style--root--padding-bottom); }.has-global-padding { padding-right: var(--wp--style--root--padding-right); padding-left: var(--wp--style--root--padding-left); }.has-global-padding > .alignfull { margin-right: calc(var(--wp--style--root--padding-right) * -1); margin-left: calc(var(--wp--style--root--padding-left) * -1); }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) { padding-right: 0; padding-left: 0; }.has-global-padding :where(:not(.alignfull.is-layout-flow) > .has-global-padding:not(.wp-block-block, .alignfull)) > .alignfull { margin-left: 0; margin-right: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 1.3rem; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 1.3rem; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 1.3rem;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 1.3rem;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 1.3rem;}:root :where(.is-layout-grid){gap: 1.3rem;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{background-color: var(--wp--preset--color--base);color: #333333;font-family: var(--wp--preset--font-family--inter);font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.573), 1.19rem);font-style: normal;font-weight: 400;letter-spacing: -0.1px;line-height: 1.75;--wp--style--root--padding-top: 0px;--wp--style--root--padding-right: var(--wp--preset--spacing--30);--wp--style--root--padding-bottom: 0px;--wp--style--root--padding-left: 20px;}a:where(:not(.wp-element-button)){color: currentColor;text-decoration: none;}:root :where(a:where(:not(.wp-element-button)):hover){text-decoration: none;}h1, h2, h3, h4, h5, h6{font-family: var(--wp--preset--font-family--inter);font-style: normal;font-weight: 600;letter-spacing: -0.1px;line-height: 1.125;}h1{font-size: clamp(1.317rem, 1.317rem + ((1vw - 0.2rem) * 1.478), 2.13rem);font-style: normal;font-weight: 500;}h2{font-size: var(--wp--preset--font-size--x-large);}h3{font-size: clamp(0.918rem, 0.918rem + ((1vw - 0.2rem) * 0.84), 1.38rem);}h4{font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.573), 1.19rem);}h5{font-size: clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.336), 1.06rem);letter-spacing: 0.5px;}h6{font-size: 0.17rem;font-style: normal;font-weight: 700;letter-spacing: 1.4px;text-transform: none;}:root :where(.wp-element-button, .wp-block-button__link){background-color: var(--wp--preset--color--contrast);border-width: 0;color: var(--wp--preset--color--base);font-family: inherit;font-size: var(--wp--preset--font-size--medium);line-height: inherit;padding-top: 1rem;padding-right: 2.25rem;padding-bottom: 1rem;padding-left: 2.25rem;text-decoration: none;}:root :where(.wp-element-button:hover, .wp-block-button__link:hover){background-color: color-mix(in srgb, var(--wp--preset--color--contrast) 85%, transparent);border-color: transparent;color: var(--wp--preset--color--base);}:root :where(.wp-element-button:focus, .wp-block-button__link:focus){outline-color: var(--wp--preset--color--accent-4);outline-offset: 2px;}:root :where(.wp-element-caption, .wp-block-audio figcaption, .wp-block-embed figcaption, .wp-block-gallery figcaption, .wp-block-image figcaption, .wp-block-table figcaption, .wp-block-video figcaption){font-size: var(--wp--preset--font-size--small);line-height: 1.4;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-base-color{color: var(--wp--preset--color--base) !important;}.has-contrast-color{color: var(--wp--preset--color--contrast) !important;}.has-accent-1-color{color: var(--wp--preset--color--accent-1) !important;}.has-accent-2-color{color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-color{color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-color{color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-color{color: var(--wp--preset--color--accent-5) !important;}.has-accent-6-color{color: var(--wp--preset--color--accent-6) !important;}.has-custom-pink-color{color: var(--wp--preset--color--custom-pink) !important;}.has-custom-green-color{color: var(--wp--preset--color--custom-green) !important;}.has-custom-blue-color{color: var(--wp--preset--color--custom-blue) !important;}.has-custom-purple-color{color: var(--wp--preset--color--custom-purple) !important;}.has-custom-red-color{color: var(--wp--preset--color--custom-red) !important;}.has-custom-brown-color{color: var(--wp--preset--color--custom-brown) !important;}.has-custom-black-color{color: var(--wp--preset--color--custom-black) !important;}.has-custom-color-1-color{color: var(--wp--preset--color--custom-color-1) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-background-color{background-color: var(--wp--preset--color--base) !important;}.has-contrast-background-color{background-color: var(--wp--preset--color--contrast) !important;}.has-accent-1-background-color{background-color: var(--wp--preset--color--accent-1) !important;}.has-accent-2-background-color{background-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-background-color{background-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-background-color{background-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-background-color{background-color: var(--wp--preset--color--accent-5) !important;}.has-accent-6-background-color{background-color: var(--wp--preset--color--accent-6) !important;}.has-custom-pink-background-color{background-color: var(--wp--preset--color--custom-pink) !important;}.has-custom-green-background-color{background-color: var(--wp--preset--color--custom-green) !important;}.has-custom-blue-background-color{background-color: var(--wp--preset--color--custom-blue) !important;}.has-custom-purple-background-color{background-color: var(--wp--preset--color--custom-purple) !important;}.has-custom-red-background-color{background-color: var(--wp--preset--color--custom-red) !important;}.has-custom-brown-background-color{background-color: var(--wp--preset--color--custom-brown) !important;}.has-custom-black-background-color{background-color: var(--wp--preset--color--custom-black) !important;}.has-custom-color-1-background-color{background-color: var(--wp--preset--color--custom-color-1) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-base-border-color{border-color: var(--wp--preset--color--base) !important;}.has-contrast-border-color{border-color: var(--wp--preset--color--contrast) !important;}.has-accent-1-border-color{border-color: var(--wp--preset--color--accent-1) !important;}.has-accent-2-border-color{border-color: var(--wp--preset--color--accent-2) !important;}.has-accent-3-border-color{border-color: var(--wp--preset--color--accent-3) !important;}.has-accent-4-border-color{border-color: var(--wp--preset--color--accent-4) !important;}.has-accent-5-border-color{border-color: var(--wp--preset--color--accent-5) !important;}.has-accent-6-border-color{border-color: var(--wp--preset--color--accent-6) !important;}.has-custom-pink-border-color{border-color: var(--wp--preset--color--custom-pink) !important;}.has-custom-green-border-color{border-color: var(--wp--preset--color--custom-green) !important;}.has-custom-blue-border-color{border-color: var(--wp--preset--color--custom-blue) !important;}.has-custom-purple-border-color{border-color: var(--wp--preset--color--custom-purple) !important;}.has-custom-red-border-color{border-color: var(--wp--preset--color--custom-red) !important;}.has-custom-brown-border-color{border-color: var(--wp--preset--color--custom-brown) !important;}.has-custom-black-border-color{border-color: var(--wp--preset--color--custom-black) !important;}.has-custom-color-1-border-color{border-color: var(--wp--preset--color--custom-color-1) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}.has-xx-large-font-size{font-size: var(--wp--preset--font-size--xx-large) !important;}.has-manrope-font-family{font-family: var(--wp--preset--font-family--manrope) !important;}.has-fira-code-font-family{font-family: var(--wp--preset--font-family--fira-code) !important;}.has-inter-font-family{font-family: var(--wp--preset--font-family--inter) !important;}.has-material-icons-font-family{font-family: var(--wp--preset--font-family--material-icons) !important;}/*Fixed sidebar - START*/
+.cp-fixed-sidebar{
+max-width: 75px;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+z-index:2;
+}
 
-		<!-- GA Google Analytics @ https://m0n.co/ga -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=G-YK97HCVDP9"></script>
+@media(max-width:767px){
+.cp-fixed-sidebar, .cp-page-title{
+display:none !important;
+}
+}
+@media(max-width:767px){
+.cp-content-containers{
+padding-left:20px !important;
+padding-right:20px !important;
+}
+}
+@media(min-width:767px)and (max-width:1023px){
+.cp-content-containers{
+padding-left:105px !important;
+padding-right:20px !important;
+}
+}
+/*Fixed sidebar - END*/
+
+/*Mobile menu - START*/
+@media ( min-width: 1024px ) {
+.wp-block-navigation__responsive-container-open:not(.always-shown) {
+display: none !important;
+}
+.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+display: block !important;
+    }
+}
+
+/* neutralize the wp default for 600px */
+
+@media ( min-width: 600px ) {
+.wp-block-navigation__responsive-container-open:not(.always-shown) {
+display: flex;
+}
+.wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
+display: none;
+}
+}
+@media ( max-width: 1023px ){
+.cp-main-nav li.purple.current-menu-item a{
+color:var(--wp--preset--color--custom-purple);
+}
+.cp-main-nav li.blue.current-menu-item a{
+color:var(--wp--preset--color--custom-blue);
+}
+.cp-main-nav li.pink:has(li.current-menu-item){
+color:var(--wp--preset--color--custom-pink) !important;
+}
+.cp-main-nav li.pink ul li a{
+color:#333333 !important;
+}
+.cp-main-nav.wp-block-navigation .has-child .wp-block-navigation__submenu-container li.current-menu-item a{
+color:#005b94 !important;
+}
+.cp-main-nav.wp-block-navigation ul{
+gap:15px !important;
+}
+.cp-main-nav.wp-block-navigation .has-child .wp-block-navigation__submenu-container{
+padding:10px 0 0 0;
+}
+.cp-main-nav li.brown.current-menu-item a{
+color:var(--wp--preset--color--custom-brown);
+}
+.cp-main-nav li.green.current-menu-item a{
+color: var(--wp--preset--color--custom-green);
+}
+.wp-block-navigation.items-justified-right {
+    --navigation-layout-justification-setting: flex-start;
+    --navigation-layout-justify: flex-start;
+}
+.nav-container{
+padding-top:0 !important;
+}
+}
+
+/*Submenu - START*/
+@media (min-width: 1024px ) {
+.cp-main-nav.wp-block-navigation .has-child .wp-block-navigation__submenu-container {
+border:none;
+border-top: 3px solid #CCCCCC;
+box-shadow: 0 2px 24px 0 #C8C8C8;
+min-width: 260px !important;
+left:-30px !important;
+padding: 10px 20px;
+gap:0;
+}
+.cp-main-nav.wp-block-navigation .has-child .wp-block-navigation__submenu-container li{
+margin: 10px;
+}
+.cp-main-nav.wp-block-navigation .has-child .wp-block-navigation__submenu-container li a{
+padding:0;
+}
+}
+/*Submenu - START*/
+/* Page title - START*/
+.cp-page-title{
+top: 275px;
+position: absolute;
+max-width: 75px;
+width: 100%;
+left:0;
+writing-mode: vertical-rl;
+height: 100%;
+}
+/* Page title - END*/
+/*Active menu item boders - START*/
+@media(min-width:1023px){
+.cp-main-nav li.purple.current-menu-item a{
+border-bottom:3px solid  var(--wp--preset--color--custom-purple);
+}
+.cp-main-nav li.blue.current-menu-item a{
+border-bottom:3px solid  var(--wp--preset--color--custom-blue);
+}
+.cp-main-nav li.pink:has(li.current-menu-item){
+border-bottom:3px solid  var(--wp--preset--color--custom-pink);
+}
+.cp-main-nav li.brown.current-menu-item a{
+border-bottom:3px solid  var(--wp--preset--color--custom-brown);
+}
+.cp-main-nav li.green.current-menu-item a{
+border-bottom:3px solid  var(--wp--preset--color--custom-green);
+}}
+.cp-main-nav.wp-block-navigation .has-child .wp-block-navigation__submenu-container li.current-menu-item a, .cp-main-nav.wp-block-navigation .has-child .wp-block-navigation__submenu-container li a:hover{
+color:#005b94;
+}
+/*Active menu item borders - END*/
+/*Breadcrumb - START*/
+.breadcrumbs a{
+    color: #717171;
+}
+.breadcrumbs .current-item, .breadcrumbs{
+    font-size: 16px;
+}
+.cp-breadcrumb{
+position:relative;
+}
+.cp-breadcrumb::before{
+content: '';
+display: block;
+position: absolute;
+bottom: -4px;
+width: 40%;
+height: 4px;
+}
+.cp-link-blocks{
+position:relative;
+}
+.cp-link-blocks a::before{
+position: absolute;
+top: 0px;
+left: 20px;
+content: '';
+display: block;
+width: 75%;
+height: 4px;
+transition: .15s linear;
+}
+.cp-link-blocks a:hover::before{
+width:calc(100% - 40px);
+}
+.cp-breadcrumb.brown::before, .cp-link-blocks.brown a::before{
+background-color:var(--wp--preset--color--custom-brown);
+}
+.cp-breadcrumb.black::before{
+background-color:var(--wp--preset--color--custom-black);
+}
+.cp-breadcrumb.pink::before,.cp-link-blocks.pink a::before{
+background-color: var(--wp--preset--color--custom-pink);
+}
+.cp-breadcrumb.green::before,.cp-link-blocks.green a::before{
+background-color:var(--wp--preset--color--custom-green);
+}
+.cp-breadcrumb.blue::before,.cp-link-blocks.blue a::before{
+background-color:var(--wp--preset--color--custom-blue);
+}
+.cp-breadcrumb.purple::before,.cp-link-blocks.purple a::before{
+background-color:var(--wp--preset--color--custom-purple);
+}
+.cp-breadcrumb.red::before{
+background-color:var(--wp--preset--color--custom-red);
+}
+/*Breadcrumb - END*/
+/*Accordion - START*/
+.cp-accordion .wp-block-coblocks-accordion-item{
+border-bottom: 1px solid #333333;
+border-radius:0;
+margin:0;
+padding-top:15px;
+padding-bottom:15px;
+}
+.cp-accordion .wp-block-coblocks-accordion-item__title:hover:after{
+background:unset !important;
+}
+.cp-accordion summary{
+list-style:none;
+cursor:pointer;
+}
+.cp-accordion details summary::before{
+content:'keyboard_arrow_down';
+}
+.cp-accordion details[open] summary::before{
+content:'keyboard_arrow_up';
+}
+.cp-accordion details summary::before, .cp-accordion details[open] summary::before{
+font-family:'Material Icons';
+font-size:28px;
+line-height:0;
+color:var(--wp--preset--color--custom-pink) !important;
+background:#e9e9e9;
+border-radius:50%;
+padding:20px 6px;
+right:0;
+position:absolute;
+z-index:2;
+}
+.wp-block-coblocks-accordion-item__title.has-background:focus, .wp-block-coblocks-accordion-item__title:focus{
+outline: 0px dotted;
+}
+.cp-accordion .wp-block-coblocks-accordion-item__content, .cp-accordion .wp-block-coblocks-accordion-item__title{
+padding-left:0;
+padding-right:40px;
+}
+/*Accordion - END*/
+
+/*Link - START*/
+.cp-green-link li a,.cp-green-link p a, .cp-green-link h2 a, .cp-green-link .wp-block-heading a{
+background: linear-gradient(transparent calc(100% - 2px), var(--wp--preset--color--custom-green) 0);
+}
+.cp-blue-link p a, .cp-blue-link h2 a, .cp-blue-link li a, .cp-blue-link .wp-block-heading a{
+background:linear-gradient(transparent calc(100% - 2px), var(--wp--preset--color--custom-blue) 0);
+}
+.cp-purple-link p a,.cp-purple-link h2 a,.cp-purple-link li a, .cp-purple-link .wp-block-heading a{
+background:linear-gradient(transparent calc(100% - 2px),  var(--wp--preset--color--custom-purple) 0);
+}
+.cp-red-link p a,.cp-red-link li a,.cp-red-link h2 a,.cp-red-link .wp-block-heading a{
+background:linear-gradient(transparent calc(100% - 2px),  var(--wp--preset--color--custom-red) 0);
+}
+.cp-pink-link p a,.cp-pink-link li a, .cp-pink-link h2 a, .cp-pink-link .wp-block-heading a{
+background:linear-gradient(transparent calc(100% - 2px),  var(--wp--preset--color--custom-pink) 0);
+}
+.cp-brown-link li a,.cp-brown-link p a,.cp-brown-link h2 a, .cp-brown-link .wp-block-heading a{
+background:linear-gradient(transparent calc(100% - 2px),  var(--wp--preset--color--custom-brown) 0);
+}
+.cp-black-link li a, .cp-black-link h2 a,.cp-black-link .wp-block-heading a{
+background:linear-gradient(transparent calc(100% - 2px),  var(--wp--preset--color--custom-black) 0);
+}
+/*Link - END*/
+
+/*Marker color - START*/
+.cp-purple-link li::marker{
+color: var(--wp--preset--color--custom-purple) !important;
+}
+.cp-blue-link li::marker{
+color: var(--wp--preset--color--custom-blue) !important;
+}
+.cp-red-link li::marker{
+color: var(--wp--preset--color--custom-red) !important;
+}
+.cp-green-link li::marker{
+color: var(--wp--preset--color--custom-green) !important;
+}
+.cp-brown-link li::marker{
+color: var(--wp--preset--color--custom-brown) !important;
+}
+/*Marker color - END*/
+
+/*Quotes - START*/
+.cp-green-link blockquote{
+border-left-color: var(--wp--preset--color--custom-green);
+}
+/*Quotes - END*/
+/*Homepage image*/
+.cp-link-blocks{
+width:92%;
+}
+.cp-home-img{
+transform:translateY(50px);
+}
+
+/*Search featured image*/
+.cp-search-featured-img a{
+width:fit-content;
+}
+.cp-search-featured-img img{
+width:auto;
+height:auto;
+}
+img:is([sizes="auto" i], [sizes^="auto," i]) {
+    contain-intrinsic-size: revert-layer;
+}
+
+:root :where(.wp-block-columns-is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.wp-block-columns-is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-flow) > *{margin-block-start: var(--wp--preset--spacing--50);margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.wp-block-columns-is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-constrained) > *{margin-block-start: var(--wp--preset--spacing--50);margin-block-end: 0;}:root :where(.wp-block-columns-is-layout-flex){gap: var(--wp--preset--spacing--50);}:root :where(.wp-block-columns-is-layout-grid){gap: var(--wp--preset--spacing--50);}
+:root :where(.wp-block-site-title){font-weight: 700;letter-spacing: -.5px;}
+:root :where(.wp-block-site-title a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-site-title a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+:root :where(.wp-block-navigation){font-size: var(--wp--preset--font-size--medium);}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button))){text-decoration: none;}
+:root :where(.wp-block-navigation a:where(:not(.wp-element-button)):hover){text-decoration: underline;}
+</style>
+<style id='core-block-supports-inline-css'>
+.wp-elements-9b0c354b129c3d34c7f1b04216fe91f3 a:where(:not(.wp-element-button)){color:#333333;}.wp-container-core-group-is-layout-98169aed{gap:var(--wp--preset--spacing--30);justify-content:space-between;}.wp-container-core-navigation-is-layout-e0a20c87{gap:35px;justify-content:flex-end;}.wp-container-core-group-is-layout-f4c28e8b{flex-wrap:nowrap;gap:var(--wp--preset--spacing--10);justify-content:flex-end;}.wp-container-core-columns-is-layout-28f84493{flex-wrap:nowrap;}.wp-container-core-group-is-layout-c40ed9c7 > .alignfull{margin-right:calc(75px * -1);margin-left:calc(150px * -1);}.wp-elements-e7fb7697a0e1bcee4ecb68929c265b2f a:where(:not(.wp-element-button)){color:#333333;}.wp-elements-e6a56864c70d6de847a75a4501569a7c a:where(:not(.wp-element-button)){color:#333333;}.wp-elements-b0987b04356c6047c707ab8421a5c42c a:where(:not(.wp-element-button)){color:#333333;}.wp-elements-62964f7e609c239b30c35c3f323cc9aa a:where(:not(.wp-element-button)){color:#333333;}.wp-elements-8a2f1f689ce26b1b7a030e2e57956ec3 a:where(:not(.wp-element-button)){color:var(--wp--preset--color--base);}.wp-container-core-group-is-layout-6dfb037f{justify-content:space-between;}.wp-container-core-group-is-layout-a77db08e > *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-a77db08e > * + *{margin-block-start:0;margin-block-end:0;}.wp-container-core-group-is-layout-dee50f88{flex-wrap:nowrap;gap:var(--wp--preset--spacing--40);}
+</style>
+<style id='wp-block-template-skip-link-inline-css'>
+
+		.skip-link.screen-reader-text {
+			border: 0;
+			clip-path: inset(50%);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute !important;
+			width: 1px;
+			word-wrap: normal !important;
+		}
+
+		.skip-link.screen-reader-text:focus {
+			background-color: #eee;
+			clip-path: none;
+			color: #444;
+			display: block;
+			font-size: 1em;
+			height: auto;
+			left: 5px;
+			line-height: normal;
+			padding: 15px 23px 14px;
+			text-decoration: none;
+			top: 5px;
+			width: auto;
+			z-index: 100000;
+		}
+</style>
+<link rel='stylesheet' id='twentytwentyfive-style-css' href='https://sites.mit.edu/wp-content/themes/twentytwentyfive/style.css?ver=1.2' media='all' />
+<script id="jquery-core-js-extra">
+var msreader_featured_posts = {"saving":"Saving...","post_featured":"This post is featured","feature":"Feature","unfeature":"Unfeature"};
+</script>
+<script src="https://sites.mit.edu/grad-union/wp-includes/js/jquery/jquery.min.js?ver=3.7.1" id="jquery-core-js"></script>
+<script src="https://sites.mit.edu/grad-union/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.4.1" id="jquery-migrate-js"></script>
+<script id="jquery-js-after">
+var ajaxurl = 'https://sites.mit.edu/grad-union/wp-admin/admin-ajax.php';
+</script>
+<link rel="https://api.w.org/" href="https://sites.mit.edu/grad-union/wp-json/" /><link rel="alternate" title="JSON" type="application/json" href="https://sites.mit.edu/grad-union/wp-json/wp/v2/pages/19" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://sites.mit.edu/grad-union/xmlrpc.php?rsd" />
+<meta name="generator" content="Graduate Student Unionization 6.8.3 - https://sites.mit.edu/grad-union" />
+<link rel="canonical" href="https://sites.mit.edu/grad-union/" />
+<link rel='shortlink' href='https://sites.mit.edu/grad-union/' />
+<link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://sites.mit.edu/grad-union/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsites.mit.edu%2Fgrad-union%2F" />
+<link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://sites.mit.edu/grad-union/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsites.mit.edu%2Fgrad-union%2F&#038;format=xml" />
+	<style>
+		@media screen and (max-width: 782px) {
+			#wpadminbar li#wp-admin-bar-log-in,
+			#wpadminbar li#wp-admin-bar-register {
+				display: block;
+			}
+
+			#wpadminbar li#wp-admin-bar-log-in a,
+			#wpadminbar li#wp-admin-bar-register a {
+				padding: 0 8px;
+			}
+		}
+	</style>
+
+        <script type="text/javascript">
+            var jQueryMigrateHelperHasSentDowngrade = false;
+
+			window.onerror = function( msg, url, line, col, error ) {
+				// Break out early, do not processing if a downgrade reqeust was already sent.
+				if ( jQueryMigrateHelperHasSentDowngrade ) {
+					return true;
+                }
+
+				var xhr = new XMLHttpRequest();
+				var nonce = '6d364779b3';
+				var jQueryFunctions = [
+					'andSelf',
+					'browser',
+					'live',
+					'boxModel',
+					'support.boxModel',
+					'size',
+					'swap',
+					'clean',
+					'sub',
+                ];
+				var match_pattern = /\)\.(.+?) is not a function/;
+                var erroredFunction = msg.match( match_pattern );
+
+                // If there was no matching functions, do not try to downgrade.
+                if ( null === erroredFunction || typeof erroredFunction !== 'object' || typeof erroredFunction[1] === "undefined" || -1 === jQueryFunctions.indexOf( erroredFunction[1] ) ) {
+                    return true;
+                }
+
+                // Set that we've now attempted a downgrade request.
+                jQueryMigrateHelperHasSentDowngrade = true;
+
+				xhr.open( 'POST', 'https://sites.mit.edu/grad-union/wp-admin/admin-ajax.php' );
+				xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+				xhr.onload = function () {
+					var response,
+                        reload = false;
+
+					if ( 200 === xhr.status ) {
+                        try {
+                        	response = JSON.parse( xhr.response );
+
+                        	reload = response.data.reload;
+                        } catch ( e ) {
+                        	reload = false;
+                        }
+                    }
+
+					// Automatically reload the page if a deprecation caused an automatic downgrade, ensure visitors get the best possible experience.
+					if ( reload ) {
+						location.reload();
+                    }
+				};
+
+				xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce ) );
+
+				// Suppress error alerts in older browsers
+				return true;
+			}
+        </script>
+
+		<style type="text/css" id="branda-admin-bar">
+#wpadminbar 			.ub_admin_bar_image{
+				max-width: 100%;
+				max-height: 28px;
+				padding: 2px 0;
+			}
+			#wpadminbar .ub-menu-item.dashicons {
+				font-family: dashicons;
+				top: 2px;
+			}
+</style><script type="importmap" id="wp-importmap">
+{"imports":{"@wordpress\/interactivity":"https:\/\/sites.mit.edu\/grad-union\/wp-includes\/js\/dist\/script-modules\/interactivity\/index.min.js?ver=55aebb6e0a16726baffb"}}
+</script>
+<script type="module" src="https://sites.mit.edu/grad-union/wp-includes/js/dist/script-modules/block-library/navigation/view.min.js?ver=61572d447d60c0aa5240" id="@wordpress/block-library/navigation/view-js-module"></script>
+<link rel="modulepreload" href="https://sites.mit.edu/grad-union/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=55aebb6e0a16726baffb" id="@wordpress/interactivity-js-modulepreload">					<!-- Google Analytics tracking code output by Beehive Analytics Pro -->
+						<script async src="https://www.googletagmanager.com/gtag/js?id=G-230LN9FWEQ&l=beehiveDataLayer"></script>
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
-			gtag('config', 'G-YK97HCVDP9');
-		</script>
-
-	<link rel="icon" href="wp-content/uploads/2023/02/favicon-150x150.ico" sizes="32x32" />
-<link rel="icon" href="wp-content/uploads/2023/02/favicon.ico" sizes="192x192" />
-<link rel="apple-touch-icon" href="wp-content/uploads/2023/02/favicon.ico" />
-<meta name="msapplication-TileImage" content="https://grad-union.mit.edu/wp-content/uploads/2023/02/favicon.ico" />
-<style id='global-styles-inline-css' type='text/css'>
-:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgb(6,147,227) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgb(252,185,0) 0%,rgb(255,105,0) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgb(255,105,0) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgb(255, 255, 255), 6px 6px rgb(0, 0, 0);--wp--preset--shadow--crisp: 6px 6px 0px rgb(0, 0, 0);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
-/*# sourceURL=global-styles-inline-css */
+						window.beehiveDataLayer = window.beehiveDataLayer || [];
+			function gaplusu() {beehiveDataLayer.push(arguments);}
+			gaplusu('js', new Date())
+						gaplusu('config', 'G-230LN9FWEQ', {
+				'anonymize_ip': false,
+				'allow_google_signals': false,
+			})
+					</script>
+		<style type="text/css">
+/* <![CDATA[ */
+img.latex { vertical-align: middle; border: none; }
+/* ]]> */
 </style>
+<style class='wp-fonts-local'>
+@font-face{font-family:Manrope;font-style:normal;font-weight:200 800;font-display:fallback;src:url('https://sites.mit.edu/wp-content/themes/twentytwentyfive/assets/fonts/manrope/Manrope-VariableFont_wght.woff2') format('woff2');}
+@font-face{font-family:"Fira Code";font-style:normal;font-weight:300 700;font-display:fallback;src:url('https://sites.mit.edu/wp-content/themes/twentytwentyfive/assets/fonts/fira-code/FiraCode-VariableFont_wght.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:100;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyeMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:200;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyfMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:300;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:400;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:500;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:600;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:700;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:800;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:normal;font-weight:900;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZ1rib2Bg-4.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:100;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dphiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:200;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdthiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:300;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTch9thiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:400;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc2dthiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:500;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTc69thiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:600;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcB9xhiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:700;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcPtxhiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:800;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTcWdxhiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:Inter;font-style:italic;font-weight:900;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/UcCM3FwrK3iLTcvneQg7Ca725JhhKnNqk4j1ebLhAm8SrXTccNxhiJ-Ek-7MeA.woff2') format('woff2');}
+@font-face{font-family:"Material Icons";font-style:normal;font-weight:400;font-display:fallback;src:url('https://sites.mit.edu/grad-union/wp-content/uploads/fonts/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhI8tIHh.woff2') format('woff2');}
+</style>
+<link rel="icon" href="https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/f/2064/files/2025/12/favicon-whiteM-512x512-1-150x150.png" sizes="32x32" />
+<link rel="icon" href="https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/f/2064/files/2025/12/favicon-whiteM-512x512-1-300x300.png" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/f/2064/files/2025/12/favicon-whiteM-512x512-1-300x300.png" />
+<meta name="msapplication-TileImage" content="https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/f/2064/files/2025/12/favicon-whiteM-512x512-1-300x300.png" />
 </head>
 
+<body class="home wp-singular page-template-default page page-id-19 wp-custom-logo wp-embed-responsive wp-theme-twentytwentyfive">
 
-	<section class="modal"> 
-		<div class="question">
-			<img class="close-modal" src="wp-content/themes/mit-union-theme/img/close.svg">
-			<div>
-				
-				<h3>Question of the Day</h3>
-				<div>
-					<strong>Q.</strong>
-					<div>
-						<p>What happens if an employee who is not part of the GSU-UE chooses not to work in support of the union?</p>
-					</div>
-				</div>
-
-				<div>
-					<strong>A.</strong>
-					<div>
-						<p>Non-unionized, non-supervisory staff have the same strike rights as GSU-UE bargaining unit members. They may strike, or not strike, without coercion or retaliation. If they elect to strike, however, their compensation may be withheld. In addition, if they engage in unlawful unprotected strike activity, such as a partial withholding of their labor, they may be subject to discipline.
-
-Other MIT staff who are members of unions that have active collective bargaining agreements with no-strike clauses do not have the right to participate in an MIT GSU-UE strike by not working. They are expected to be at work and fulfilling their job responsibilities.
-
-MIT faculty and other managerial and supervisory employees are not generally covered by the NLRA and do not have a legal right to participate in any GSU-UE strike.</p>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-<body class="home wp-singular page-template-default page page-id-24 wp-theme-ns-core-theme wp-child-theme-mit-union-theme computer loading-js" id="red">
-
-	
-	<a class="skip-link screen-reader-text" href="index.html#content">
-		Skip to content	</a>
-
-	<div class="side-fixed"></div>
-
-	
-	<header class=" nav-active">
-
-		<div class="upper">
-
-			<h1><a href="index.html">Graduate Student Unionization</a></h1>
-			
-<div class="logo" style="width:180px; height:auto;">
-	<a id='main-url' href='index.html'>				<svg class="mit-logo-name" xmlns="http://www.w3.org/2000/svg" width="400" height="92.249" viewBox="0 0 400 92.249" style="width: 100%;height: auto;">
-  <path class="mit-logo-name--color" id="mit_lockup_std-three-line_rgb_black" d="M349.2,160l3.389,12.047c.4,1.544.805,3.087,1.074,4.362.168.738.3,1.443.436,2.114h.067c.134-.671.268-1.376.436-2.114.268-1.275.6-2.819,1.04-4.362L359.028,160h6.946v23.993h-4.53V170.235c0-.973,0-2.181.1-3.221.034-.57.067-1.175.1-1.745h-.067c-.1.57-.235,1.107-.336,1.644-.235.94-.47,2.013-.7,2.92l-4.128,14.161h-4.664l-4.027-14.161c-.268-.906-.47-1.98-.7-2.92-.1-.537-.235-1.074-.336-1.644h-.067c.034.57.067,1.174.1,1.745.034,1.04.1,2.248.1,3.221v13.758H342.35V160Zm30.2,22.081h-.067a4.582,4.582,0,0,1-1.745,1.644,7.24,7.24,0,0,1-3.322.671c-3.557,0-6.007-1.812-6.007-5.268a4.437,4.437,0,0,1,2.013-3.993,11.88,11.88,0,0,1,4.9-1.544c2.886-.4,4.161-.638,4.161-1.946,0-1.275-.94-2.047-2.886-2.047-2.148,0-3.188.738-3.322,2.416h-4.06a5.254,5.254,0,0,1,1.879-3.96,8.256,8.256,0,0,1,5.537-1.711c5.168,0,7.248,2.282,7.248,6.342v8.758c0,1.309.2,2.081.6,2.383v.168h-4.4A4.838,4.838,0,0,1,379.4,182.081Zm-1.007-1.913a3.022,3.022,0,0,0,1.04-2.248v-2.584a11.133,11.133,0,0,1-3.188,1.007c-2.416.537-3.557,1.074-3.557,2.685s1.074,2.181,2.685,2.181A4.375,4.375,0,0,0,378.391,180.168Zm6.946-1.745h4.228c.3,2.013,1.678,2.852,3.758,2.852,2.013,0,3.154-.772,3.154-1.98,0-.805-.57-1.275-1.376-1.577a25.006,25.006,0,0,0-3.154-.7,11.258,11.258,0,0,1-4.195-1.409,4.154,4.154,0,0,1-1.913-3.792,4.8,4.8,0,0,1,2.047-4.161,8.5,8.5,0,0,1,4.966-1.342c4.6,0,7.014,2.181,7.383,5.7h-4.128c-.235-1.879-1.342-2.517-3.322-2.517-1.812,0-2.953.638-2.953,1.913,0,.772.57,1.141,1.477,1.409.872.3,2.047.436,3.255.7a12.029,12.029,0,0,1,4.128,1.409,4.474,4.474,0,0,1,1.946,4.027,4.843,4.843,0,0,1-2.013,4.06,8.875,8.875,0,0,1-5.235,1.477C388.357,184.5,385.606,182.114,385.337,178.423Zm16.308,0h4.228c.3,2.013,1.678,2.852,3.758,2.852,2.013,0,3.154-.772,3.154-1.98,0-.805-.571-1.275-1.376-1.577a25.011,25.011,0,0,0-3.154-.7,11.259,11.259,0,0,1-4.195-1.409,4.154,4.154,0,0,1-1.913-3.792,4.8,4.8,0,0,1,2.047-4.161,8.5,8.5,0,0,1,4.966-1.342c4.6,0,7.013,2.181,7.383,5.7h-4.128c-.235-1.879-1.342-2.517-3.322-2.517-1.812,0-2.953.638-2.953,1.913,0,.772.57,1.141,1.477,1.409.873.3,2.047.436,3.255.7A12.029,12.029,0,0,1,415,174.933a4.474,4.474,0,0,1,1.946,4.027,4.843,4.843,0,0,1-2.013,4.06A8.875,8.875,0,0,1,409.7,184.5C404.666,184.5,401.914,182.114,401.646,178.423Zm27.684,3.658h-.067a4.582,4.582,0,0,1-1.745,1.644,7.24,7.24,0,0,1-3.322.671c-3.557,0-6.007-1.812-6.007-5.268a4.437,4.437,0,0,1,2.013-3.993,11.88,11.88,0,0,1,4.9-1.544c2.886-.4,4.161-.638,4.161-1.946,0-1.275-.94-2.047-2.886-2.047-2.148,0-3.188.738-3.322,2.416h-4.06a5.254,5.254,0,0,1,1.879-3.96,8.256,8.256,0,0,1,5.537-1.711c5.168,0,7.248,2.282,7.248,6.342v8.758c0,1.309.2,2.081.6,2.383v.168h-4.4A4.838,4.838,0,0,1,429.33,182.081Zm-1.007-1.913a3.022,3.022,0,0,0,1.04-2.248v-2.584a11.134,11.134,0,0,1-3.188,1.007c-2.416.537-3.557,1.074-3.557,2.685s1.074,2.181,2.685,2.181A4.375,4.375,0,0,0,428.323,180.168Zm9.564,1.678A9.189,9.189,0,0,1,435.5,175.4a9.466,9.466,0,0,1,2.349-6.477,8.218,8.218,0,0,1,6.242-2.617,8.37,8.37,0,0,1,5.369,1.745,7.372,7.372,0,0,1,2.45,4.564h-4.463a3.1,3.1,0,0,0-3.154-2.651c-2.785,0-4.161,2.047-4.161,5.436,0,3.289,1.275,5.436,4.094,5.436a3.171,3.171,0,0,0,3.456-2.919h4.4a6.8,6.8,0,0,1-2.248,4.631,8.066,8.066,0,0,1-5.5,1.946A8.521,8.521,0,0,1,437.887,181.846Zm20.638-12.819a5.423,5.423,0,0,1,5-2.718,5.606,5.606,0,0,1,4.3,1.812,6.833,6.833,0,0,1,1.644,4.631v11.242H464.9V173.423a2.832,2.832,0,0,0-2.987-3.154c-2.013,0-3.49,1.577-3.49,3.96v9.765H453.86V160h4.564v9.027Zm24.43,12.953h-.1a5.524,5.524,0,0,1-4.933,2.483c-3.859,0-5.973-2.383-5.973-6.208V166.779h4.53v10.7c0,2.013.872,3.121,2.852,3.121,2.148,0,3.456-1.611,3.456-3.893v-9.933h4.564v17.215h-4.4Zm6.074-3.557h4.228c.3,2.013,1.678,2.852,3.758,2.852,2.013,0,3.154-.772,3.154-1.98,0-.805-.571-1.275-1.376-1.577a25.007,25.007,0,0,0-3.154-.7,11.258,11.258,0,0,1-4.195-1.409,4.154,4.154,0,0,1-1.913-3.792,4.8,4.8,0,0,1,2.047-4.161,8.5,8.5,0,0,1,4.966-1.342c4.6,0,7.013,2.181,7.383,5.7H499.8c-.235-1.879-1.342-2.517-3.322-2.517-1.812,0-2.953.638-2.953,1.913,0,.772.57,1.141,1.477,1.409.872.3,2.047.436,3.255.7a12.03,12.03,0,0,1,4.128,1.409,4.475,4.475,0,0,1,1.946,4.027,4.843,4.843,0,0,1-2.013,4.06,8.875,8.875,0,0,1-5.235,1.477C492.048,184.5,489.3,182.114,489.028,178.423Zm18.791,3.423a9.229,9.229,0,0,1-2.316-6.477,9.342,9.342,0,0,1,2.383-6.443,8.131,8.131,0,0,1,6.108-2.617,7.577,7.577,0,0,1,6.309,2.886,11.949,11.949,0,0,1,2.181,7.483H510c.369,2.685,1.779,4.3,4.4,4.3a3.187,3.187,0,0,0,3.322-2.114h4.5a6.656,6.656,0,0,1-2.45,3.96,8.512,8.512,0,0,1-5.336,1.678A8.693,8.693,0,0,1,507.819,181.846Zm2.248-8.322h7.651a3.59,3.59,0,0,0-3.658-3.691C511.645,169.832,510.47,171.242,510.068,173.524Zm15.369-6.745v-5.369H529.9v5.369h2.953v3.188H529.9v8.96c0,1.309.671,1.711,1.711,1.711h.872a2.214,2.214,0,0,0,.47-.034v3.356a5.206,5.206,0,0,1-.738.033c-.5.034-1.208.034-2.114.034a5.442,5.442,0,0,1-3.154-.839,3.747,3.747,0,0,1-1.51-3.289v-9.933h-2.383v-3.188Zm10.6,0v-5.369H540.5v5.369h2.953v3.188H540.5v8.96c0,1.309.671,1.711,1.711,1.711h.873a2.215,2.215,0,0,0,.47-.034v3.356a5.209,5.209,0,0,1-.738.033c-.5.034-1.208.034-2.114.034a5.443,5.443,0,0,1-3.154-.839,3.747,3.747,0,0,1-1.51-3.289v-9.933h-2.383v-3.188Zm8.657,11.644h4.228c.3,2.013,1.678,2.852,3.758,2.852,2.013,0,3.154-.772,3.154-1.98,0-.805-.57-1.275-1.376-1.577a25,25,0,0,0-3.154-.7,11.259,11.259,0,0,1-4.195-1.409,4.154,4.154,0,0,1-1.913-3.792,4.8,4.8,0,0,1,2.047-4.161,8.5,8.5,0,0,1,4.966-1.342c4.6,0,7.014,2.181,7.383,5.7H555.47c-.235-1.879-1.342-2.517-3.322-2.517-1.812,0-2.953.638-2.953,1.913,0,.772.57,1.141,1.476,1.409.873.3,2.047.436,3.255.7a12.03,12.03,0,0,1,4.128,1.409A4.474,4.474,0,0,1,560,178.96a4.843,4.843,0,0,1-2.013,4.06,8.875,8.875,0,0,1-5.235,1.477C547.718,184.5,544.966,182.114,544.7,178.423ZM347.216,191.192v23.993H342.35V191.192Zm7.718,9.128a5.5,5.5,0,0,1,5.1-2.819,5.605,5.605,0,0,1,4.3,1.812,6.832,6.832,0,0,1,1.644,4.631v11.242h-4.564V204.615a2.832,2.832,0,0,0-2.987-3.154c-2.013,0-3.49,1.577-3.49,3.96v9.765H350.37V197.97h4.463v2.349Zm12.584,9.3h4.228c.3,2.013,1.678,2.852,3.758,2.852,2.013,0,3.154-.772,3.154-1.98,0-.805-.57-1.275-1.376-1.577a25.015,25.015,0,0,0-3.154-.7,11.26,11.26,0,0,1-4.195-1.409A4.154,4.154,0,0,1,368.021,203a4.8,4.8,0,0,1,2.047-4.161,8.5,8.5,0,0,1,4.966-1.342c4.6,0,7.014,2.181,7.383,5.7H378.29c-.235-1.879-1.342-2.517-3.322-2.517-1.812,0-2.953.638-2.953,1.913,0,.772.57,1.141,1.477,1.409.873.3,2.047.436,3.255.7a12.028,12.028,0,0,1,4.127,1.409,4.474,4.474,0,0,1,1.946,4.027,4.843,4.843,0,0,1-2.013,4.06,8.875,8.875,0,0,1-5.235,1.477C370.538,215.688,367.787,213.306,367.518,209.615Zm18.188-11.644V192.6h4.463v5.369h2.953v3.188h-2.953v8.96c0,1.309.671,1.711,1.711,1.711h.872a2.217,2.217,0,0,0,.47-.034v3.356a5.2,5.2,0,0,1-.738.034c-.5.034-1.208.034-2.114.034a5.443,5.443,0,0,1-3.154-.839,3.747,3.747,0,0,1-1.51-3.289v-9.933h-2.383V197.97Zm14.127-6.141v4.094h-4.564v-4.094Zm0,6.141v17.215h-4.564V197.97Zm4.128,0V192.6h4.463v5.369h2.953v3.188h-2.953v8.96c0,1.309.671,1.711,1.711,1.711h.873a2.216,2.216,0,0,0,.47-.034v3.356a5.2,5.2,0,0,1-.738.034c-.5.034-1.208.034-2.114.034a5.442,5.442,0,0,1-3.154-.839,3.747,3.747,0,0,1-1.51-3.289v-9.933h-2.383V197.97Zm20.436,15.2h-.1a5.524,5.524,0,0,1-4.933,2.483c-3.859,0-5.973-2.383-5.973-6.208V197.97h4.53v10.7c0,2.013.872,3.121,2.852,3.121,2.148,0,3.456-1.611,3.456-3.893V197.97h4.564v17.215h-4.4Zm8.524-15.2V192.6h4.463v5.369h2.953v3.188h-2.953v8.96c0,1.309.671,1.711,1.711,1.711h.872a2.217,2.217,0,0,0,.47-.034v3.356a5.2,5.2,0,0,1-.738.034c-.5.034-1.208.034-2.114.034a5.443,5.443,0,0,1-3.154-.839,3.747,3.747,0,0,1-1.51-3.289v-9.933h-2.383V197.97Zm10.873,15.067a9.228,9.228,0,0,1-2.316-6.477,9.343,9.343,0,0,1,2.383-6.443,8.131,8.131,0,0,1,6.107-2.618,7.577,7.577,0,0,1,6.309,2.886,11.95,11.95,0,0,1,2.181,7.483H445.974c.369,2.685,1.779,4.3,4.4,4.3a3.186,3.186,0,0,0,3.322-2.114h4.5a6.656,6.656,0,0,1-2.45,3.96,8.512,8.512,0,0,1-5.336,1.678A8.693,8.693,0,0,1,443.793,213.037Zm2.248-8.322h7.651a3.59,3.59,0,0,0-3.658-3.691C447.618,201.024,446.444,202.433,446.041,204.715Zm21.443,8.322a9,9,0,0,1-2.517-6.443,9.133,9.133,0,0,1,2.517-6.477,8.865,8.865,0,0,1,6.477-2.618,9,9,0,0,1,6.51,2.618,9.254,9.254,0,0,1,2.483,6.477,9.113,9.113,0,0,1-2.483,6.443,8.892,8.892,0,0,1-6.51,2.651A8.759,8.759,0,0,1,467.484,213.037Zm10.839-6.443c0-3.389-1.544-5.638-4.362-5.638s-4.362,2.248-4.362,5.638c0,3.356,1.544,5.6,4.362,5.6S478.323,209.95,478.323,206.594Zm7.55-8.624v-1.544a4.716,4.716,0,0,1,2.181-4.362,8.937,8.937,0,0,1,5.47-.839v3.524c-2.148-.1-3.087.134-3.087,1.946v1.275h3.087v3.289h-3.087v13.926h-4.564V201.259h-2.349V197.97ZM354.431,222.383v4.094h-7.215v19.9H342.35v-19.9h-7.215v-4.094Zm-.5,21.846a9.228,9.228,0,0,1-2.316-6.477,9.343,9.343,0,0,1,2.383-6.443,8.131,8.131,0,0,1,6.108-2.618,7.577,7.577,0,0,1,6.309,2.886,11.949,11.949,0,0,1,2.181,7.483H356.109c.369,2.685,1.779,4.3,4.4,4.3a3.186,3.186,0,0,0,3.322-2.114h4.5a6.656,6.656,0,0,1-2.45,3.96,8.512,8.512,0,0,1-5.336,1.678A8.693,8.693,0,0,1,353.928,244.229Zm2.248-8.322h7.651a3.59,3.59,0,0,0-3.658-3.691C357.753,232.215,356.579,233.625,356.176,235.907Zm15.872,8.322a9.189,9.189,0,0,1-2.383-6.443,9.465,9.465,0,0,1,2.349-6.477,8.217,8.217,0,0,1,6.242-2.618,8.37,8.37,0,0,1,5.369,1.745,7.372,7.372,0,0,1,2.45,4.564h-4.463a3.1,3.1,0,0,0-3.154-2.651c-2.785,0-4.161,2.047-4.161,5.436,0,3.289,1.275,5.436,4.094,5.436a3.171,3.171,0,0,0,3.456-2.92h4.4a6.8,6.8,0,0,1-2.248,4.631,8.065,8.065,0,0,1-5.5,1.946A8.521,8.521,0,0,1,372.049,244.229Zm20.638-12.819a5.423,5.423,0,0,1,5-2.718,5.606,5.606,0,0,1,4.3,1.812,6.833,6.833,0,0,1,1.644,4.631v11.242h-4.564V235.806a2.832,2.832,0,0,0-2.987-3.154c-2.013,0-3.49,1.577-3.49,3.96v9.765h-4.564V222.383h4.564v9.027Zm18.121.1a5.5,5.5,0,0,1,5.1-2.819,5.606,5.606,0,0,1,4.3,1.812,6.833,6.833,0,0,1,1.644,4.631v11.242h-4.564V235.806a2.832,2.832,0,0,0-2.987-3.154c-2.013,0-3.49,1.577-3.49,3.96v9.765h-4.564V229.162h4.463v2.349Zm15.336,12.718a8.995,8.995,0,0,1-2.517-6.443,9.133,9.133,0,0,1,2.517-6.477,8.865,8.865,0,0,1,6.477-2.618,9,9,0,0,1,6.51,2.618,9.254,9.254,0,0,1,2.483,6.477,9.113,9.113,0,0,1-2.483,6.443,8.892,8.892,0,0,1-6.51,2.651A8.759,8.759,0,0,1,426.143,244.229Zm10.839-6.443c0-3.389-1.544-5.638-4.362-5.638s-4.362,2.248-4.362,5.638c0,3.356,1.544,5.6,4.362,5.6S436.982,241.142,436.982,237.786Zm11.174-15.4v23.993h-4.564V222.383Zm4.5,21.846a8.995,8.995,0,0,1-2.517-6.443,9.133,9.133,0,0,1,2.517-6.477,8.865,8.865,0,0,1,6.477-2.618,9,9,0,0,1,6.51,2.618,9.254,9.254,0,0,1,2.483,6.477,9.113,9.113,0,0,1-2.483,6.443,8.892,8.892,0,0,1-6.51,2.651A8.759,8.759,0,0,1,452.653,244.229Zm10.839-6.443c0-3.389-1.544-5.638-4.362-5.638s-4.362,2.248-4.362,5.638c0,3.356,1.544,5.6,4.362,5.6S463.492,241.142,463.492,237.786Zm6.074,9.094h4.53c.369,1.074,1.309,1.913,3.456,1.913,2.55,0,3.826-1.175,3.826-3.591v-1.879h-.1a5.467,5.467,0,0,1-4.5,2.013,7.181,7.181,0,0,1-5.2-2.181,8.172,8.172,0,0,1-2.383-6.04,8.954,8.954,0,0,1,2.114-6.141,6.865,6.865,0,0,1,5.336-2.282,5.548,5.548,0,0,1,4.765,2.282h.067v-1.812h4.4v15.906a6.569,6.569,0,0,1-2.047,5.235,9.008,9.008,0,0,1-6.208,1.946C472.854,252.249,470.069,250.236,469.566,246.88Zm11.107-6.577a5.375,5.375,0,0,0,.94-3.289,5.257,5.257,0,0,0-1.007-3.289,3.752,3.752,0,0,0-3.087-1.376c-2.349,0-3.859,1.779-3.859,4.7,0,2.953,1.51,4.631,3.893,4.631A3.775,3.775,0,0,0,480.673,240.3Zm9.933,8.121c1.846,0,2.55-.906,2.55-2.349a6.284,6.284,0,0,0-.268-1.711c-.235-.7-.537-1.644-1.04-2.953l-4.631-12.248h4.8l2.55,7.752c.268.805.5,1.711.738,2.483.1.436.235.839.369,1.275h.067c.1-.436.2-.839.3-1.275a25.347,25.347,0,0,1,.7-2.483l2.416-7.752h4.6l-6.007,17.651a9.269,9.269,0,0,1-2.215,4.027,5.378,5.378,0,0,1-3.859,1.175H489v-3.591Zm-244.229-2.047h19.195V188.792H246.377Zm28.792-67.182h47.987V160H275.169ZM246.377,160h19.195v19.195H246.377Zm-28.792,86.377h19.195V160H217.584Zm-28.792-19.195h19.195V160H188.792ZM160,246.377h19.195V160H160Zm115.169,0h19.195V188.792H275.169Z" transform="translate(-160 -160)"></path>
-</svg>
-		<span id="main-name" class="sr-only">MIT</span>
-	</a></div>
-
-							<div class="hamburger-menu">
-					<span class="bun top"></span>
-					<span class="patty middle"></span>
-					<span class="bun bottom"></span>
-				</div>
-					</div>
-		
-		<nav class="primary-nav"><ul id="menu-primary-navigation" class="menu"><li id="menu-item-1197" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1197"><a href="overview/index.html">Overview</a></li>
-<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="community-letters/index.html">Community Updates</a></li>
-<li id="menu-item-63" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-63"><a href="updates.html">Negotiation Updates</a></li>
-<li id="menu-item-1471" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-1471"><a href="index.html#">FAQ</a>
-<ul class="sub-menu">
-	<li id="menu-item-1474" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1474"><a href="background-faq/index.html">Background FAQ</a></li>
-	<li id="menu-item-1475" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1475"><a href="union-faq/index.html">Union FAQ</a></li>
-</ul>
-</li>
-<li id="menu-item-1476" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1476"><a href="bargaining-team/index.html">Bargaining Team</a></li>
-</ul></nav>	</header><main>
-	    				        	
-		<section class="hero content-module">
-
-			<div class="main">
-				<div>
-					<div class="image" style="background: url(wp-content/uploads/2023/02/home-hero.jpg) no-repeat center; background-size: cover;">
-						<img decoding="async" src="wp-content/uploads/2023/02/home-hero.jpg" style="visibility: hidden;">
-					</div>
-
-					<div class="content">
-						<h1 class="page-title">Contract Ratified</h1>						<div><p>The MIT Graduate Student Union (GSU) has voted to ratify its contract with the Institute, which is now in effect through May 31, 2026. The agreement strikes a balance that will serve all members of the MIT community. We look forward to moving ahead with a sense of new beginnings.</p>
-</div>											</div>
-				</div>
-			</div>
-		</section>
-		
-			
+<div class="wp-site-blocks">
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group cp-fixed-sidebar is-layout-flow wp-block-group-is-layout-flow" style="border-right-color:#dddddd;border-right-width:1px"></div>
 
 
-		<section class="links content-module">
-			<div class="main">
-                <div>   
-                    <div class="content">
-                        <div>
-                            
+<header class="wp-block-template-part">
+<div class="wp-block-group alignfull has-global-padding is-layout-constrained wp-block-group-is-layout-constrained">
+<div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-group alignwide cp-content-containers nav-container is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-98169aed wp-block-group-is-layout-flex" style="padding-top:50px;padding-right:75px;padding-bottom:50px;padding-left:150px"><p style="color:#333333; font-size:clamp(1.119rem, 1.119rem + ((1vw - 0.2rem) * 1.147), 1.75rem);" class="has-link-color wp-elements-9b0c354b129c3d34c7f1b04216fe91f3 wp-block-site-title has-text-color"><a href="https://sites.mit.edu/grad-union" target="_self" rel="home" aria-current="page">Graduate Student Unionization</a></p>
 
-                            <div class="link-block purple"><div><a href="overview/index.html">Guiding Principles</a></div></div>                            
 
-                            <div class="link-block blue"><div><a href="community-letters/index.html">Community Updates</a></div></div>                            
+<figure class="wp-block-image size-large is-resized has-lightbox"><a href="https://web.mit.edu/"><img fetchpriority="high" decoding="async" width="1024" height="236" src="https://sites.mit.edu/grad-union/files/2025/12/mit_lockup_std-three-line_rgb_black-1024x236.png" alt="Logo" class="wp-image-73" style="width:180px" srcset="https://sites.mit.edu/grad-union/files/2025/12/mit_lockup_std-three-line_rgb_black-1024x236.png 1024w, https://sites.mit.edu/grad-union/files/2025/12/mit_lockup_std-three-line_rgb_black-300x69.png 300w, https://sites.mit.edu/grad-union/files/2025/12/mit_lockup_std-three-line_rgb_black-768x177.png 768w, https://sites.mit.edu/grad-union/files/2025/12/mit_lockup_std-three-line_rgb_black-1536x354.png 1536w, https://sites.mit.edu/grad-union/files/2025/12/mit_lockup_std-three-line_rgb_black-2048x472.png 2048w" sizes="(max-width: 1024px) 100vw, 1024px" /></a></figure>
+</div>
 
-                            <div class="link-block green"><div><a href="updates.html">Negotiation Updates</a></div></div>                            
 
-                            <div class="link-block pink"><div><a href="union-faq/index.html">Frequently Asked Questions</a></div></div>                                                    </div>
-                    </div>
-                </div>
-			</div>
-		</section>
-	
 
-		<section class="text-block content-module red sidebar">
-			<div class="main">
-                <div>   
-                    <div class="content">
-
-                        <p>MIT has negotiated a first contract with the GSU. The students who are included in the GSU’s bargaining unit are teaching assistants, research assistants, and instructor Gs.</p>
-
-                                                                    </div>
-
-                                        <aside>
-                                            </aside>
-                                    </div>
-			</div>
-		</section>
-	  	 		</main>
-		
-		<footer>
-			<div class="upper">
-									<p class="email">General Inquiries: <a href="mailto:gradunionquestions@mit.edu ">gradunionquestions@mit.edu </a></p>
-								<nav class="footer-navigation"><ul id="menu-legal-navigation" class="menu"><li id="menu-item-242" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-242"><a target="_blank" href="https://www.mit.edu/accessibility/">Accessibility</a></li>
-<li id="menu-item-520" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-520"><a target="_blank" href="https://www.mit.edu/privacy/">Privacy</a></li>
-</ul></nav>			</div>
-
-			<div class="lower">
-												<div class="logo" style="width:116px; height:auto;">
-																<svg class="mit-logo tle--logo-mit" xmlns="http://www.w3.org/2000/svg" width="200" height="105.882" viewBox="0 0 200 105.882" style="width: 76px;height: auto;">
-  <path class="mit-logo-name--color" id="mit_logo_std_rgb_black" fill="#fff" d="M265.882,265.882h23.529V195.294H265.882Zm35.294-82.353H360V160H301.176ZM265.882,160h23.529v23.529H265.882ZM230.588,265.882h23.529V160H230.588Zm-35.294-23.529h23.529V160H195.294ZM160,265.882h23.529V160H160Zm141.176,0h23.529V195.294H301.176Z" transform="translate(-160 -160)"></path>
-</svg>
-						<span id="footer-name" class="sr-only"></span>
-									</div>
-								
-								<address>
-					<h6>Massachusetts Institute of Technology</h6>
-77 Massachusetts Avenue, Cambridge, MA, USA				</address>
+<div class="wp-block-group cp-content-containers is-layout-flow wp-block-group-is-layout-flow" style="margin-top:0px;padding-right:75px;padding-bottom:35px;padding-left:150px">
+<div class="wp-block-group alignwide is-content-justification-right is-nowrap is-layout-flex wp-container-core-group-is-layout-f4c28e8b wp-block-group-is-layout-flex"><nav class="is-responsive items-justified-right cp-main-nav wp-block-navigation is-content-justification-right is-layout-flex wp-container-core-navigation-is-layout-e0a20c87 wp-block-navigation-is-layout-flex" aria-label="Navigation" 
+		 data-wp-interactive="core/navigation" data-wp-context='{"overlayOpenedBy":{"click":false,"hover":false,"focus":false},"type":"overlay","roleAttribute":"","ariaLabel":"Menu"}'><button aria-haspopup="dialog" aria-label="Open menu" class="wp-block-navigation__responsive-container-open" 
+				data-wp-on-async--click="actions.openMenuOnClick"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+			><svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M5 5v1.5h14V5H5zm0 7.8h14v-1.5H5v1.5zM5 19h14v-1.5H5V19z" /></svg></button>
+				<div class="wp-block-navigation__responsive-container  has-text-color has-contrast-color has-background has-base-background-color"  id="modal-1" 
+				data-wp-class--has-modal-open="state.isMenuOpen"
+				data-wp-class--is-menu-open="state.isMenuOpen"
+				data-wp-watch="callbacks.initMenu"
+				data-wp-on--keydown="actions.handleMenuKeydown"
+				data-wp-on-async--focusout="actions.handleMenuFocusout"
+				tabindex="-1"
+			>
+					<div class="wp-block-navigation__responsive-close" tabindex="-1">
+						<div class="wp-block-navigation__responsive-dialog" 
+				data-wp-bind--aria-modal="state.ariaModal"
+				data-wp-bind--aria-label="state.ariaLabel"
+				data-wp-bind--role="state.roleAttribute"
+			>
+							<button aria-label="Close menu" class="wp-block-navigation__responsive-container-close" 
+				data-wp-on-async--click="actions.closeMenuOnClick"
+			><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="m13.06 12 6.47-6.47-1.06-1.06L12 10.94 5.53 4.47 4.47 5.53 10.94 12l-6.47 6.47 1.06 1.06L12 13.06l6.47 6.47 1.06-1.06L13.06 12Z"></path></svg></button>
+							<div class="wp-block-navigation__responsive-container-content" 
+				data-wp-watch="callbacks.focusFirstElement"
+			 id="modal-1-content">
+								<ul class="wp-block-navigation__container is-responsive items-justified-right cp-main-nav wp-block-navigation"><li class=" wp-block-navigation-item purple wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://sites.mit.edu/grad-union/overview/"><span class="wp-block-navigation-item__label">Overview</span></a></li><li class=" wp-block-navigation-item blue wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://sites.mit.edu/grad-union/community-letters/"><span class="wp-block-navigation-item__label">Community Updates</span></a></li><li class=" wp-block-navigation-item green wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://sites.mit.edu/grad-union/negotiation-updates/"><span class="wp-block-navigation-item__label">Negotiation Updates</span></a></li><li data-wp-context="{ &quot;submenuOpenedBy&quot;: { &quot;click&quot;: false, &quot;hover&quot;: false, &quot;focus&quot;: false }, &quot;type&quot;: &quot;submenu&quot;, &quot;modal&quot;: null }" data-wp-interactive="core/navigation" data-wp-on--focusout="actions.handleMenuFocusout" data-wp-on--keydown="actions.handleMenuKeydown" data-wp-on-async--mouseenter="actions.openMenuOnHover" data-wp-on-async--mouseleave="actions.closeMenuOnHover" data-wp-watch="callbacks.initMenu" tabindex="-1" class="wp-block-navigation-item has-child open-on-hover-click pink wp-block-navigation-submenu"><a class="wp-block-navigation-item__content" href="index.html#"><span class="wp-block-navigation-item__label">FAQ</span></a><button data-wp-bind--aria-expanded="state.isMenuOpen" data-wp-on-async--click="actions.toggleMenuOnClick" aria-label="FAQ submenu" class="wp-block-navigation__submenu-icon wp-block-navigation-submenu__toggle" ><svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12" fill="none" aria-hidden="true" focusable="false"><path d="M1.50002 4L6.00002 8L10.5 4" stroke-width="1.5"></path></svg></button><ul data-wp-on-async--focus="actions.openMenuOnFocus" class="wp-block-navigation__submenu-container has-text-color has-contrast-color has-background has-base-background-color pink wp-block-navigation-submenu"><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://sites.mit.edu/grad-union/background-faq/"><span class="wp-block-navigation-item__label">Background FAQ</span></a></li><li class=" wp-block-navigation-item wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://sites.mit.edu/grad-union/union-faq/"><span class="wp-block-navigation-item__label">Union FAQ</span></a></li></ul></li><li class=" wp-block-navigation-item brown wp-block-navigation-link"><a class="wp-block-navigation-item__content"  href="https://sites.mit.edu/grad-union/bargaining-team/"><span class="wp-block-navigation-item__label">Bargaining Team</span></a></li></ul>
 							</div>
-		</footer>
+						</div>
+					</div>
+				</div></nav></div>
+</div>
+</div>
+</div>
+</header>
 
-		<script type="speculationrules">
-{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":["/wp-*.php","/wp-admin/*","/wp-content/uploads/*","/wp-content/*","/wp-content/plugins/*","/wp-content/themes/mit-union-theme/*","/wp-content/themes/ns-core-theme/*","/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+
+<main class="wp-block-group has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="margin-top:var(--wp--preset--spacing--30)">
+<div class="wp-block-group alignfull is-layout-flow wp-block-group-is-layout-flow" style="padding-top:0;padding-bottom:0"><div class="entry-content alignfull wp-block-post-content is-layout-flow wp-block-post-content-is-layout-flow">
+<div class="wp-block-group cp-content-containers has-background has-global-padding is-layout-constrained wp-container-core-group-is-layout-c40ed9c7 wp-block-group-is-layout-constrained" style="background-color:#f2f2f2;padding-right:75px;padding-left:150px">
+<div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-columns is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group is-layout-flow wp-block-group-is-layout-flow" style="padding-top:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40)">
+<h1 class="wp-block-heading">Contract Ratified</h1>
+
+
+
+<p>The MIT Graduate Student Union (GSU) has voted to ratify its contract with the Institute, which is now in effect through May 31, 2026. The agreement strikes a balance that will serve all members of the MIT community. We look forward to moving ahead with a sense of new beginnings.</p>
+</div>
+
+
+
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+
+
+
+<div class="wp-block-column is-layout-flow wp-block-column-is-layout-flow">
+<figure class="wp-block-image size-large is-resized cp-home-img"><img decoding="async" width="1024" height="722" src="https://sites.mit.edu/grad-union/wp-content/uploads/2025/12/home-hero-1024x722.jpg" alt="Image" class="wp-image-21" style="width:600px" srcset="https://sites.mit.edu/grad-union/files/2025/12/home-hero-1024x722.jpg 1024w, https://sites.mit.edu/grad-union/files/2025/12/home-hero-300x212.jpg 300w, https://sites.mit.edu/grad-union/files/2025/12/home-hero-768x542.jpg 768w, https://sites.mit.edu/grad-union/files/2025/12/home-hero.jpg 1242w" sizes="(max-width: 1024px) 100vw, 1024px" /></figure>
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group alignwide cp-content-containers has-global-padding is-layout-constrained wp-container-core-group-is-layout-c40ed9c7 wp-block-group-is-layout-constrained" style="padding-right:75px;padding-left:150px">
+<div style="height:85px" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow">
+<div class="wp-block-columns alignwide are-vertically-aligned-top is-layout-flex wp-container-core-columns-is-layout-28f84493 wp-block-columns-is-layout-flex">
+<div class="wp-block-column is-vertically-aligned-top has-background is-layout-flow wp-block-column-is-layout-flow" style="background-color:#f2f2f2">
+<div class="wp-block-group cp-link-blocks purple is-layout-flow wp-block-group-is-layout-flow" style="padding-top:var(--wp--preset--spacing--40);padding-right:20px;padding-bottom:var(--wp--preset--spacing--40);padding-left:20px">
+<p class="has-text-color has-link-color wp-elements-e7fb7697a0e1bcee4ecb68929c265b2f" style="color:#333333;font-size:clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 0.938), 1.5rem);font-style:normal;font-weight:600;line-height:1.4"><a href="https://sites.mit.edu/grad-union/overview/">Guiding Principles</a></p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-top has-background is-layout-flow wp-block-column-is-layout-flow" style="background-color:#f2f2f2">
+<div class="wp-block-group cp-link-blocks blue is-layout-flow wp-block-group-is-layout-flow" style="padding-top:var(--wp--preset--spacing--40);padding-right:20px;padding-bottom:var(--wp--preset--spacing--40);padding-left:20px">
+<p class="has-text-color has-link-color wp-elements-e6a56864c70d6de847a75a4501569a7c" style="color:#333333;font-size:clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 0.938), 1.5rem);font-style:normal;font-weight:600;line-height:1.4"><a href="https://sites.mit.edu/grad-union/community-letters/">Community Updates</a></p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-top has-background is-layout-flow wp-block-column-is-layout-flow" style="background-color:#f2f2f2">
+<div class="wp-block-group cp-link-blocks green is-layout-flow wp-block-group-is-layout-flow" style="padding-top:var(--wp--preset--spacing--40);padding-right:20px;padding-bottom:var(--wp--preset--spacing--40);padding-left:20px">
+<p class="has-text-color has-link-color wp-elements-b0987b04356c6047c707ab8421a5c42c" style="color:#333333;font-size:clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 0.938), 1.5rem);font-style:normal;font-weight:600;line-height:1.4"><a href="https://sites.mit.edu/grad-union/negotiation-updates/">Negotiation Updates</a></p>
+</div>
+</div>
+
+
+
+<div class="wp-block-column is-vertically-aligned-top has-background is-layout-flow wp-block-column-is-layout-flow" style="background-color:#f2f2f2">
+<div class="wp-block-group cp-link-blocks pink is-layout-flow wp-block-group-is-layout-flow" style="padding-top:var(--wp--preset--spacing--40);padding-right:20px;padding-bottom:var(--wp--preset--spacing--40);padding-left:20px">
+<p class="has-text-color has-link-color wp-elements-62964f7e609c239b30c35c3f323cc9aa" style="color:#333333;font-size:clamp(0.984rem, 0.984rem + ((1vw - 0.2rem) * 0.938), 1.5rem);font-style:normal;font-weight:600;line-height:1.4"><a href="https://sites.mit.edu/grad-union/union-faq/">Frequently Asked Questions</a></p>
+</div>
+</div>
+</div>
+
+
+
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+</div>
+
+
+
+<div class="wp-block-group cp-content-containers has-global-padding is-layout-constrained wp-container-core-group-is-layout-c40ed9c7 wp-block-group-is-layout-constrained" style="border-top-color:#dddddd;border-top-width:1px;padding-right:75px;padding-left:150px">
+<div class="wp-block-group alignwide is-layout-flow wp-block-group-is-layout-flow">
+<div style="height:var(--wp--preset--spacing--60)" aria-hidden="true" class="wp-block-spacer"></div>
+
+
+
+<p>MIT has negotiated a first contract with the GSU. The students who are included in the GSU’s bargaining unit are teaching assistants, research assistants, and instructor Gs.</p>
+
+
+
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+</div>
+</div>
+
+
+<div style="height:var(--wp--preset--spacing--40)" aria-hidden="true" class="wp-block-spacer"></div>
+</div>
+</main>
+
+
+<footer class="wp-block-template-part">
+<div class="wp-block-group alignfull has-background has-global-padding is-layout-constrained wp-block-group-is-layout-constrained" style="background-color:#000000">
+<div class="wp-block-group alignfull has-base-color has-text-color has-background has-link-color wp-elements-8a2f1f689ce26b1b7a030e2e57956ec3 is-layout-flow wp-block-group-is-layout-flow" style="background-color:#141b21">
+<div class="wp-block-group cp-content-containers is-layout-flow wp-block-group-is-layout-flow" style="padding-top:75px;padding-right:75px;padding-bottom:60px;padding-left:150px">
+<div class="wp-block-group is-content-justification-space-between is-layout-flex wp-container-core-group-is-layout-6dfb037f wp-block-group-is-layout-flex" style="margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--30);padding-bottom:var(--wp--preset--spacing--30)">
+<p style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);">General Inquiries: <a style="text-decoration:underline;" href="mailto:gradunionquestions@mit.edu%C2%A0">gradunionquestions@mit.edu&nbsp;</a></p>
+
+
+
+<div class="wp-block-group is-layout-flex wp-block-group-is-layout-flex">
+<p style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);text-decoration:underline"><a href="https://www.mit.edu/accessibility/">Accessibility</a></p>
+
+
+
+<p style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);text-decoration:underline"><a href="https://www.mit.edu/privacy/">Privacy</a></p>
+</div>
+</div>
+
+
+
+<div class="wp-block-group is-nowrap is-layout-flex wp-container-core-group-is-layout-dee50f88 wp-block-group-is-layout-flex" style="margin-top:100px">
+<figure class="wp-block-image size-full is-resized has-lightbox" style="margin-right:10px"><a href="https://web.mit.edu/"><img decoding="async" width="2560" height="1355" src="https://sites.mit.edu/grad-union/files/2025/12/mit_logo_std_rgb_white-scaled.png" alt="MIT logo" class="wp-image-125" style="width:76px" srcset="https://sites.mit.edu/grad-union/files/2025/12/mit_logo_std_rgb_white-scaled.png 2560w, https://sites.mit.edu/grad-union/files/2025/12/mit_logo_std_rgb_white-300x159.png 300w, https://sites.mit.edu/grad-union/files/2025/12/mit_logo_std_rgb_white-1024x542.png 1024w, https://sites.mit.edu/grad-union/files/2025/12/mit_logo_std_rgb_white-768x407.png 768w, https://sites.mit.edu/grad-union/files/2025/12/mit_logo_std_rgb_white-1536x813.png 1536w, https://sites.mit.edu/grad-union/files/2025/12/mit_logo_std_rgb_white-2048x1084.png 2048w" sizes="(max-width: 2560px) 100vw, 2560px" /></a></figure>
+
+
+
+<div class="wp-block-group is-layout-flow wp-container-core-group-is-layout-a77db08e wp-block-group-is-layout-flow">
+<p style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);">Massachusetts Institute of Technology</p>
+
+
+
+<p style="font-size:clamp(0.875rem, 0.875rem + ((1vw - 0.2rem) * 0.227), 1rem);">77 Massachusetts Avenue, Cambridge, MA, USA</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</footer></div>
+</div>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/grad-union\/*"},{"not":{"href_matches":["\/grad-union\/wp-*.php","\/grad-union\/wp-admin\/*","\/grad-union\/files\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/twentytwentyfive\/*","\/grad-union\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
-<script type="text/javascript" src="wp-content/themes/mit-union-theme/js/site-min.js%3Fver=1698159697" id="site-js-js"></script>
-<script id="wp-emoji-settings" type="application/json">
-{"baseUrl":"https://s.w.org/images/core/emoji/17.0.2/72x72/","ext":".png","svgUrl":"https://s.w.org/images/core/emoji/17.0.2/svg/","svgExt":".svg","source":{"concatemoji":"https://grad-union.mit.edu/wp-includes/js/wp-emoji-release.min.js?ver=6.9"}}
+<script id="wp-block-template-skip-link-js-after">
+	( function() {
+		var skipLinkTarget = document.querySelector( 'main' ),
+			sibling,
+			skipLinkTargetID,
+			skipLink;
+
+		// Early exit if a skip-link target can't be located.
+		if ( ! skipLinkTarget ) {
+			return;
+		}
+
+		/*
+		 * Get the site wrapper.
+		 * The skip-link will be injected in the beginning of it.
+		 */
+		sibling = document.querySelector( '.wp-site-blocks' );
+
+		// Early exit if the root element was not found.
+		if ( ! sibling ) {
+			return;
+		}
+
+		// Get the skip-link target's ID, and generate one if it doesn't exist.
+		skipLinkTargetID = skipLinkTarget.id;
+		if ( ! skipLinkTargetID ) {
+			skipLinkTargetID = 'wp--skip-link--target';
+			skipLinkTarget.id = skipLinkTargetID;
+		}
+
+		// Create the skip link.
+		skipLink = document.createElement( 'a' );
+		skipLink.classList.add( 'skip-link', 'screen-reader-text' );
+		skipLink.id = 'wp-skip-link';
+		skipLink.href = '#' + skipLinkTargetID;
+		skipLink.innerText = 'Skip to content';
+
+		// Inject the skip link.
+		sibling.parentElement.insertBefore( skipLink, sibling );
+	}() );
+	
 </script>
-<script type="module">
-/* <![CDATA[ */
-/*! This file is auto-generated */
-const a=JSON.parse(document.getElementById("wp-emoji-settings").textContent),o=(window._wpemojiSettings=a,"wpEmojiSettingsSupports"),s=["flag","emoji"];function i(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function c(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0);const a=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data);return t.every((e,t)=>e===a[t])}function p(e,t){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var n=e.getImageData(16,16,1,1);for(let e=0;e<n.data.length;e++)if(0!==n.data[e])return!1;return!0}function u(e,t,n,a){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\udde8\ud83c\uddf6","\ud83c\udde8\u200b\ud83c\uddf6")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!a(e,"\ud83e\u1fac8")}return!1}function f(e,t,n,a){let r;const o=(r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):document.createElement("canvas")).getContext("2d",{willReadFrequently:!0}),s=(o.textBaseline="top",o.font="600 32px Arial",{});return e.forEach(e=>{s[e]=t(o,e,n,a)}),s}function r(e){var t=document.createElement("script");t.src=e,t.defer=!0,document.head.appendChild(t)}a.supports={everything:!0,everythingExceptFlag:!0},new Promise(t=>{let n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),c.toString(),p.toString()].join(",")+"));",a=new Blob([e],{type:"text/javascript"});const r=new Worker(URL.createObjectURL(a),{name:"wpTestEmojiSupports"});return void(r.onmessage=e=>{i(n=e.data),r.terminate(),t(n)})}catch(e){}i(n=f(s,u,c,p))}t(n)}).then(e=>{for(const n in e)a.supports[n]=e[n],a.supports.everything=a.supports.everything&&a.supports[n],"flag"!==n&&(a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&a.supports[n]);var t;a.supports.everythingExceptFlag=a.supports.everythingExceptFlag&&!a.supports.flag,a.supports.everything||((t=a.source||{}).concatemoji?r(t.concatemoji):t.wpemoji&&t.twemoji&&(r(t.twemoji),r(t.wpemoji)))});
-//# sourceURL=https://grad-union.mit.edu/wp-includes/js/wp-emoji-loader.min.js
-/* ]]> */
+<script id="blog_templates_front-js-extra">
+var blog_templates_params = {"type":"screenshot_plus"};
 </script>
-	<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"ab0374a39e","applicationID":"639669107","transactionName":"Z1QGZBZQVkNYU0YNWV4eJVMQWFdeFkBTA1M=","queueTime":0,"applicationTime":103,"atts":"SxMFEl5KRU0=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+<script src="https://sites.mit.edu/wp-content/plugins/blogtemplates//blogtemplatesfiles/assets/js/front.js?ver=2.6.8.2" id="blog_templates_front-js"></script>
+<script src="https://sites.mit.edu/wp-content/plugins/coblocks/dist/js/coblocks-animation.js?ver=3.1.16.1" id="coblocks-animation-js"></script>
+	<script>
+		const acfFilters = document.querySelectorAll('.acf-filters select,.acf-filters input');
+        for ( const element of acfFilters ) {
+			element.addEventListener('change', function() {
+                const url = new URL(window.location.href);
+                const val = this.value;
+                const param = this.name;
+                if ( val.length ) {
+                    url.searchParams.set(param, val);
+                } else {
+                    url.searchParams.delete(param);
+                }
+                window.location.href = url.toString();
+			})
+        }
+	</script>
+</body>
 </html>
