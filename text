@@ -3536,31 +3536,30 @@ References
   15. https://accessibility.mit.edu/
   16. http://web.mit.edu/
 ./grad-union.mit.edu/union-faq/index.html
-   Link: [1]dns-prefetch
-   Link: [2]Graduate Student Unionization >> Feed (alternate)
-   Link: [3]Graduate Student Unionization >> Comments Feed (alternate)
-   Link: [4]https://api.w.org/
-   Link: [5]JSON (alternate)
-   Link: [6]RSD (EditURI)
-   Link: [7]canonical
-   Link: [8]shortlink
-   Link: [9]oEmbed (JSON) (alternate)
-   Link: [10]oEmbed (XML) (alternate)
-   Link: [11]modulepreload
+   Link: [1]Graduate Student Unionization >> Feed (alternate)
+   Link: [2]Graduate Student Unionization >> Comments Feed (alternate)
+   Link: [3]oEmbed (JSON) (alternate)
+   Link: [4]oEmbed (XML) (alternate)
+   Link: [5]https://api.w.org/
+   Link: [6]JSON (alternate)
+   Link: [7]RSD (EditURI)
+   Link: [8]canonical
+   Link: [9]shortlink
+   Link: [10]modulepreload
 
 Union FAQ
 
-   [12]Graduate Student Unionization
+   [11]Graduate Student Unionization
 
-   [13]Logo
-     o [14]Overview
-     o [15]Community Updates
-     o [16]Negotiation Updates
-     o [17]FAQ
-          o [18]Background FAQ
-          o [19]Union FAQ
-     o [20]Bargaining Team
-   [21]Home / Union FAQ
+   [12]Logo
+     [13]Overview
+     [14]Community Updates
+     [15]Negotiation Updates
+     [16]FAQ
+        [17]Background FAQ
+        [18]Union FAQ
+     [19]Bargaining Team
+   [20]Home / Union FAQ
    What is the National Labor Relations Board (NLRB)?
 
    The NLRB is a federal agency created to enforce the National Labor
@@ -3684,13 +3683,13 @@ Union FAQ
    including at Boston University, Yale, Northwestern, Johns Hopkins, and the
    University of Chicago.
 
-   General Inquiries: [22]gradunionquestions@mit.edu
+   General Inquiries: [21]gradunionquestions@mit.edu
 
-   [23]Accessibility
+   [22]Accessibility
 
-   [24]Privacy
+   [23]Privacy
 
-   [25]MIT logo
+   [24]MIT logo
 
    Massachusetts Institute of Technology
 
@@ -3699,32 +3698,31 @@ Union FAQ
 References
 
    Visible links
-   1. https://sites.mit.edu/
-   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
-   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
-   4. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
-   5. https://grad-union.mit.edu/wp-json/wp/v2/pages/23
-   6. https://grad-union.mit.edu/xmlrpc.php?rsd
-   7. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-   8. https://grad-union.mit.edu/?p=23
-   9. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Funion-faq%2F
-  10. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Funion-faq%2F&format=xml
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=55aebb6e0a16726baffb
-  12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  13. https://web.mit.edu/
-  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html#
-  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
-  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-  20. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
-  21. Go to Graduate Student Unionization.
+   1. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
+   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
+   3. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Funion-faq%2F
+   4. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Funion-faq%2F&format=xml
+   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
+   6. https://grad-union.mit.edu/wp-json/wp/v2/pages/23
+   7. https://grad-union.mit.edu/xmlrpc.php?rsd
+   8. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+   9. https://grad-union.mit.edu/?p=23
+  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=8964710565a1d258501f
+  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+  12. https://web.mit.edu/
+  13. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html#
+  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
+  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
+  20. Go to Graduate Student Unionization.
 	file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  22. mailto:gradunionquestions@mit.edu%c2%a0
-  23. https://www.mit.edu/accessibility/
-  24. https://www.mit.edu/privacy/
-  25. https://web.mit.edu/
+  21. mailto:gradunionquestions@mit.edu%c2%a0
+  22. https://www.mit.edu/accessibility/
+  23. https://www.mit.edu/privacy/
+  24. https://web.mit.edu/
 ./grad-union.mit.edu/letters/why-graduate-students-should-vote-yes/index.html
    Link: [1]profile
    Link: [2]preconnect
@@ -7578,135 +7576,134 @@ References
   23. https://www.mit.edu/accessibility/
   24. https://www.mit.edu/privacy/
 ./grad-union.mit.edu/community-letters/index.html
-   Link: [1]dns-prefetch
-   Link: [2]Graduate Student Unionization >> Feed (alternate)
-   Link: [3]Graduate Student Unionization >> Comments Feed (alternate)
-   Link: [4]https://api.w.org/
-   Link: [5]JSON (alternate)
-   Link: [6]RSD (EditURI)
-   Link: [7]canonical
-   Link: [8]shortlink
-   Link: [9]oEmbed (JSON) (alternate)
-   Link: [10]oEmbed (XML) (alternate)
-   Link: [11]modulepreload
+   Link: [1]Graduate Student Unionization >> Feed (alternate)
+   Link: [2]Graduate Student Unionization >> Comments Feed (alternate)
+   Link: [3]oEmbed (JSON) (alternate)
+   Link: [4]oEmbed (XML) (alternate)
+   Link: [5]https://api.w.org/
+   Link: [6]JSON (alternate)
+   Link: [7]RSD (EditURI)
+   Link: [8]canonical
+   Link: [9]shortlink
+   Link: [10]modulepreload
 
 Community Updates
 
-   [12]Graduate Student Unionization
+   [11]Graduate Student Unionization
 
-   [13]Logo
-     o [14]Overview
-     o [15]Community Updates
-     o [16]Negotiation Updates
-     o [17]FAQ
-          o [18]Background FAQ
-          o [19]Union FAQ
-     o [20]Bargaining Team
-   [21]Home / Community Updates
-[22]With ratification, a new beginning
+   [12]Logo
+     [13]Overview
+     [14]Community Updates
+     [15]Negotiation Updates
+     [16]FAQ
+        [17]Background FAQ
+        [18]Union FAQ
+     [19]Bargaining Team
+   [20]Home / Community Updates
+[21]With ratification, a new beginning
 
      September 25, 2023
 
    --------------------------------------------------------------------------
 
-[23]Tentative agreement reached with MIT GSU-UE
+[22]Tentative agreement reached with MIT GSU-UE
 
      September 13, 2023
 
    --------------------------------------------------------------------------
 
-[24]Update on Graduate Student Union Negotiations
+[23]Update on Graduate Student Union Negotiations
 
      June 6, 2023
 
    --------------------------------------------------------------------------
 
-[25]The case for voting "yes"
+[24]The case for voting "yes"
 
      May 13, 2023
 
    --------------------------------------------------------------------------
 
-[26]Why graduate students should vote "yes"
+[25]Why graduate students should vote "yes"
 
      May 7, 2023
 
    --------------------------------------------------------------------------
 
-[27]MIT urges the GSU to re-engage at the bargaining table
+[26]MIT urges the GSU to re-engage at the bargaining table
 
      April 30, 2023
 
    --------------------------------------------------------------------------
 
-[28]The latest on negotiations with the GSU
+[27]The latest on negotiations with the GSU
 
      April 13, 2023
 
    --------------------------------------------------------------------------
 
-[29]NLRB decision on fellows
+[28]NLRB decision on fellows
 
      March 14, 2023
 
    --------------------------------------------------------------------------
 
-[30]Update on grad student union negotiations
+[29]Update on grad student union negotiations
 
      February 24, 2023
 
    --------------------------------------------------------------------------
 
-[31]Graduate student union negotiations and other end-of-year updates
+[30]Graduate student union negotiations and other end-of-year updates
 
      December 21, 2022
 
    --------------------------------------------------------------------------
 
-[32]Notice of subpoena requiring MIT to share graduate student information with
+[31]Notice of subpoena requiring MIT to share graduate student information with
 NLRB and UE
 
      October 3, 2022
 
    --------------------------------------------------------------------------
 
-[33]Update on graduate student unionization
+[32]Update on graduate student unionization
 
      October 3, 2022
 
    --------------------------------------------------------------------------
 
-[34]Legal notice for petition of election
+[33]Legal notice for petition of election
 
      September 28, 2022
 
    --------------------------------------------------------------------------
 
-[35]Graduate student union negotiations set to begin
+[34]Graduate student union negotiations set to begin
 
      September 9, 2022
 
    --------------------------------------------------------------------------
 
-[36]Unionization election results
+[35]Unionization election results
 
      April 6, 2022
 
    --------------------------------------------------------------------------
 
-[37]Unionization election results (to graduate students)
+[36]Unionization election results (to graduate students)
 
      April 6, 2022
 
    --------------------------------------------------------------------------
 
-   General Inquiries: [38]gradunionquestions@mit.edu
+   General Inquiries: [37]gradunionquestions@mit.edu
 
-   [39]Accessibility
+   [38]Accessibility
 
-   [40]Privacy
+   [39]Privacy
 
-   [41]MIT logo
+   [40]MIT logo
 
    Massachusetts Institute of Technology
 
@@ -7715,71 +7712,69 @@ NLRB and UE
 References
 
    Visible links
-   1. https://sites.mit.edu/
-   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
-   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
-   4. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
-   5. https://grad-union.mit.edu/wp-json/wp/v2/pages/25
-   6. https://grad-union.mit.edu/xmlrpc.php?rsd
-   7. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-   8. https://grad-union.mit.edu/?p=25
-   9. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fcommunity-letters%2F
-  10. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fcommunity-letters%2F&format=xml
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=55aebb6e0a16726baffb
-  12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  13. https://web.mit.edu/
-  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html#
-  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
-  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-  20. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
-  21. Go to Graduate Student Unionization.
+   1. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
+   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
+   3. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fcommunity-letters%2F
+   4. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fcommunity-letters%2F&format=xml
+   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
+   6. https://grad-union.mit.edu/wp-json/wp/v2/pages/25
+   7. https://grad-union.mit.edu/xmlrpc.php?rsd
+   8. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+   9. https://grad-union.mit.edu/?p=25
+  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=8964710565a1d258501f
+  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+  12. https://web.mit.edu/
+  13. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html#
+  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
+  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
+  20. Go to Graduate Student Unionization.
 	file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  22. https://grad-union.mit.edu/letters/with-ratification-a-new-beginning/
-  23. https://grad-union.mit.edu/letters/tentative-agreement-reached/
-  24. https://grad-union.mit.edu/letters/update-on-graduate-student-union-negotiations/
-  25. https://grad-union.mit.edu/letters/the-case-for-voting-yes/
-  26. https://grad-union.mit.edu/letters/why-graduate-students-should-vote-yes/
-  27. https://grad-union.mit.edu/letters/mit-urges-the-gsu-to-re-engage-at-the-bargaining-table/
-  28. https://grad-union.mit.edu/letters/the-latest-on-negotiations-with-the-gsu/
-  29. https://grad-union.mit.edu/letters/nlrb-decision-on-fellows/
-  30. https://grad-union.mit.edu/letters/update-on-grad-student-union-negotiations/
-  31. https://grad-union.mit.edu/letters/graduate-student-union-negotiations-and-other-end-of-year-updates/
-  32. https://grad-union.mit.edu/letters/notice-of-subpoena-requiring-mit-to-share-graduate-student-information-with-nlrb-and-ue/
-  33. https://grad-union.mit.edu/letters/update-on-graduate-student-unionization/
-  34. https://grad-union.mit.edu/letters/legal-notice-for-petition-of-election/
-  35. https://grad-union.mit.edu/letters/graduate-student-union-negotiations-set-to-begin/
-  36. https://grad-union.mit.edu/letters/unionization-election-results/
-  37. https://grad-union.mit.edu/letters/unionization-election-results-to-graduate-students/
-  38. mailto:gradunionquestions@mit.edu%c2%a0
-  39. https://www.mit.edu/accessibility/
-  40. https://www.mit.edu/privacy/
-  41. https://web.mit.edu/
+  21. https://grad-union.mit.edu/letters/with-ratification-a-new-beginning/
+  22. https://grad-union.mit.edu/letters/tentative-agreement-reached/
+  23. https://grad-union.mit.edu/letters/update-on-graduate-student-union-negotiations/
+  24. https://grad-union.mit.edu/letters/the-case-for-voting-yes/
+  25. https://grad-union.mit.edu/letters/why-graduate-students-should-vote-yes/
+  26. https://grad-union.mit.edu/letters/mit-urges-the-gsu-to-re-engage-at-the-bargaining-table/
+  27. https://grad-union.mit.edu/letters/the-latest-on-negotiations-with-the-gsu/
+  28. https://grad-union.mit.edu/letters/nlrb-decision-on-fellows/
+  29. https://grad-union.mit.edu/letters/update-on-grad-student-union-negotiations/
+  30. https://grad-union.mit.edu/letters/graduate-student-union-negotiations-and-other-end-of-year-updates/
+  31. https://grad-union.mit.edu/letters/notice-of-subpoena-requiring-mit-to-share-graduate-student-information-with-nlrb-and-ue/
+  32. https://grad-union.mit.edu/letters/update-on-graduate-student-unionization/
+  33. https://grad-union.mit.edu/letters/legal-notice-for-petition-of-election/
+  34. https://grad-union.mit.edu/letters/graduate-student-union-negotiations-set-to-begin/
+  35. https://grad-union.mit.edu/letters/unionization-election-results/
+  36. https://grad-union.mit.edu/letters/unionization-election-results-to-graduate-students/
+  37. mailto:gradunionquestions@mit.edu%c2%a0
+  38. https://www.mit.edu/accessibility/
+  39. https://www.mit.edu/privacy/
+  40. https://web.mit.edu/
 ./grad-union.mit.edu/index.html
-   Link: [1]dns-prefetch
-   Link: [2]Graduate Student Unionization >> Feed (alternate)
-   Link: [3]Graduate Student Unionization >> Comments Feed (alternate)
-   Link: [4]https://api.w.org/
-   Link: [5]JSON (alternate)
-   Link: [6]RSD (EditURI)
-   Link: [7]canonical
-   Link: [8]shortlink
-   Link: [9]oEmbed (JSON) (alternate)
-   Link: [10]oEmbed (XML) (alternate)
-   Link: [11]modulepreload
+   Link: [1]Graduate Student Unionization >> Feed (alternate)
+   Link: [2]Graduate Student Unionization >> Comments Feed (alternate)
+   Link: [3]oEmbed (JSON) (alternate)
+   Link: [4]oEmbed (XML) (alternate)
+   Link: [5]https://api.w.org/
+   Link: [6]JSON (alternate)
+   Link: [7]RSD (EditURI)
+   Link: [8]canonical
+   Link: [9]shortlink
+   Link: [10]modulepreload
 
-   [12]Graduate Student Unionization
+   [11]Graduate Student Unionization
 
-   [13]Logo
-     o [14]Overview
-     o [15]Community Updates
-     o [16]Negotiation Updates
-     o [17]FAQ
-          o [18]Background FAQ
-          o [19]Union FAQ
-     o [20]Bargaining Team
+   [12]Logo
+     [13]Overview
+     [14]Community Updates
+     [15]Negotiation Updates
+     [16]FAQ
+        [17]Background FAQ
+        [18]Union FAQ
+     [19]Bargaining Team
 
                                Contract Ratified
 
@@ -7788,27 +7783,27 @@ References
    strikes a balance that will serve all members of the MIT community. We
    look forward to moving ahead with a sense of new beginnings.
 
-   [21]Image
+   [20]Image
 
-   [22]Guiding Principles
+   [21]Guiding Principles
 
-   [23]Community Updates
+   [22]Community Updates
 
-   [24]Negotiation Updates
+   [23]Negotiation Updates
 
-   [25]Frequently Asked Questions
+   [24]Frequently Asked Questions
 
    MIT has negotiated a first contract with the GSU. The students who are
    included in the GSU******s bargaining unit are teaching assistants,
    research assistants, and instructor Gs.
 
-   General Inquiries: [26]gradunionquestions@mit.edu
+   General Inquiries: [25]gradunionquestions@mit.edu
 
-   [27]Accessibility
+   [26]Accessibility
 
-   [28]Privacy
+   [27]Privacy
 
-   [29]MIT logo
+   [28]MIT logo
 
    Massachusetts Institute of Technology
 
@@ -7817,35 +7812,34 @@ References
 References
 
    Visible links
-   1. https://sites.mit.edu/
-   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
-   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
-   4. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
-   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/wp/v2/pages/19
-   6. https://grad-union.mit.edu/xmlrpc.php?rsd
-   7. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+   1. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
+   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
+   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fgrad-union.mit.edu%252F
+   4. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fgrad-union.mit.edu%252F&format=xml
+   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
+   6. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/wp/v2/pages/19
+   7. https://grad-union.mit.edu/xmlrpc.php?rsd
    8. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-   9. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fgrad-union.mit.edu%252F
-  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/oembed/1.0/embed%3Furl=https:%252F%252Fgrad-union.mit.edu%252F&format=xml
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=55aebb6e0a16726baffb
-  12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  13. https://web.mit.edu/
-  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html#
-  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
-  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-  20. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
-  21. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-content/uploads/2025/12/home-hero-1024x722.jpg
-  22. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-  23. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-  24. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-  25. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-  26. mailto:gradunionquestions@mit.edu%c2%a0
-  27. https://www.mit.edu/accessibility/
-  28. https://www.mit.edu/privacy/
-  29. https://web.mit.edu/
+   9. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=8964710565a1d258501f
+  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+  12. https://web.mit.edu/
+  13. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html#
+  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
+  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
+  20. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-content/uploads/2025/12/home-hero-1024x722.jpg
+  21. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+  22. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+  23. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+  24. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+  25. mailto:gradunionquestions@mit.edu%c2%a0
+  26. https://www.mit.edu/accessibility/
+  27. https://www.mit.edu/privacy/
+  28. https://web.mit.edu/
 ./grad-union.mit.edu/how-current-student-administration-collaboration-and-successes-compare-institutions-graduate.html
    Link: [1]canonical
    [2]IFrame
@@ -8024,135 +8018,134 @@ References
   25. https://accessibility.mit.edu/
   26. http://web.mit.edu/
 ./grad-union.mit.edu/negotiation-updates/index.html
-   Link: [1]dns-prefetch
-   Link: [2]Graduate Student Unionization >> Feed (alternate)
-   Link: [3]Graduate Student Unionization >> Comments Feed (alternate)
-   Link: [4]https://api.w.org/
-   Link: [5]JSON (alternate)
-   Link: [6]RSD (EditURI)
-   Link: [7]canonical
-   Link: [8]shortlink
-   Link: [9]oEmbed (JSON) (alternate)
-   Link: [10]oEmbed (XML) (alternate)
-   Link: [11]modulepreload
+   Link: [1]Graduate Student Unionization >> Feed (alternate)
+   Link: [2]Graduate Student Unionization >> Comments Feed (alternate)
+   Link: [3]oEmbed (JSON) (alternate)
+   Link: [4]oEmbed (XML) (alternate)
+   Link: [5]https://api.w.org/
+   Link: [6]JSON (alternate)
+   Link: [7]RSD (EditURI)
+   Link: [8]canonical
+   Link: [9]shortlink
+   Link: [10]modulepreload
 
 Negotiation Updates
 
-   [12]Graduate Student Unionization
+   [11]Graduate Student Unionization
 
-   [13]Logo
-     o [14]Overview
-     o [15]Community Updates
-     o [16]Negotiation Updates
-     o [17]FAQ
-          o [18]Background FAQ
-          o [19]Union FAQ
-     o [20]Bargaining Team
-   [21]Home / Negotiation Updates
-[22]August 31 bargaining update
+   [12]Logo
+     [13]Overview
+     [14]Community Updates
+     [15]Negotiation Updates
+     [16]FAQ
+        [17]Background FAQ
+        [18]Union FAQ
+     [19]Bargaining Team
+   [20]Home / Negotiation Updates
+[21]August 31 bargaining update
 
      August 31, 2023
 
    --------------------------------------------------------------------------
 
-[23]August 11 & 16 bargaining update
+[22]August 11 & 16 bargaining update
 
      August 16, 2023
 
    --------------------------------------------------------------------------
 
-[24]July 24 bargaining update
+[23]July 24 bargaining update
 
      July 24, 2023
 
    --------------------------------------------------------------------------
 
-[25]May 4 bargaining update
+[24]May 4 bargaining update
 
      May 4, 2023
 
    --------------------------------------------------------------------------
 
-[26]April 28 bargaining update
+[25]April 28 bargaining update
 
      April 28, 2023
 
    --------------------------------------------------------------------------
 
-[27]April 24 bargaining update
+[26]April 24 bargaining update
 
      April 24, 2023
 
    --------------------------------------------------------------------------
 
-[28]April 20 bargaining update
+[27]April 20 bargaining update
 
      April 21, 2023
 
    --------------------------------------------------------------------------
 
-[29]April 6 bargaining update
+[28]April 6 bargaining update
 
      April 6, 2023
 
    --------------------------------------------------------------------------
 
-[30]March 29 bargaining update
+[29]March 29 bargaining update
 
      March 29, 2023
 
    --------------------------------------------------------------------------
 
-[31]March 22 bargaining update
+[30]March 22 bargaining update
 
      March 22, 2023
 
    --------------------------------------------------------------------------
 
-[32]March 13 bargaining update
+[31]March 13 bargaining update
 
      March 13, 2023
 
    --------------------------------------------------------------------------
 
-[33]March 8 bargaining update
+[32]March 8 bargaining update
 
      March 8, 2023
 
    --------------------------------------------------------------------------
 
-[34]February 27 bargaining update
+[33]February 27 bargaining update
 
      February 27, 2023
 
    --------------------------------------------------------------------------
 
-[35]February 17 bargaining update
+[34]February 17 bargaining update
 
      February 17, 2023
 
    --------------------------------------------------------------------------
 
-[36]December 2022 updates
+[35]December 2022 updates
 
      December 21, 2022
 
    --------------------------------------------------------------------------
 
-[37]Update on MIT GSU-UE******s petition to add fellows to the current
+[36]Update on MIT GSU-UE******s petition to add fellows to the current
 bargaining unit
 
      November 16, 2022
 
    --------------------------------------------------------------------------
 
-   General Inquiries: [38]gradunionquestions@mit.edu
+   General Inquiries: [37]gradunionquestions@mit.edu
 
-   [39]Accessibility
+   [38]Accessibility
 
-   [40]Privacy
+   [39]Privacy
 
-   [41]MIT logo
+   [40]MIT logo
 
    Massachusetts Institute of Technology
 
@@ -8161,51 +8154,50 @@ bargaining unit
 References
 
    Visible links
-   1. https://sites.mit.edu/
-   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
-   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
-   4. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
-   5. https://grad-union.mit.edu/wp-json/wp/v2/pages/24
-   6. https://grad-union.mit.edu/xmlrpc.php?rsd
-   7. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-   8. https://grad-union.mit.edu/?p=24
-   9. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fnegotiation-updates%2F
-  10. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fnegotiation-updates%2F&format=xml
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=55aebb6e0a16726baffb
-  12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  13. https://web.mit.edu/
-  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html#
-  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
-  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-  20. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
-  21. Go to Graduate Student Unionization.
+   1. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
+   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
+   3. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fnegotiation-updates%2F
+   4. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fnegotiation-updates%2F&format=xml
+   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
+   6. https://grad-union.mit.edu/wp-json/wp/v2/pages/24
+   7. https://grad-union.mit.edu/xmlrpc.php?rsd
+   8. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+   9. https://grad-union.mit.edu/?p=24
+  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=8964710565a1d258501f
+  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+  12. https://web.mit.edu/
+  13. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html#
+  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
+  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
+  20. Go to Graduate Student Unionization.
 	file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  22. https://grad-union.mit.edu/updates/august-31-bargaining-update/
-  23. https://grad-union.mit.edu/updates/august-11-16-bargaining-update/
-  24. https://grad-union.mit.edu/updates/july-24-bargaining-update/
-  25. https://grad-union.mit.edu/updates/may-4-bargaining-update/
-  26. https://grad-union.mit.edu/updates/april-28-bargaining-update/
-  27. https://grad-union.mit.edu/updates/april-24-bargaining-update/
-  28. https://grad-union.mit.edu/updates/april-20-2023-bargaining-session-summary/
-  29. https://grad-union.mit.edu/updates/april-6-bargaining-update/
-  30. https://grad-union.mit.edu/updates/march-29-bargaining-update/
-  31. https://grad-union.mit.edu/updates/march-22-bargaining-update/
-  32. https://grad-union.mit.edu/updates/march-13-bargaining-update/
-  33. https://grad-union.mit.edu/updates/march-8-bargaining-update/
-  34. https://grad-union.mit.edu/updates/february-27-bargaining-update/
-  35. https://grad-union.mit.edu/updates/february-17-2023/
-  36. https://grad-union.mit.edu/updates/december-2022-updates/
-  37. https://grad-union.mit.edu/updates/update-on-mit-gsu-ues-petition-to-add-fellows-to-the-current-bargaining-unit/
-  38. mailto:gradunionquestions@mit.edu%c2%a0
-  39. https://www.mit.edu/accessibility/
-  40. https://www.mit.edu/privacy/
-  41. https://web.mit.edu/
+  21. https://grad-union.mit.edu/updates/august-31-bargaining-update/
+  22. https://grad-union.mit.edu/updates/august-11-16-bargaining-update/
+  23. https://grad-union.mit.edu/updates/july-24-bargaining-update/
+  24. https://grad-union.mit.edu/updates/may-4-bargaining-update/
+  25. https://grad-union.mit.edu/updates/april-28-bargaining-update/
+  26. https://grad-union.mit.edu/updates/april-24-bargaining-update/
+  27. https://grad-union.mit.edu/updates/april-20-2023-bargaining-session-summary/
+  28. https://grad-union.mit.edu/updates/april-6-bargaining-update/
+  29. https://grad-union.mit.edu/updates/march-29-bargaining-update/
+  30. https://grad-union.mit.edu/updates/march-22-bargaining-update/
+  31. https://grad-union.mit.edu/updates/march-13-bargaining-update/
+  32. https://grad-union.mit.edu/updates/march-8-bargaining-update/
+  33. https://grad-union.mit.edu/updates/february-27-bargaining-update/
+  34. https://grad-union.mit.edu/updates/february-17-2023/
+  35. https://grad-union.mit.edu/updates/december-2022-updates/
+  36. https://grad-union.mit.edu/updates/update-on-mit-gsu-ues-petition-to-add-fellows-to-the-current-bargaining-unit/
+  37. mailto:gradunionquestions@mit.edu%c2%a0
+  38. https://www.mit.edu/accessibility/
+  39. https://www.mit.edu/privacy/
+  40. https://web.mit.edu/
 ./grad-union.mit.edu/feed/index.html
    https://grad-union.mit.edu Mon, 15 Dec 2025 12:44:29 +0000 en-US hourly 1
-   https://grad-union.mit.edu?v=6.8.3
+   https://grad-union.mit.edu?v=6.9
    https://bpb-us-e1.wpmucdn.com/sites.mit.edu/dist/f/2064/files/2025/12/favicon-whiteM-512x512-1-150x150.png
    https://grad-union.mit.edu 32 32
    https://grad-union.mit.edu/qa-post/
@@ -8385,31 +8377,30 @@ References
   25. https://accessibility.mit.edu/
   26. http://web.mit.edu/
 ./grad-union.mit.edu/background-faq/index.html
-   Link: [1]dns-prefetch
-   Link: [2]Graduate Student Unionization >> Feed (alternate)
-   Link: [3]Graduate Student Unionization >> Comments Feed (alternate)
-   Link: [4]https://api.w.org/
-   Link: [5]JSON (alternate)
-   Link: [6]RSD (EditURI)
-   Link: [7]canonical
-   Link: [8]shortlink
-   Link: [9]oEmbed (JSON) (alternate)
-   Link: [10]oEmbed (XML) (alternate)
-   Link: [11]modulepreload
+   Link: [1]Graduate Student Unionization >> Feed (alternate)
+   Link: [2]Graduate Student Unionization >> Comments Feed (alternate)
+   Link: [3]oEmbed (JSON) (alternate)
+   Link: [4]oEmbed (XML) (alternate)
+   Link: [5]https://api.w.org/
+   Link: [6]JSON (alternate)
+   Link: [7]RSD (EditURI)
+   Link: [8]canonical
+   Link: [9]shortlink
+   Link: [10]modulepreload
 
 Background FAQ
 
-   [12]Graduate Student Unionization
+   [11]Graduate Student Unionization
 
-   [13]Logo
-     o [14]Overview
-     o [15]Community Updates
-     o [16]Negotiation Updates
-     o [17]FAQ
-          o [18]Background FAQ
-          o [19]Union FAQ
-     o [20]Bargaining Team
-   [21]Home / Background FAQ
+   [12]Logo
+     [13]Overview
+     [14]Community Updates
+     [15]Negotiation Updates
+     [16]FAQ
+        [17]Background FAQ
+        [18]Union FAQ
+     [19]Bargaining Team
+   [20]Home / Background FAQ
    Does MIT have a graduate student union?
 
    Yes. It******s called the MIT GSU-UE (MIT Graduate Student Union-United
@@ -8472,7 +8463,7 @@ Background FAQ
    are students only ****** not employees ****** and therefore are not
    eligible to be included in the unit. The NLRB held a hearing and received
    post-hearing briefs from both MIT and the MIT GSU on this matter last
-   fall, and on March 13, 2023, the NLRB [22]ruled in MIT******s favor,
+   fall, and on March 13, 2023, the NLRB [21]ruled in MIT******s favor,
    stating ******The fact that fellows must meet no employment
    responsibilities or service requirements to receive or maintain their
    fellowship awards supports a finding of non-employee status.****** The
@@ -8482,13 +8473,13 @@ Background FAQ
    can officially begin, the Board first has to decide whether or not they
    will accept the GSU******s case for further review.
 
-   General Inquiries: [23]gradunionquestions@mit.edu
+   General Inquiries: [22]gradunionquestions@mit.edu
 
-   [24]Accessibility
+   [23]Accessibility
 
-   [25]Privacy
+   [24]Privacy
 
-   [26]MIT logo
+   [25]MIT logo
 
    Massachusetts Institute of Technology
 
@@ -8497,33 +8488,32 @@ Background FAQ
 References
 
    Visible links
-   1. https://sites.mit.edu/
-   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
-   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
-   4. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
-   5. https://grad-union.mit.edu/wp-json/wp/v2/pages/28
-   6. https://grad-union.mit.edu/xmlrpc.php?rsd
-   7. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
-   8. https://grad-union.mit.edu/?p=28
-   9. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fbackground-faq%2F
-  10. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fbackground-faq%2F&format=xml
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=55aebb6e0a16726baffb
-  12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  13. https://web.mit.edu/
-  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html#
-  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
-  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-  20. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
-  21. Go to Graduate Student Unionization.
+   1. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
+   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
+   3. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fbackground-faq%2F
+   4. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fbackground-faq%2F&format=xml
+   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
+   6. https://grad-union.mit.edu/wp-json/wp/v2/pages/28
+   7. https://grad-union.mit.edu/xmlrpc.php?rsd
+   8. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
+   9. https://grad-union.mit.edu/?p=28
+  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=8964710565a1d258501f
+  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+  12. https://web.mit.edu/
+  13. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html#
+  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
+  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
+  20. Go to Graduate Student Unionization.
 	file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  22. https://www.nlrb.gov/case/01-RC-304042
-  23. mailto:gradunionquestions@mit.edu%c2%a0
-  24. https://www.mit.edu/accessibility/
-  25. https://www.mit.edu/privacy/
-  26. https://web.mit.edu/
+  21. https://www.nlrb.gov/case/01-RC-304042
+  22. mailto:gradunionquestions@mit.edu%c2%a0
+  23. https://www.mit.edu/accessibility/
+  24. https://www.mit.edu/privacy/
+  25. https://web.mit.edu/
 ./grad-union.mit.edu/bargaining-team/index.html
    Link: [1]dns-prefetch
    Link: [2]Graduate Student Unionization >> Feed (alternate)
@@ -8611,7 +8601,7 @@ References
    8. https://grad-union.mit.edu/?p=26
    9. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fbargaining-team%2F
   10. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Fbargaining-team%2F&format=xml
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=55aebb6e0a16726baffb
+  11. https://grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js?ver=55aebb6e0a16726baffb
   12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
   13. https://web.mit.edu/
   14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
@@ -8820,7 +8810,7 @@ References
   17. http://web.mit.edu/
 ./grad-union.mit.edu/comments/feed/index.html
    https://grad-union.mit.edu Wed, 07 Jan 2026 12:01:00 +0000 hourly 1
-   https://grad-union.mit.edu?v=6.8.3
+   https://grad-union.mit.edu?v=6.9
 ./grad-union.mit.edu/mits-position-statement-why-fellows-shouldnt-be-included-ues-proposed-bargaining-unit.html
    Link: [1]canonical
    [2]IFrame
@@ -9953,31 +9943,30 @@ References
   26. https://accessibility.mit.edu/
   27. http://web.mit.edu/
 ./grad-union.mit.edu/overview/index.html
-   Link: [1]dns-prefetch
-   Link: [2]Graduate Student Unionization >> Feed (alternate)
-   Link: [3]Graduate Student Unionization >> Comments Feed (alternate)
-   Link: [4]https://api.w.org/
-   Link: [5]JSON (alternate)
-   Link: [6]RSD (EditURI)
-   Link: [7]canonical
-   Link: [8]shortlink
-   Link: [9]oEmbed (JSON) (alternate)
-   Link: [10]oEmbed (XML) (alternate)
-   Link: [11]modulepreload
+   Link: [1]Graduate Student Unionization >> Feed (alternate)
+   Link: [2]Graduate Student Unionization >> Comments Feed (alternate)
+   Link: [3]oEmbed (JSON) (alternate)
+   Link: [4]oEmbed (XML) (alternate)
+   Link: [5]https://api.w.org/
+   Link: [6]JSON (alternate)
+   Link: [7]RSD (EditURI)
+   Link: [8]canonical
+   Link: [9]shortlink
+   Link: [10]modulepreload
 
 Overview
 
-   [12]Graduate Student Unionization
+   [11]Graduate Student Unionization
 
-   [13]Logo
-     o [14]Overview
-     o [15]Community Updates
-     o [16]Negotiation Updates
-     o [17]FAQ
-          o [18]Background FAQ
-          o [19]Union FAQ
-     o [20]Bargaining Team
-   [21]Home / Overview
+   [12]Logo
+     [13]Overview
+     [14]Community Updates
+     [15]Negotiation Updates
+     [16]FAQ
+        [17]Background FAQ
+        [18]Union FAQ
+     [19]Bargaining Team
+   [20]Home / Overview
 
    Beginning in September 2022 and over the course of 12 months, the MIT
    bargaining team negotiated with the GSU. The teams met more than 20 times
@@ -9999,13 +9988,13 @@ Overview
      o Ensuring fiscal responsibility for this generation at MIT and future
        generations
 
-   General Inquiries: [22]gradunionquestions@mit.edu
+   General Inquiries: [21]gradunionquestions@mit.edu
 
-   [23]Accessibility
+   [22]Accessibility
 
-   [24]Privacy
+   [23]Privacy
 
-   [25]MIT logo
+   [24]MIT logo
 
    Massachusetts Institute of Technology
 
@@ -10014,32 +10003,31 @@ Overview
 References
 
    Visible links
-   1. https://sites.mit.edu/
-   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
-   3. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
-   4. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
-   5. https://grad-union.mit.edu/wp-json/wp/v2/pages/30
-   6. https://grad-union.mit.edu/xmlrpc.php?rsd
-   7. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-   8. https://grad-union.mit.edu/?p=30
-   9. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Foverview%2F
-  10. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Foverview%2F&format=xml
-  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=55aebb6e0a16726baffb
-  12. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  13. https://web.mit.edu/
-  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
-  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
-  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
-  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html#
-  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
-  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
-  20. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
-  21. Go to Graduate Student Unionization.
+   1. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/feed/index.html
+   2. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/comments/feed/index.html
+   3. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Foverview%2F
+   4. https://grad-union.mit.edu/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fgrad-union.mit.edu%2Foverview%2F&format=xml
+   5. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-json/index.html
+   6. https://grad-union.mit.edu/wp-json/wp/v2/pages/30
+   7. https://grad-union.mit.edu/xmlrpc.php?rsd
+   8. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+   9. https://grad-union.mit.edu/?p=30
+  10. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/wp-includes/js/dist/script-modules/interactivity/index.min.js%3Fver=8964710565a1d258501f
+  11. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
+  12. https://web.mit.edu/
+  13. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html
+  14. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/community-letters/index.html
+  15. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/negotiation-updates/index.html
+  16. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/overview/index.html#
+  17. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/background-faq/index.html
+  18. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/union-faq/index.html
+  19. file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/bargaining-team/index.html
+  20. Go to Graduate Student Unionization.
 	file:///home/ygowda/mitgsu-anti/grad-union.mit.edu/index.html
-  22. mailto:gradunionquestions@mit.edu%c2%a0
-  23. https://www.mit.edu/accessibility/
-  24. https://www.mit.edu/privacy/
-  25. https://web.mit.edu/
+  21. mailto:gradunionquestions@mit.edu%c2%a0
+  22. https://www.mit.edu/accessibility/
+  23. https://www.mit.edu/privacy/
+  24. https://web.mit.edu/
 ./grad-union.mit.edu/update-mit-gsu-ues-petition-add-fellows-current-bargaining-unit.html
    Link: [1]canonical
    [2]IFrame
